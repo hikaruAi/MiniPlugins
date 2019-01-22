@@ -1,0 +1,18 @@
+{
+	"property": {
+		"bullet_id": 15003,
+		"continuous_fire": true,
+		"define_food": false,
+		"define_gun": true,
+		"define_projectile": false,
+		"define_tool": false,
+		"describe": "卡拉什尼科夫在1954年发明的AK47改进型，射击间隔100，伤害33，弹匣40发。",
+		"fire_interval": 100,
+		"gun_attack": 33,
+		"id": 15000,
+		"magazines": 40,
+		"name": "AKM",
+		"need_bullet": 1,
+		"use_target": 8 
+	} 
+} 

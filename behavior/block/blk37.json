@@ -1,0 +1,27 @@
+{
+	"foreign_ids": [
+	],
+	"item_property": {
+		"copyid": 859,
+		"desc": "建筑",
+		"describe": "建筑",
+		"icon": "*859",
+		"id": 859,
+		"model": "",
+		"name": "果木门" 
+	},
+	"property": {
+		"anti_explode": 500,
+		"breakable": false,
+		"burn_speed": 0,
+		"catch_fire": 0,
+		"copyid": 812,
+		"english_name": "blk37",
+		"hardness": 5,
+		"id": 859,
+		"light_src": 0,
+		"move_collide": 1,
+		"slipperiness": 1,
+		"tool_mine_drop1": 859 
+	} 
+} 

@@ -1,0 +1,99 @@
+{
+	"foreign_ids": [
+	],
+	"mod_desc": {
+		"author": "1012446505",
+		"filename": "1536441774",
+		"uuid": "667f325c-1ff1-11e7-93ae-92361f002671",
+		"version": "1" 
+	},
+	"property": {
+		"Effect": "",
+		"TextureID": 3,
+		"attack": 30,
+		"attack_distance": 1.8,
+		"attack_type": 1,
+		"bag_num": 5,
+		"buff_id": 0,
+		"copyid": 4000,
+		"desc": "",
+		"desc_display": false,
+		"drop_exp": 100,
+		"drop_exp_prob": 100,
+		"drop_item1": 410,
+		"drop_item2": 0,
+		"drop_item3": 0,
+		"drop_item_prob1": 100,
+		"drop_item_prob2": 0,
+		"drop_item_prob3": 0,
+		"food": 100,
+		"food_reduce": 0,
+		"height": 200,
+		"hit_height": 220,
+		"hit_thickness": 120,
+		"hit_width": 120,
+		"icon": "3015",
+		"id": 17,
+		"life": 150,
+		"model": "130002",
+		"model_scale": 1,
+		"model_type": 3015,
+		"name": "杜老爷旷世奇派",
+		"name_display": true,
+		"speed": 280,
+		"team_id": 0,
+		"type": 0,
+		"view_distance": 16,
+		"width": 95 
+	},
+	"set_ai": [
+		{
+			"name": "follow_direction",
+			"priority": 1,
+			"speed": 1.1 
+		},
+		{
+			"name": "move_towards_restriction",
+			"priority": 4,
+			"speed": 1 
+		},
+		{
+			"name": "wander",
+			"priority": 5,
+			"speed": 1 
+		},
+		{
+			"name": "look_idle",
+			"priority": 7 
+		},
+		{
+			"name": "swimming",
+			"priority": 1 
+		},
+		{
+			"atkrange": 1500,
+			"buffid": 0,
+			"count": 1,
+			"max_atktime": 60,
+			"min_atktime": 20,
+			"name": "projectile_attack",
+			"power": 0.8,
+			"priority": 2,
+			"projectileid": 12058,
+			"speed": 1 
+		},
+		{
+			"brightness": 0,
+			"chance": 0,
+			"check_sight": true,
+			"minhp": 0,
+			"name": "target_nearest",
+			"priority": 2 
+		},
+		{
+			"dist": 800,
+			"name": "watch_closest",
+			"priority": 7 
+		} 
+	] 
+} 

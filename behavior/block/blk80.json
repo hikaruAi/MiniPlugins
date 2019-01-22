@@ -1,0 +1,27 @@
+{
+	"foreign_ids": [
+	],
+	"item_property": {
+		"copyid": 940,
+		"desc": "装饰",
+		"describe": "装饰",
+		"icon": "*940",
+		"id": 940,
+		"model": "",
+		"name": "春节窗花-福" 
+	},
+	"property": {
+		"anti_explode": 500,
+		"breakable": false,
+		"burn_speed": 0,
+		"catch_fire": 0,
+		"copyid": 939,
+		"english_name": "blk80",
+		"hardness": 5,
+		"id": 940,
+		"light_src": 0,
+		"move_collide": 1,
+		"slipperiness": 1,
+		"tool_mine_drop1": 940 
+	} 
+} 

@@ -1,0 +1,24 @@
+{
+	"foreign_ids": [
+	],
+	"mod_desc": {
+		"author": "1023148540",
+		"filename": "HeavyMachineGun",
+		"uuid": "667f325c-1ff1-11e7-93ae-92361f002671",
+		"version": "1" 
+	},
+	"property": {
+		"bullet_id": 15003,
+		"continuous_fire": 1,
+		"describe": "最早由理查-乔登-加特林在1860年设计而成。攻击30，间隔50，弹匣100",
+		"fire_interval": 50,
+		"gun_attack": 30,
+		"gun_speed_add": 0,
+		"gun_type": 10108,
+		"id": 15005,
+		"magazines": 100,
+		"name": "heavy Machine Gun",
+		"need_bullet": 1,
+		"weight": 12000 
+	} 
+} 

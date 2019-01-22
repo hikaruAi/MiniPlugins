@@ -1,0 +1,33 @@
+{
+	"foreign_ids": [
+	],
+	"item_property": {
+		"copyid": 553,
+		"desc": "功能",
+		"describe": "功能",
+		"icon": "*734",
+		"id": 100173,
+		"model": "",
+		"name": "普通箱子" 
+	},
+	"mod_desc": {
+		"author": "4072958",
+		"filename": "1535064414",
+		"uuid": "667f325c-1ff1-11e7-93ae-92361f002671",
+		"version": "1" 
+	},
+	"property": {
+		"anti_explode": 459,
+		"breakable": false,
+		"burn_speed": 0,
+		"catch_fire": 0,
+		"copyid": 124,
+		"english_name": "1535064414",
+		"hardness": 188.5,
+		"id": 100173,
+		"light_src": 0,
+		"move_collide": 1,
+		"slipperiness": 1,
+		"tool_mine_drop1": 734 
+	} 
+} 

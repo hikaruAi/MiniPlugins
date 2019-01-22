@@ -1,0 +1,12 @@
+{
+	"allocated_id_count": 48,
+	"api_version": "0.14.0",
+	"author": "miniworld",
+	"description": "默认插件包",
+	"name": "默认插件包",
+	"open_edit": true,
+	"pack_version": "0.1",
+	"restart_required": false,
+	"standalone": false,
+	"uuid": "667f325c-1ff1-11e7-93ae-92361f002671" 
+} 

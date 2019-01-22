@@ -1,0 +1,33 @@
+{
+	"foreign_ids": [
+	],
+	"item_property": {
+		"copyid": 1,
+		"desc": "方块",
+		"describe": "方块",
+		"icon": "*962",
+		"id": 2043,
+		"model": "",
+		"name": "白色基石" 
+	},
+	"mod_desc": {
+		"author": "1011641204",
+		"filename": "blk47",
+		"uuid": "2b96d66d-509b-475b-96fe-7fc131bc2b90",
+		"version": "1" 
+	},
+	"property": {
+		"anti_explode": 500,
+		"breakable": false,
+		"burn_speed": 0,
+		"catch_fire": 0,
+		"copyid": 1,
+		"english_name": "blk47",
+		"hardness": 200,
+		"id": 2043,
+		"light_src": 8,
+		"move_collide": 1,
+		"slipperiness": 1,
+		"tool_mine_drop1": 962 
+	} 
+} 

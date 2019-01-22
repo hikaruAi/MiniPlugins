@@ -1,0 +1,52 @@
+{
+	"foreign_ids": [
+	],
+	"itemskills": [
+		{
+			"ChargeTime": 1.5,
+			"ChargeType": 2,
+			"Cooldown": 5,
+			"Costs": [
+				{
+					"CostTarget": 10102,
+					"CostType": 1,
+					"CostVal": 0 
+				} 
+			],
+			"Functions": [
+				{
+					"ProjectileID": 12280,
+					"SpeedAdd": 0 
+				} 
+			],
+			"SkillType": 0,
+			"TargetCamp": 0,
+			"name": "feature_throw",
+			"priority": 0,
+			"templateid": 105 
+		} 
+	],
+	"mod_desc": {
+		"author": "1023148540",
+		"filename": "1545755562",
+		"uuid": "667f325c-1ff1-11e7-93ae-92361f002671",
+		"version": "1" 
+	},
+	"property": {
+		"accumulate_time": 4,
+		"attack": 76,
+		"attack_consume": 1,
+		"consume_count": 1,
+		"consume_itemid": 12280,
+		"copyid": 10102,
+		"describe": "",
+		"icon": "*12050",
+		"id": 100003,
+		"model": "*12050",
+		"name": "Super Arco",
+		"speed_add": 0.5,
+		"tool_duration": 300,
+		"tool_repare_amount1": 60,
+		"tool_repareid1": 0 
+	} 
+} 

@@ -1,0 +1,233 @@
+{
+	"foreign_ids": [
+	],
+	"itemskills": [
+		{
+			"Costs": [
+			],
+			"Functions": [
+				{
+					"CallNum": 1,
+					"Duration": 300,
+					"IsFollow": 1,
+					"MobID": 3010 
+				} 
+			],
+			"RangeType": 1,
+			"RangeVal1": 1000,
+			"RangeVal2": 300,
+			"RangeVal3": 300,
+			"TargetCamp": 0,
+			"name": "feature_call_monster_throw",
+			"priority": 0,
+			"templateid": 203 
+		},
+		{
+			"Costs": [
+			],
+			"Functions": [
+				{
+					"CallNum": 1,
+					"Duration": 300,
+					"IsFollow": 1,
+					"MobID": 3011 
+				} 
+			],
+			"RangeType": 1,
+			"RangeVal1": 3200,
+			"RangeVal2": 300,
+			"RangeVal3": 300,
+			"TargetCamp": 0,
+			"name": "feature_call_monster_throw",
+			"priority": 0,
+			"templateid": 203 
+		},
+		{
+			"Costs": [
+			],
+			"Functions": [
+				{
+					"CallNum": 1,
+					"Duration": 300,
+					"IsFollow": 1,
+					"MobID": 3012 
+				} 
+			],
+			"RangeType": 1,
+			"RangeVal1": 1000,
+			"RangeVal2": 300,
+			"RangeVal3": 300,
+			"TargetCamp": 0,
+			"name": "feature_call_monster_throw",
+			"priority": 0,
+			"templateid": 203 
+		},
+		{
+			"Costs": [
+			],
+			"Functions": [
+				{
+					"CallNum": 1,
+					"Duration": 300,
+					"IsFollow": 1,
+					"MobID": 3016 
+				} 
+			],
+			"RangeType": 1,
+			"RangeVal1": 1000,
+			"RangeVal2": 300,
+			"RangeVal3": 300,
+			"TargetCamp": 0,
+			"name": "feature_call_monster_throw",
+			"priority": 0,
+			"templateid": 203 
+		},
+		{
+			"Costs": [
+			],
+			"Functions": [
+				{
+					"CallNum": 1,
+					"Duration": 300,
+					"IsFollow": 1,
+					"MobID": 3013 
+				} 
+			],
+			"RangeType": 1,
+			"RangeVal1": 1000,
+			"RangeVal2": 300,
+			"RangeVal3": 300,
+			"TargetCamp": 0,
+			"name": "feature_call_monster_throw",
+			"priority": 0,
+			"templateid": 203 
+		},
+		{
+			"Costs": [
+			],
+			"Functions": [
+				{
+					"CallNum": 1,
+					"Duration": 300,
+					"IsFollow": 1,
+					"MobID": 3014 
+				} 
+			],
+			"RangeType": 1,
+			"RangeVal1": 1000,
+			"RangeVal2": 300,
+			"RangeVal3": 300,
+			"TargetCamp": 0,
+			"name": "feature_call_monster_throw",
+			"priority": 0,
+			"templateid": 203 
+		},
+		{
+			"Costs": [
+			],
+			"Functions": [
+				{
+					"CallNum": 1,
+					"Duration": 300,
+					"IsFollow": 1,
+					"MobID": 3015 
+				} 
+			],
+			"RangeType": 1,
+			"RangeVal1": 1000,
+			"RangeVal2": 300,
+			"RangeVal3": 300,
+			"TargetCamp": 0,
+			"name": "feature_call_monster_throw",
+			"priority": 0,
+			"templateid": 203 
+		},
+		{
+			"Costs": [
+			],
+			"Functions": [
+				{
+					"CallNum": 1,
+					"Duration": 300,
+					"IsFollow": 1,
+					"MobID": 3017 
+				} 
+			],
+			"RangeType": 1,
+			"RangeVal1": 1000,
+			"RangeVal2": 300,
+			"RangeVal3": 300,
+			"TargetCamp": 0,
+			"name": "feature_call_monster_throw",
+			"priority": 0,
+			"templateid": 203 
+		},
+		{
+			"Costs": [
+			],
+			"Functions": [
+				{
+					"CallNum": 1,
+					"Duration": 300,
+					"IsFollow": 1,
+					"MobID": 3018 
+				} 
+			],
+			"RangeType": 1,
+			"RangeVal1": 1000,
+			"RangeVal2": 300,
+			"RangeVal3": 300,
+			"TargetCamp": 0,
+			"name": "feature_call_monster_throw",
+			"priority": 0,
+			"templateid": 203 
+		},
+		{
+			"Costs": [
+			],
+			"Functions": [
+				{
+					"CallNum": 1,
+					"Duration": 300,
+					"IsFollow": 1,
+					"MobID": 3122 
+				} 
+			],
+			"RangeType": 1,
+			"RangeVal1": 1000,
+			"RangeVal2": 300,
+			"RangeVal3": 300,
+			"TargetCamp": 0,
+			"name": "feature_call_monster_throw",
+			"priority": 0,
+			"templateid": 203 
+		} 
+	],
+	"mod_desc": {
+		"author": "4072958",
+		"filename": "1535102217",
+		"uuid": "667f325c-1ff1-11e7-93ae-92361f002671",
+		"version": "1" 
+	},
+	"property": {
+		"accumulate_time": 1,
+		"accumulator_type": 0,
+		"attack_type": 0,
+		"break": false,
+		"can_throw": true,
+		"copyid": 10103,
+		"describe": "#G艾叶制作~4072958，召唤所有商人。他们会跟着你，有了这个就有了随身商店~",
+		"gravity": 10,
+		"icon": "*12287",
+		"id": 4119,
+		"model": "*12287",
+		"name": "#R少年制作~终极召唤术~商人",
+		"pickable": true,
+		"projectile_attack": 95,
+		"speed_decay": 1,
+		"speed_init": 1870,
+		"stack_max": 64,
+		"trigger_condition": 3,
+		"trigger_delay": 0 
+	} 
+} 

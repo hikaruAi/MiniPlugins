@@ -1,0 +1,33 @@
+{
+	"foreign_ids": [
+	],
+	"item_property": {
+		"copyid": 206,
+		"desc": "",
+		"describe": "",
+		"icon": "*1116",
+		"id": 2103,
+		"model": "",
+		"name": "镂空锈铁块" 
+	},
+	"mod_desc": {
+		"author": "4072958",
+		"filename": "1534738051",
+		"uuid": "667f325c-1ff1-11e7-93ae-92361f002671",
+		"version": "1" 
+	},
+	"property": {
+		"anti_explode": 328,
+		"breakable": false,
+		"burn_speed": 0,
+		"catch_fire": 0,
+		"copyid": 206,
+		"english_name": "1534738051",
+		"hardness": 126,
+		"id": 2103,
+		"light_src": 0,
+		"move_collide": 1,
+		"slipperiness": 1,
+		"tool_mine_drop1": 1116 
+	} 
+} 

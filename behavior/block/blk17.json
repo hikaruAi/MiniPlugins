@@ -1,0 +1,27 @@
+{
+	"foreign_ids": [
+	],
+	"item_property": {
+		"copyid": 965,
+		"desc": "建筑",
+		"describe": "建筑",
+		"icon": "*965",
+		"id": 965,
+		"model": "",
+		"name": "果木椅子" 
+	},
+	"property": {
+		"anti_explode": 500,
+		"breakable": false,
+		"burn_speed": 0,
+		"catch_fire": 0,
+		"copyid": 965,
+		"english_name": "blk17",
+		"hardness": 5,
+		"id": 965,
+		"light_src": 0,
+		"move_collide": 1,
+		"slipperiness": 1,
+		"tool_mine_drop1": 965 
+	} 
+} 

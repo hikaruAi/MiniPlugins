@@ -1,0 +1,59 @@
+{
+	"foreign_ids": [
+	],
+	"itemskills": [
+		{
+			"ChargeTime": 1.5,
+			"ChargeType": 2,
+			"Cooldown": 5,
+			"Costs": [
+				{
+					"CostTarget": 10104,
+					"CostType": 1,
+					"CostVal": 0 
+				} 
+			],
+			"Functions": [
+				{
+					"AttackType": 0,
+					"AttackVal": 0,
+					"BuffID": 4002,
+					"Duration": 3,
+					"Odds": 100 
+				} 
+			],
+			"RangeType": 1,
+			"RangeVal1": 1000,
+			"RangeVal2": 300,
+			"RangeVal3": 300,
+			"SkillType": 1,
+			"TargetCamp": 0,
+			"name": "feature_buff",
+			"priority": 0,
+			"templateid": 104 
+		} 
+	],
+	"mod_desc": {
+		"author": "1023148540",
+		"filename": "1547439745",
+		"uuid": "667f325c-1ff1-11e7-93ae-92361f002671",
+		"version": "1" 
+	},
+	"property": {
+		"bullet_id": 15003,
+		"continuous_fire": 2,
+		"copyid": 10104,
+		"describe": "",
+		"fire_interval": 100,
+		"gun_attack": 13,
+		"gun_speed_add": 0,
+		"gun_type": 10107,
+		"icon": "*15004",
+		"id": 100016,
+		"magazines": 43,
+		"model": "*15004",
+		"name": "Sniper Unlimited",
+		"need_bullet": 0,
+		"weight": 500 
+	} 
+} 

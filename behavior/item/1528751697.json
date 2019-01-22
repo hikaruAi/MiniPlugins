@@ -1,0 +1,58 @@
+{
+	"foreign_ids": [
+	],
+	"itemskills": [
+		{
+			"ChargeTime": 0.60000002384186,
+			"ChargeType": 2,
+			"Cooldown": 0,
+			"Costs": [
+				{
+					"CostTarget": 11015,
+					"CostType": 0,
+					"CostVal": 1 
+				} 
+			],
+			"Functions": [
+				{
+					"ActionType": 0,
+					"BlockID": 200,
+					"DropOut": 1 
+				} 
+			],
+			"RangeType": 1,
+			"RangeVal1": 2000,
+			"RangeVal2": 2000,
+			"RangeVal3": 300,
+			"SkillType": 1,
+			"TargetClass": 0,
+			"name": "feature_block",
+			"priority": 0,
+			"templateid": 100 
+		} 
+	],
+	"mod_desc": {
+		"author": "1000408823",
+		"filename": "1528751697",
+		"uuid": "667f325c-1ff1-11e7-93ae-92361f002671",
+		"version": "1" 
+	},
+	"property": {
+		"accumulate_time": 1.2,
+		"attack": 100,
+		"attack_consume": 2,
+		"collect_consume": 1,
+		"copyid": 11015,
+		"describe": "#G Daño cuerpo a cuerpo +25#n\nHerramienta para #cFF7F00minería #n. Extrae minerales rapidísimo.",
+		"icon": "*11059",
+		"id": 100035,
+		"model": "*11059",
+		"name": "martillo de youtuber",
+		"tool_duration": 1966,
+		"tool_efficient": 980,
+		"tool_level": 5,
+		"tool_repare_amount1": 500,
+		"tool_repareid1": 11203,
+		"tool_type": 2 
+	} 
+} 

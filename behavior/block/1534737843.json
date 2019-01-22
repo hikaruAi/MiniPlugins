@@ -1,0 +1,33 @@
+{
+	"foreign_ids": [
+	],
+	"item_property": {
+		"copyid": 104,
+		"desc": "方块",
+		"describe": "方块",
+		"icon": "*1117",
+		"id": 2101,
+		"model": "",
+		"name": "电石锈铁块" 
+	},
+	"mod_desc": {
+		"author": "4072958",
+		"filename": "1534737843",
+		"uuid": "667f325c-1ff1-11e7-93ae-92361f002671",
+		"version": "1" 
+	},
+	"property": {
+		"anti_explode": 500,
+		"breakable": false,
+		"burn_speed": 0,
+		"catch_fire": 0,
+		"copyid": 104,
+		"english_name": "1534737843",
+		"hardness": 133.5,
+		"id": 2101,
+		"light_src": 2,
+		"move_collide": 1,
+		"slipperiness": 1,
+		"tool_mine_drop1": 1117 
+	} 
+} 

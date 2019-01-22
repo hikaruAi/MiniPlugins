@@ -1,0 +1,49 @@
+{
+	"foreign_ids": [
+	],
+	"itemskills": [
+		{
+			"ChargeTime": 1.5,
+			"ChargeType": 2,
+			"Cooldown": 61,
+			"Costs": [
+				{
+					"CostTarget": 10100,
+					"CostType": 1,
+					"CostVal": 0 
+				} 
+			],
+			"Functions": [
+				{
+					"CallNum": 1,
+					"Duration": 300,
+					"IsFollow": 1,
+					"MobID": 3018 
+				} 
+			],
+			"RangeType": 1,
+			"RangeVal1": 1000,
+			"RangeVal2": 300,
+			"RangeVal3": 300,
+			"SkillType": 1,
+			"TargetCamp": 0,
+			"name": "feature_call_monster",
+			"priority": 0,
+			"templateid": 103 
+		} 
+	],
+	"mod_desc": {
+		"author": "4072958",
+		"filename": "1534652829",
+		"uuid": "667f325c-1ff1-11e7-93ae-92361f002671",
+		"version": "1" 
+	},
+	"property": {
+		"copyid": 10100,
+		"describe": "#B少年制作，有什么建议可以评论提出。谢谢15",
+		"id": 100137,
+		"model": "*11315",
+		"name": "#R召唤术~宇宙商人",
+		"stack_max": 64 
+	} 
+} 

@@ -1,0 +1,33 @@
+{
+	"foreign_ids": [
+	],
+	"item_property": {
+		"copyid": 687,
+		"desc": "金光闪闪",
+		"describe": "金光闪闪",
+		"icon": "*1118",
+		"id": 2098,
+		"model": "",
+		"name": "荧光灯" 
+	},
+	"mod_desc": {
+		"author": "4072958",
+		"filename": "1534737273",
+		"uuid": "667f325c-1ff1-11e7-93ae-92361f002671",
+		"version": "1" 
+	},
+	"property": {
+		"anti_explode": 128,
+		"breakable": false,
+		"burn_speed": 0,
+		"catch_fire": 0,
+		"copyid": 687,
+		"english_name": "1534737273",
+		"hardness": 49.5,
+		"id": 2098,
+		"light_src": 15,
+		"move_collide": 1,
+		"slipperiness": 1,
+		"tool_mine_drop1": 1118 
+	} 
+} 

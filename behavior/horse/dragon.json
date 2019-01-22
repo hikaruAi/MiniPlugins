@@ -1,0 +1,21 @@
+{
+	"property":
+	{
+		"id":3502,
+		"copyid":3405,
+		"ride_height":600,
+		"ui_scale":0.2,
+		"min_hp":80000,
+		"max_hp":100000,
+		"min_landspeed":2400,
+		"max_landspeed":2550,
+		"min_jumpheight":560,
+		"max_jumpheight":580,
+		"born_saddle":1,
+		"saddle_model":-1,
+		"name":"can_fly",
+	},
+	
+	"set_ai":
+	[{"name":"can_fly"},]
+}

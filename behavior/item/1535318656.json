@@ -1,0 +1,153 @@
+{
+	"foreign_ids": [
+	],
+	"itemskills": [
+		{
+			"Costs": [
+			],
+			"Functions": [
+				{
+					"CallNum": 1,
+					"Duration": 300,
+					"IsFollow": 1,
+					"MobID": 3115 
+				} 
+			],
+			"RangeType": 1,
+			"RangeVal1": 1000,
+			"RangeVal2": 300,
+			"RangeVal3": 300,
+			"TargetCamp": 0,
+			"name": "feature_call_monster_throw",
+			"priority": 0,
+			"templateid": 203 
+		},
+		{
+			"Costs": [
+			],
+			"Functions": [
+				{
+					"CallNum": 1,
+					"Duration": 300,
+					"IsFollow": 1,
+					"MobID": 3114 
+				} 
+			],
+			"RangeType": 1,
+			"RangeVal1": 3200,
+			"RangeVal2": 300,
+			"RangeVal3": 300,
+			"TargetCamp": 0,
+			"name": "feature_call_monster_throw",
+			"priority": 0,
+			"templateid": 203 
+		},
+		{
+			"Costs": [
+			],
+			"Functions": [
+				{
+					"CallNum": 1,
+					"Duration": 300,
+					"IsFollow": 1,
+					"MobID": 3113 
+				} 
+			],
+			"RangeType": 1,
+			"RangeVal1": 1000,
+			"RangeVal2": 300,
+			"RangeVal3": 300,
+			"TargetCamp": 0,
+			"name": "feature_call_monster_throw",
+			"priority": 0,
+			"templateid": 203 
+		},
+		{
+			"Costs": [
+			],
+			"Functions": [
+				{
+					"CallNum": 1,
+					"Duration": 300,
+					"IsFollow": 1,
+					"MobID": 3116 
+				} 
+			],
+			"RangeType": 1,
+			"RangeVal1": 1000,
+			"RangeVal2": 300,
+			"RangeVal3": 300,
+			"TargetCamp": 0,
+			"name": "feature_call_monster_throw",
+			"priority": 0,
+			"templateid": 203 
+		},
+		{
+			"Costs": [
+			],
+			"Functions": [
+				{
+					"CallNum": 1,
+					"Duration": 300,
+					"IsFollow": 1,
+					"MobID": 3117 
+				} 
+			],
+			"RangeType": 1,
+			"RangeVal1": 1000,
+			"RangeVal2": 300,
+			"RangeVal3": 300,
+			"TargetCamp": 0,
+			"name": "feature_call_monster_throw",
+			"priority": 0,
+			"templateid": 203 
+		},
+		{
+			"Costs": [
+			],
+			"Functions": [
+				{
+					"CallNum": 1,
+					"Duration": 300,
+					"IsFollow": 1,
+					"MobID": 3118 
+				} 
+			],
+			"RangeType": 1,
+			"RangeVal1": 1000,
+			"RangeVal2": 300,
+			"RangeVal3": 300,
+			"TargetCamp": 0,
+			"name": "feature_call_monster_throw",
+			"priority": 0,
+			"templateid": 203 
+		} 
+	],
+	"mod_desc": {
+		"author": "4072958",
+		"filename": "1535318656",
+		"uuid": "667f325c-1ff1-11e7-93ae-92361f002671",
+		"version": "1" 
+	},
+	"property": {
+		"accumulate_time": 1,
+		"accumulator_type": 0,
+		"attack_type": 0,
+		"break": false,
+		"can_throw": true,
+		"copyid": 10103,
+		"describe": "#G少年制作~召唤所有合体的外星生物。他们会跟着你，",
+		"gravity": 10,
+		"icon": "*12287",
+		"id": 100187,
+		"model": "*12287",
+		"name": "#R终极召唤术~萌眼",
+		"pickable": true,
+		"projectile_attack": 95,
+		"speed_decay": 1,
+		"speed_init": 1870,
+		"stack_max": 64,
+		"trigger_condition": 3,
+		"trigger_delay": 0 
+	} 
+} 

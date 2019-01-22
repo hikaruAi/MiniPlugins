@@ -1,0 +1,31 @@
+{
+	"foreign_ids": [
+	],
+	"mod_desc": {
+		"author": "4072958",
+		"filename": "1534736534",
+		"uuid": "667f325c-1ff1-11e7-93ae-92361f002671",
+		"version": "1" 
+	},
+	"property": {
+		"accumulate_time": 1,
+		"accumulator_type": 0,
+		"attack_type": 1,
+		"break": false,
+		"can_throw": true,
+		"copyid": 10103,
+		"describe": "",
+		"gravity": 3,
+		"icon": "*12280",
+		"id": 4104,
+		"model": "*12280",
+		"name": "大爆竹",
+		"pickable": true,
+		"projectile_attack": 5,
+		"speed_decay": 0,
+		"speed_init": 280,
+		"stack_max": 64,
+		"trigger_condition": 3,
+		"trigger_delay": 0 
+	} 
+} 

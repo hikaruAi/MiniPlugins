@@ -1,0 +1,31 @@
+{
+	"foreign_ids": [
+	],
+	"item_property": {
+		"desc": "放下后转为生存模式，在旁边放方块后会隐藏空气墙方块，用来制造一些不可通过的区域",
+		"describe": "放下后转为生存模式，在旁边放方块后会隐藏空气墙方块，用来制造一些不可通过的区域",
+		"icon": "",
+		"id": 1001,
+		"model": "",
+		"name": "空气墙方块" 
+	},
+	"mod_desc": {
+		"author": "1011641204",
+		"filename": "Airwallcube",
+		"uuid": "667f325c-1ff1-11e7-93ae-92361f002671",
+		"version": "1" 
+	},
+	"property": {
+		"anti_explode": -1,
+		"breakable": false,
+		"burn_speed": 0,
+		"catch_fire": 0,
+		"english_name": "Airwallcube",
+		"hardness": -1,
+		"id": 1001,
+		"light_src": 0,
+		"move_collide": 0,
+		"slipperiness": 1,
+		"tool_mine_drop1": 0 
+	} 
+} 

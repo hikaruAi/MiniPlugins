@@ -1,0 +1,22 @@
+{
+	"property": {
+		"accumulate_time": 0,
+		"attack": 5,
+		"attack_type": 0,
+		"define_food": false,
+		"define_gun": false,
+		"define_projectile": true,
+		"define_tool": true,
+		"gravity": 0,
+		"id": 15003,
+		"pickable": false,
+		"projectile_attack": 5,
+		"speed_decay": 0,
+		"speed_init": 450,
+		"tool_duration": 0,
+		"tool_efficient": 0,
+		"trigger_condition": 3,
+		"trigger_delay": 0,
+		"use_target": 0 
+	} 
+} 

@@ -1,0 +1,27 @@
+{
+	"foreign_ids": [
+	],
+	"item_property": {
+		"copyid": 424,
+		"desc": "方块",
+		"describe": "方块",
+		"icon": "*424",
+		"id": 424,
+		"model": "",
+		"name": "细沙砖板" 
+	},
+	"property": {
+		"anti_explode": 500,
+		"breakable": false,
+		"burn_speed": 0,
+		"catch_fire": 0,
+		"copyid": 104,
+		"english_name": "blk58",
+		"hardness": 5,
+		"id": 424,
+		"light_src": 0,
+		"move_collide": 1,
+		"slipperiness": 1,
+		"tool_mine_drop1": 424 
+	} 
+} 

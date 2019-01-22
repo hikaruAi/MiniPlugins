@@ -1,0 +1,61 @@
+{
+	"foreign_ids": [
+	],
+	"itemskills": [
+		{
+			"ChargeTime": 0.5,
+			"ChargeType": 2,
+			"Cooldown": 0,
+			"Costs": [
+				{
+					"CostTarget": 12005,
+					"CostType": 0,
+					"CostVal": 1 
+				} 
+			],
+			"Functions": [
+				{
+					"AttackType": 0,
+					"AttackVal": 108 
+				},
+				{
+					"BlowUpPower": 640,
+					"RepelPower": 630 
+				} 
+			],
+			"RangeType": 1,
+			"RangeVal1": 2000,
+			"RangeVal2": 2100,
+			"RangeVal3": 300,
+			"SkillType": 1,
+			"TargetCamp": 0,
+			"name": "feature_attack",
+			"priority": 0,
+			"templateid": 101 
+		} 
+	],
+	"mod_desc": {
+		"author": "1000408823",
+		"filename": "1528751547",
+		"uuid": "667f325c-1ff1-11e7-93ae-92361f002671",
+		"version": "1" 
+	},
+	"property": {
+		"accumulate_time": 0,
+		"attack": 500,
+		"attack_consume": 1,
+		"collect_consume": 2,
+		"copyid": 12005,
+		"describe": "#c00FF00 Daño cuerpo a cuerpo +40#n\nArma cuerpo a cuerpo principal.",
+		"icon": "*11061",
+		"id": 100034,
+		"model": "*11061",
+		"name": "Espada de youtuber",
+		"tool_duration": 1985,
+		"tool_efficient": 980,
+		"tool_level": 5,
+		"tool_repare_amount1": 100,
+		"tool_repareid1": 11203,
+		"tool_type": 6 
+	} 
+} 

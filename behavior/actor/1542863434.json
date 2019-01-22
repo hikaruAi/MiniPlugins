@@ -1,0 +1,95 @@
+{
+	"foreign_ids": [
+	],
+	"mod_desc": {
+		"author": "1001755696",
+		"filename": "1542863434",
+		"uuid": "667f325c-1ff1-11e7-93ae-92361f002671",
+		"version": "1" 
+	},
+	"property": {
+		"Effect": "31301",
+		"TextureID": 0,
+		"attack": 1,
+		"attack_distance": 48,
+		"attack_type": 1,
+		"bag_num": 5,
+		"buff_id": 0,
+		"copyid": 4000,
+		"desc": "",
+		"desc_display": false,
+		"dialogue": "@10836",
+		"drop_exp": 0,
+		"drop_exp_prob": 0,
+		"drop_item1": 0,
+		"drop_item2": 0,
+		"drop_item3": 0,
+		"drop_item_prob1": 0,
+		"drop_item_prob2": 0,
+		"drop_item_prob3": 0,
+		"food": 100,
+		"food_reduce": 0,
+		"height": 180,
+		"hit_height": 230,
+		"hit_thickness": 150,
+		"hit_width": 150,
+		"icon": "3130",
+		"id": 2,
+		"life": 5000,
+		"model": "100053",
+		"model_scale": 4,
+		"model_type": 3130,
+		"name": "Fire lord",
+		"name_display": true,
+		"speed": 320,
+		"team_id": 0,
+		"type": 0,
+		"view_distance": 48,
+		"width": 160 
+	},
+	"set_ai": [
+		{
+			"name": "follow_direction",
+			"priority": 1,
+			"speed": 1.1 
+		},
+		{
+			"name": "move_towards_restriction",
+			"priority": 4,
+			"speed": 1 
+		},
+		{
+			"name": "wander",
+			"priority": 5,
+			"speed": 1 
+		},
+		{
+			"name": "look_idle",
+			"priority": 7 
+		},
+		{
+			"name": "swimming",
+			"priority": 1 
+		},
+		{
+			"atkrange": 1500,
+			"buffid": 0,
+			"count": 10,
+			"max_atktime": 60,
+			"min_atktime": 20,
+			"name": "projectile_attack",
+			"power": 0.8,
+			"priority": 2,
+			"projectileid": 4104,
+			"speed": 1 
+		},
+		{
+			"brightness": 0,
+			"chance": 0,
+			"check_sight": true,
+			"minhp": 0,
+			"name": "target_nearest",
+			"priority": 2 
+		} 
+	] 
+} 

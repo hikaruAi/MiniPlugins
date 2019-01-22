@@ -1,0 +1,139 @@
+{
+	"foreign_ids": [
+	],
+	"mod_desc": {
+		"author": "1023148540",
+		"filename": "godzilla",
+		"uuid": "667f325c-1ff1-11e7-93ae-92361f002671",
+		"version": "1" 
+	},
+	"property": {
+		"Effect": "",
+		"TextureID": 0,
+		"attack": 83,
+		"attack_distance": 10.4,
+		"attack_type": 1,
+		"bag_num": 5,
+		"buff_id": 1000003,
+		"copyid": 4000,
+		"desc": "",
+		"desc_display": false,
+		"dialogue": "@10836",
+		"drop_exp": 100,
+		"drop_exp_prob": 100,
+		"drop_item1": 12206,
+		"drop_item2": 12284,
+		"drop_item3": 12241,
+		"drop_item_prob1": 100,
+		"drop_item_prob2": 100,
+		"drop_item_prob3": 100,
+		"food": 100,
+		"food_reduce": 0,
+		"height": 280,
+		"hit_height": 300,
+		"hit_thickness": 300,
+		"hit_width": 200,
+		"icon": "3413",
+		"id": 100024,
+		"life": 749,
+		"model": "110024",
+		"model_scale": 5,
+		"model_type": 3413,
+		"name": "Godzilla",
+		"name_display": false,
+		"speed": 280,
+		"team_id": 0,
+		"type": 0,
+		"view_distance": 14,
+		"width": 160 
+	},
+	"set_ai": [
+		{
+			"name": "follow_direction",
+			"priority": 1,
+			"speed": 1.1 
+		},
+		{
+			"name": "move_towards_restriction",
+			"priority": 4,
+			"speed": 1 
+		},
+		{
+			"name": "wander",
+			"priority": 5,
+			"speed": 1 
+		},
+		{
+			"name": "look_idle",
+			"priority": 7 
+		},
+		{
+			"name": "avoid_water" 
+		},
+		{
+			"atkrange": 1500,
+			"buffid": 0,
+			"count": 1,
+			"max_atktime": 60,
+			"min_atktime": 20,
+			"name": "projectile_attack",
+			"power": 0.8,
+			"priority": 2,
+			"projectileid": 15055,
+			"speed": 1 
+		},
+		{
+			"brightness": 0,
+			"chance": 0,
+			"check_sight": true,
+			"minhp": 0,
+			"name": "target_nearest",
+			"priority": 2 
+		},
+		{
+			"attach_timer": 200,
+			"name": "ceiling_atk",
+			"priority": 0 
+		},
+		{
+			"name": "invulnerable_prob",
+			"prob": 3 
+		},
+		{
+			"dist": 800,
+			"name": "watch_closest",
+			"priority": 7 
+		},
+		{
+			"check_sight": false,
+			"name": "target_following_player",
+			"priority": 3,
+			"prob": 40,
+			"speed": 1 
+		},
+		{
+			"atkeeid": 3105,
+			"chance": 1000,
+			"name": "target_specific_entity",
+			"priority": 2 
+		},
+		{
+			"food_id": 12518,
+			"how_long": 5,
+			"hungry_check": 0,
+			"name": "eat_food",
+			"onlyone_food": true,
+			"priority": 2,
+			"prob": 20 
+		},
+		{
+			"food_id": 12518,
+			"how_long": 5,
+			"hungry_check": 0,
+			"name": "hungry",
+			"onlyone_food": true,
+			"priority": 2,
+			"prob": 20 
+		} 
+	] 
+} 

@@ -1,0 +1,33 @@
+{
+	"foreign_ids": [
+	],
+	"item_property": {
+		"copyid": 600,
+		"desc": "能用彩弹枪、彩蛋染色",
+		"describe": "能用彩弹枪、彩蛋染色",
+		"icon": "*1120",
+		"id": 2100,
+		"model": "",
+		"name": "旧铁块" 
+	},
+	"mod_desc": {
+		"author": "4072958",
+		"filename": "1534737712",
+		"uuid": "667f325c-1ff1-11e7-93ae-92361f002671",
+		"version": "1" 
+	},
+	"property": {
+		"anti_explode": 251,
+		"breakable": false,
+		"burn_speed": 0,
+		"catch_fire": 0,
+		"copyid": 600,
+		"english_name": "1534737712",
+		"hardness": 104.5,
+		"id": 2100,
+		"light_src": 0,
+		"move_collide": 1,
+		"slipperiness": 1,
+		"tool_mine_drop1": 1120 
+	} 
+} 

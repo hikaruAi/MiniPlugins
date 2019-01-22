@@ -1,0 +1,14 @@
+{
+	"property": {
+		"accumulate_time": 0,
+		"attack": 20,
+		"define_food": false,
+		"define_gun": false,
+		"define_projectile": false,
+		"define_tool": true,
+		"id": 12005,
+		"tool_duration": 1500,
+		"tool_efficient": 0,
+		"use_target": 0 
+	} 
+} 

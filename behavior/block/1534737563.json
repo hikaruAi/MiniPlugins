@@ -1,0 +1,33 @@
+{
+	"foreign_ids": [
+	],
+	"item_property": {
+		"copyid": 400,
+		"desc": "#R没有用作者也没有办法，不能飞，黑科技也弄不了还是黑色的。。。。",
+		"describe": "#R没有用作者也没有办法，不能飞，黑科技也弄不了还是黑色的。。。。",
+		"icon": "*848",
+		"id": 2099,
+		"model": "",
+		"name": "孔明灯（无用）" 
+	},
+	"mod_desc": {
+		"author": "4072958",
+		"filename": "1534737563",
+		"uuid": "667f325c-1ff1-11e7-93ae-92361f002671",
+		"version": "1" 
+	},
+	"property": {
+		"anti_explode": 70,
+		"breakable": false,
+		"burn_speed": 0,
+		"catch_fire": 0,
+		"copyid": 400,
+		"english_name": "1534737563",
+		"hardness": 46,
+		"id": 2099,
+		"light_src": 7,
+		"move_collide": 1,
+		"slipperiness": 1,
+		"tool_mine_drop1": 848 
+	} 
+} 

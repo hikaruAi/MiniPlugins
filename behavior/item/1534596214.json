@@ -1,0 +1,27 @@
+{
+	"foreign_ids": [
+	],
+	"mod_desc": {
+		"author": "4072958",
+		"filename": "1534596214",
+		"uuid": "667f325c-1ff1-11e7-93ae-92361f002671",
+		"version": "1" 
+	},
+	"property": {
+		"accumulate_time": 1,
+		"attack": 25,
+		"attack_consume": 1,
+		"consume_count": 1,
+		"consume_itemid": 15507,
+		"copyid": 10102,
+		"describe": "#B少年制作，有什么建议可以评论提出。谢谢",
+		"icon": "*15507",
+		"id": 100126,
+		"model": "*15507",
+		"name": "#B冰锥",
+		"speed_add": 0,
+		"tool_duration": 300,
+		"tool_repare_amount1": 60,
+		"tool_repareid1": 0 
+	} 
+} 

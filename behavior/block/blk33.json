@@ -1,0 +1,27 @@
+{
+	"foreign_ids": [
+	],
+	"item_property": {
+		"copyid": 855,
+		"desc": "建筑",
+		"describe": "建筑",
+		"icon": "*855",
+		"id": 855,
+		"model": "",
+		"name": "胡桃木门" 
+	},
+	"property": {
+		"anti_explode": 500,
+		"breakable": false,
+		"burn_speed": 0,
+		"catch_fire": 0,
+		"copyid": 812,
+		"english_name": "blk33",
+		"hardness": 5,
+		"id": 855,
+		"light_src": 0,
+		"move_collide": 1,
+		"slipperiness": 1,
+		"tool_mine_drop1": 855 
+	} 
+} 

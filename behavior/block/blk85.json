@@ -1,0 +1,33 @@
+{
+	"foreign_ids": [
+	],
+	"item_property": {
+		"copyid": 101,
+		"desc": "装饰",
+		"describe": "装饰",
+		"icon": "*946",
+		"id": 2085,
+		"model": "",
+		"name": "红色陶花盆" 
+	},
+	"mod_desc": {
+		"author": "1011641204",
+		"filename": "blk85",
+		"uuid": "2b96d66d-509b-475b-96fe-7fc131bc2b90",
+		"version": "1" 
+	},
+	"property": {
+		"anti_explode": 500,
+		"breakable": false,
+		"burn_speed": 0,
+		"catch_fire": 0,
+		"copyid": 101,
+		"english_name": "blk85",
+		"hardness": -1,
+		"id": 2085,
+		"light_src": 1,
+		"move_collide": 1,
+		"slipperiness": 1,
+		"tool_mine_drop1": 946 
+	} 
+} 

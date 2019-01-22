@@ -1,0 +1,68 @@
+{
+	"property": {
+		"attack": 0,
+		"attack_distance": 2,
+		"desc": "",
+		"drop_exp": 1,
+		"drop_item1": 12518,
+		"drop_item2": 11303,
+		"drop_item3": 0,
+		"id": 3400,
+		"kill_score": 0.25,
+		"life": 30,
+		"model_scale": 0.9,
+		"speed": 600,
+		"team_id": 0,
+		"view_distance": 16 
+	},
+	"set_ai": [
+		{
+			"name": "can_fly" 
+		},
+		{
+			"name": "swimming",
+			"priority": 0 
+		},
+		{
+			"name": "follow_direction",
+			"priority": 1,
+			"speed": 1.1 
+		},
+		{
+			"name": "panic",
+			"priority": 1,
+			"speed": 1.4 
+		},
+		{
+			"name": "mate",
+			"priority": 2,
+			"speed": 1 
+		},
+		{
+			"id": 11400,
+			"name": "tempt",
+			"priority": 3,
+			"scared": false,
+			"speed": 1 
+		},
+		{
+			"name": "follow_parent",
+			"priority": 4,
+			"speed": 1.1 
+		},
+		{
+			"name": "wander",
+			"priority": 5,
+			"speed": 1 
+		},
+		{
+			"dist": 600,
+			"name": "watch_closest",
+			"priority": 6 
+		},
+		{
+			"name": "look_idle",
+			"priority": 7 
+		} 
+	] 
+} 

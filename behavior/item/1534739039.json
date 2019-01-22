@@ -1,0 +1,19 @@
+{
+	"foreign_ids": [
+	],
+	"mod_desc": {
+		"author": "4072958",
+		"filename": "1534739039",
+		"uuid": "667f325c-1ff1-11e7-93ae-92361f002671",
+		"version": "1" 
+	},
+	"property": {
+		"copyid": 10100,
+		"describe": "#R你们也看到了，火箭背包根本解锁不了-_-",
+		"icon": "*12253",
+		"id": 100155,
+		"model": "*12253",
+		"name": "火箭背包（没用）",
+		"stack_max": 1 
+	} 
+} 

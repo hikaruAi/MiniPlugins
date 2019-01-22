@@ -1,0 +1,57 @@
+{
+	"foreign_ids": [
+	],
+	"itemskills": [
+		{
+			"ChargeTime": 1.5,
+			"ChargeType": 0,
+			"Cooldown": 5,
+			"Costs": [
+				{
+					"CostTarget": 10101,
+					"CostType": 1,
+					"CostVal": 0 
+				} 
+			],
+			"Functions": [
+				{
+					"BlowUpPower": 50,
+					"RepelPower": 50 
+				} 
+			],
+			"RangeType": 1,
+			"RangeVal1": 1000,
+			"RangeVal2": 300,
+			"RangeVal3": 300,
+			"SkillType": 0,
+			"TargetCamp": 0,
+			"name": "feature_attack_fly",
+			"priority": 0,
+			"templateid": 102 
+		} 
+	],
+	"mod_desc": {
+		"author": "1023148540",
+		"filename": "1547439263",
+		"uuid": "667f325c-1ff1-11e7-93ae-92361f002671",
+		"version": "1" 
+	},
+	"property": {
+		"accumulate_time": 3.4,
+		"attack": 10,
+		"attack_consume": 1,
+		"collect_consume": 1,
+		"copyid": 10101,
+		"describe": "",
+		"icon": "*12253",
+		"id": 100012,
+		"model": "*12253",
+		"name": "Mochila Cohete 2",
+		"tool_duration": 50,
+		"tool_efficient": 50,
+		"tool_level": 1,
+		"tool_repare_amount1": 10,
+		"tool_repareid1": 0,
+		"tool_type": 6 
+	} 
+} 

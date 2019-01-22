@@ -1,0 +1,91 @@
+{
+	"foreign_ids": [
+	],
+	"mod_desc": {
+		"author": "4072958",
+		"filename": "act1",
+		"uuid": "2b96d66d-509b-475b-96fe-7fc131bc2b90",
+		"version": "1" 
+	},
+	"property": {
+		"Effect": "",
+		"TextureID": 0,
+		"attack": 10,
+		"attack_distance": 1,
+		"attack_type": 0,
+		"bag_num": 5,
+		"buff_id": 4003,
+		"desc": "#R少年制作~史诗生物~独轮车",
+		"desc_display": false,
+		"drop_exp": 4072958,
+		"drop_exp_prob": 100,
+		"drop_item1": 9,
+		"drop_item2": 5,
+		"drop_item3": 7,
+		"drop_item_prob1": 100,
+		"drop_item_prob2": 100,
+		"drop_item_prob3": 100,
+		"food": 100,
+		"food_reduce": 0,
+		"height": 120,
+		"hit_height": 150,
+		"hit_thickness": 150,
+		"hit_width": 150,
+		"icon": "3101",
+		"id": 3101,
+		"life": 1,
+		"model": "@13800",
+		"model_scale": 1.6,
+		"model_type": 3101,
+		"name": "#B四轮车",
+		"name_display": true,
+		"speed": 50,
+		"team_id": 0,
+		"type": 1,
+		"view_distance": 24,
+		"width": 120 
+	},
+	"set_ai": [
+		{
+			"dist": 3000,
+			"monster_id": 3407,
+			"name": "ride",
+			"priority": 0 
+		},
+		{
+			"name": "follow_direction",
+			"priority": 1,
+			"speed": 1.1 
+		},
+		{
+			"name": "break_door",
+			"priority": 1 
+		},
+		{
+			"name": "move_towards_restriction",
+			"priority": 4,
+			"speed": 1 
+		},
+		{
+			"name": "wander",
+			"priority": 6,
+			"speed": 1 
+		},
+		{
+			"name": "look_idle",
+			"priority": 7 
+		},
+		{
+			"attack_type": 0,
+			"move_speed": 1,
+			"name": "attack",
+			"priority": 2,
+			"will_trace": false 
+		},
+		{
+			"help": false,
+			"name": "target_hurtee",
+			"priority": 2 
+		} 
+	] 
+} 

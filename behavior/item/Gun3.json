@@ -1,0 +1,16 @@
+{
+	"property": {
+		"bullet_id": 15056,
+		"continuous_fire": false,
+		"define_food": false,
+		"define_gun": true,
+		"define_projectile": false,
+		"define_tool": false,
+		"fire_interval": 300,
+		"gun_attack": 31,
+		"id": 15002,
+		"magazines": 6,
+		"need_bullet": true,
+		"use_target": 8 
+	} 
+} 

@@ -1,0 +1,27 @@
+{
+	"foreign_ids": [
+	],
+	"item_property": {
+		"copyid": 979,
+		"desc": "箱子",
+		"describe": "箱子",
+		"icon": "*979",
+		"id": 979,
+		"model": "",
+		"name": "松木柜子" 
+	},
+	"property": {
+		"anti_explode": 500,
+		"breakable": false,
+		"burn_speed": 0,
+		"catch_fire": 0,
+		"copyid": 801,
+		"english_name": "blk31",
+		"hardness": 5,
+		"id": 979,
+		"light_src": 0,
+		"move_collide": 1,
+		"slipperiness": 1,
+		"tool_mine_drop1": 979 
+	} 
+} 

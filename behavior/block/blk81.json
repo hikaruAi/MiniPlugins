@@ -1,0 +1,27 @@
+{
+	"foreign_ids": [
+	],
+	"item_property": {
+		"copyid": 941,
+		"desc": "装饰",
+		"describe": "装饰",
+		"icon": "*941",
+		"id": 941,
+		"model": "",
+		"name": "春节窗花-禄" 
+	},
+	"property": {
+		"anti_explode": 500,
+		"breakable": false,
+		"burn_speed": 0,
+		"catch_fire": 0,
+		"copyid": 939,
+		"english_name": "blk81",
+		"hardness": 5,
+		"id": 941,
+		"light_src": 0,
+		"move_collide": 1,
+		"slipperiness": 1,
+		"tool_mine_drop1": 941 
+	} 
+} 

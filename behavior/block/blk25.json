@@ -1,0 +1,27 @@
+{
+	"foreign_ids": [
+	],
+	"item_property": {
+		"copyid": 973,
+		"desc": "功能",
+		"describe": "功能",
+		"icon": "*973",
+		"id": 973,
+		"model": "",
+		"name": "白色壁炉" 
+	},
+	"property": {
+		"anti_explode": 500,
+		"breakable": false,
+		"burn_speed": 0,
+		"catch_fire": 0,
+		"copyid": 802,
+		"english_name": "blk25",
+		"hardness": 5,
+		"id": 973,
+		"light_src": 0,
+		"move_collide": 1,
+		"slipperiness": 1,
+		"tool_mine_drop1": 973 
+	} 
+} 

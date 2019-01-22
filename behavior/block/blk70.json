@@ -1,0 +1,27 @@
+{
+	"foreign_ids": [
+	],
+	"item_property": {
+		"copyid": 926,
+		"desc": "建筑",
+		"describe": "建筑",
+		"icon": "*926",
+		"id": 926,
+		"model": "",
+		"name": "黑色铁围栏" 
+	},
+	"property": {
+		"anti_explode": 500,
+		"breakable": false,
+		"burn_speed": 0,
+		"catch_fire": 0,
+		"copyid": 526,
+		"english_name": "blk70",
+		"hardness": 5,
+		"id": 926,
+		"light_src": 0,
+		"move_collide": 1,
+		"slipperiness": 1,
+		"tool_mine_drop1": 926 
+	} 
+} 

@@ -1,0 +1,22 @@
+{
+	"foreign_ids": [
+	],
+	"mod_desc": {
+		"author": "4072958",
+		"filename": "Pumpkin pie",
+		"uuid": "2b96d66d-509b-475b-96fe-7fc131bc2b90",
+		"version": "1" 
+	},
+	"property": {
+		"add_food": 20,
+		"add_foodstate": 12,
+		"describe": "#R少年制作，变身术出现",
+		"heal_actor": 0,
+		"icon": "*13010",
+		"id": 12570,
+		"model": "*13010",
+		"name": "#R变身~莉莉丝",
+		"stack_max": 64,
+		"use_time": 30 
+	} 
+} 

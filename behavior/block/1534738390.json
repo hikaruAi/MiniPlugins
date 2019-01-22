@@ -1,0 +1,33 @@
+{
+	"foreign_ids": [
+	],
+	"item_property": {
+		"copyid": 124,
+		"desc": "方块",
+		"describe": "方块",
+		"icon": "*1112",
+		"id": 2107,
+		"model": "",
+		"name": "铁丝网" 
+	},
+	"mod_desc": {
+		"author": "4072958",
+		"filename": "1534738390",
+		"uuid": "667f325c-1ff1-11e7-93ae-92361f002671",
+		"version": "1" 
+	},
+	"property": {
+		"anti_explode": 267,
+		"breakable": false,
+		"burn_speed": 0,
+		"catch_fire": 0,
+		"copyid": 124,
+		"english_name": "1534738390",
+		"hardness": 85.5,
+		"id": 2107,
+		"light_src": 0,
+		"move_collide": 1,
+		"slipperiness": 1,
+		"tool_mine_drop1": 1112 
+	} 
+} 

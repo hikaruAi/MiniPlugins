@@ -1,0 +1,27 @@
+{
+	"foreign_ids": [
+	],
+	"item_property": {
+		"copyid": 890,
+		"desc": "建筑",
+		"describe": "建筑",
+		"icon": "*890",
+		"id": 890,
+		"model": "",
+		"name": "熔岩留言板" 
+	},
+	"property": {
+		"anti_explode": 500,
+		"breakable": false,
+		"burn_speed": 0,
+		"catch_fire": 0,
+		"copyid": 815,
+		"english_name": "blk44",
+		"hardness": 5,
+		"id": 890,
+		"light_src": 0,
+		"move_collide": 1,
+		"slipperiness": 1,
+		"tool_mine_drop1": 890 
+	} 
+} 

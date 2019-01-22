@@ -1,0 +1,55 @@
+{
+	"foreign_ids": [
+	],
+	"itemskills": [
+		{
+			"ChargeTime": 1.5,
+			"ChargeType": 2,
+			"Cooldown": 5,
+			"Costs": [
+				{
+					"CostTarget": 10110,
+					"CostType": 1,
+					"CostVal": 0 
+				} 
+			],
+			"Functions": [
+				{
+					"AttackType": 0,
+					"AttackVal": 0,
+					"BuffID": 1004001,
+					"Duration": 40,
+					"Odds": 100 
+				} 
+			],
+			"RangeType": 0,
+			"RangeVal1": 1000,
+			"RangeVal2": 300,
+			"RangeVal3": 300,
+			"SkillType": 1,
+			"TargetCamp": 0,
+			"name": "feature_buff",
+			"priority": 0,
+			"templateid": 104 
+		} 
+	],
+	"mod_desc": {
+		"author": "4072958",
+		"filename": "1534781391",
+		"uuid": "667f325c-1ff1-11e7-93ae-92361f002671",
+		"version": "1" 
+	},
+	"property": {
+		"add_food": 10,
+		"add_foodstate": 10,
+		"copyid": 10110,
+		"describe": "#R少年制作，术出现问题，",
+		"heal_actor": 0,
+		"icon": "*11059",
+		"id": 4112,
+		"model": "*11059",
+		"name": "#R变身术~牛",
+		"stack_max": 64,
+		"use_time": 30 
+	} 
+} 

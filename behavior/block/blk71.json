@@ -1,0 +1,33 @@
+{
+	"foreign_ids": [
+	],
+	"item_property": {
+		"copyid": 526,
+		"desc": "建筑",
+		"describe": "建筑",
+		"icon": "*927",
+		"id": 2070,
+		"model": "",
+		"name": "白色铁围栏" 
+	},
+	"mod_desc": {
+		"author": "1011641204",
+		"filename": "blk71",
+		"uuid": "2b96d66d-509b-475b-96fe-7fc131bc2b90",
+		"version": "1" 
+	},
+	"property": {
+		"anti_explode": 500,
+		"breakable": false,
+		"burn_speed": 0,
+		"catch_fire": 0,
+		"copyid": 526,
+		"english_name": "blk71",
+		"hardness": 5,
+		"id": 2070,
+		"light_src": 15,
+		"move_collide": 1,
+		"slipperiness": 1,
+		"tool_mine_drop1": 927 
+	} 
+} 

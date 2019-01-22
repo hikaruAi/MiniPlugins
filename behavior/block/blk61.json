@@ -1,0 +1,33 @@
+{
+	"foreign_ids": [
+	],
+	"item_property": {
+		"copyid": 104,
+		"desc": "方块",
+		"describe": "方块",
+		"icon": "*429",
+		"id": 2059,
+		"model": "",
+		"name": "不规则釉面砖" 
+	},
+	"mod_desc": {
+		"author": "1011641204",
+		"filename": "blk61",
+		"uuid": "2b96d66d-509b-475b-96fe-7fc131bc2b90",
+		"version": "1" 
+	},
+	"property": {
+		"anti_explode": 500,
+		"breakable": false,
+		"burn_speed": 0,
+		"catch_fire": 0,
+		"copyid": 104,
+		"english_name": "blk61",
+		"hardness": -1,
+		"id": 2059,
+		"light_src": 0,
+		"move_collide": 1,
+		"slipperiness": 1,
+		"tool_mine_drop1": 429 
+	} 
+} 

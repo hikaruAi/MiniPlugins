@@ -1,0 +1,27 @@
+{
+	"foreign_ids": [
+	],
+	"item_property": {
+		"copyid": 936,
+		"desc": "照明",
+		"describe": "照明",
+		"icon": "*936",
+		"id": 936,
+		"model": "",
+		"name": "台灯" 
+	},
+	"property": {
+		"anti_explode": 500,
+		"breakable": false,
+		"burn_speed": 0,
+		"catch_fire": 0,
+		"copyid": 816,
+		"english_name": "blk69",
+		"hardness": 5,
+		"id": 936,
+		"light_src": 15,
+		"move_collide": 1,
+		"slipperiness": 1,
+		"tool_mine_drop1": 936 
+	} 
+} 

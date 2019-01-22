@@ -1,0 +1,27 @@
+{
+	"foreign_ids": [
+	],
+	"mod_desc": {
+		"author": "4072958",
+		"filename": "1534595743",
+		"uuid": "667f325c-1ff1-11e7-93ae-92361f002671",
+		"version": "1" 
+	},
+	"property": {
+		"accumulate_time": 1,
+		"attack": 25,
+		"attack_consume": 1,
+		"consume_count": 1,
+		"consume_itemid": 15506,
+		"copyid": 10102,
+		"describe": "#Y少年制作。",
+		"icon": "*15506",
+		"id": 100122,
+		"model": "*15506",
+		"name": "#Y圆球爆弹",
+		"speed_add": 0,
+		"tool_duration": 300,
+		"tool_repare_amount1": 60,
+		"tool_repareid1": 0 
+	} 
+} 

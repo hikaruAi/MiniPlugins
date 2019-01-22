@@ -1,0 +1,33 @@
+{
+	"foreign_ids": [
+	],
+	"item_property": {
+		"copyid": 230,
+		"desc": "方块",
+		"describe": "方块",
+		"icon": "*1103",
+		"id": 100164,
+		"model": "",
+		"name": "冰灯" 
+	},
+	"mod_desc": {
+		"author": "4072958",
+		"filename": "1534937379",
+		"uuid": "667f325c-1ff1-11e7-93ae-92361f002671",
+		"version": "1" 
+	},
+	"property": {
+		"anti_explode": 6,
+		"breakable": false,
+		"burn_speed": 5,
+		"catch_fire": 100,
+		"copyid": 230,
+		"english_name": "1534937379",
+		"hardness": 2,
+		"id": 100164,
+		"light_src": 0,
+		"move_collide": 1,
+		"slipperiness": 1,
+		"tool_mine_drop1": 1103 
+	} 
+} 

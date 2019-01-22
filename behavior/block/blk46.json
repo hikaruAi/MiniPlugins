@@ -1,0 +1,27 @@
+{
+	"foreign_ids": [
+	],
+	"item_property": {
+		"copyid": 961,
+		"desc": "方块",
+		"describe": "方块",
+		"icon": "*961",
+		"id": 961,
+		"model": "",
+		"name": "基石-裂土" 
+	},
+	"property": {
+		"anti_explode": 500,
+		"breakable": false,
+		"burn_speed": 0,
+		"catch_fire": 0,
+		"copyid": 1,
+		"english_name": "blk46",
+		"hardness": 2000,
+		"id": 961,
+		"light_src": 0,
+		"move_collide": 1,
+		"slipperiness": 1,
+		"tool_mine_drop1": 961 
+	} 
+} 

@@ -1,0 +1,22 @@
+{
+	"foreign_ids": [
+	],
+	"mod_desc": {
+		"author": "4072958",
+		"filename": "StoneAxe",
+		"uuid": "2b96d66d-509b-475b-96fe-7fc131bc2b90",
+		"version": "1" 
+	},
+	"property": {
+		"add_food": 20,
+		"add_foodstate": 12,
+		"describe": "#R少年制作，出现问题",
+		"heal_actor": 0,
+		"icon": "*13029",
+		"id": 12571,
+		"model": "*13029",
+		"name": "#R变身~德古拉六世",
+		"stack_max": 64,
+		"use_time": 30 
+	} 
+} 

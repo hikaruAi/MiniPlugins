@@ -1,0 +1,27 @@
+{
+	"foreign_ids": [
+	],
+	"item_property": {
+		"copyid": 960,
+		"desc": "方块",
+		"describe": "方块",
+		"icon": "*960",
+		"id": 960,
+		"model": "",
+		"name": "基石-混凝土" 
+	},
+	"property": {
+		"anti_explode": 500,
+		"breakable": false,
+		"burn_speed": 0,
+		"catch_fire": 0,
+		"copyid": 1,
+		"english_name": "blk45",
+		"hardness": 2000,
+		"id": 960,
+		"light_src": 0,
+		"move_collide": 1,
+		"slipperiness": 1,
+		"tool_mine_drop1": 960 
+	} 
+} 

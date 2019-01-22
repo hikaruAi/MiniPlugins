@@ -1,0 +1,27 @@
+{
+	"foreign_ids": [
+	],
+	"item_property": {
+		"copyid": 972,
+		"desc": "建筑",
+		"describe": "建筑",
+		"icon": "*972",
+		"id": 972,
+		"model": "",
+		"name": "白杨沙发" 
+	},
+	"property": {
+		"anti_explode": 500,
+		"breakable": false,
+		"burn_speed": 0,
+		"catch_fire": 0,
+		"copyid": 967,
+		"english_name": "blk24",
+		"hardness": 5,
+		"id": 972,
+		"light_src": 0,
+		"move_collide": 1,
+		"slipperiness": 1,
+		"tool_mine_drop1": 972 
+	} 
+} 

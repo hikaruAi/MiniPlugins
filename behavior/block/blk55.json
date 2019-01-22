@@ -1,0 +1,27 @@
+{
+	"foreign_ids": [
+	],
+	"item_property": {
+		"copyid": 897,
+		"desc": "建筑",
+		"describe": "建筑",
+		"icon": "*897",
+		"id": 897,
+		"model": "",
+		"name": "熔岩字牌" 
+	},
+	"property": {
+		"anti_explode": 500,
+		"breakable": false,
+		"burn_speed": 0,
+		"catch_fire": 0,
+		"copyid": 688,
+		"english_name": "blk55",
+		"hardness": 5,
+		"id": 897,
+		"light_src": 0,
+		"move_collide": 1,
+		"slipperiness": 1,
+		"tool_mine_drop1": 897 
+	} 
+} 

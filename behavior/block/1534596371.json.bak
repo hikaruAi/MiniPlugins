@@ -1,0 +1,33 @@
+{
+	"foreign_ids": [
+	],
+	"item_property": {
+		"copyid": 828,
+		"desc": "#G在地上点一下，出现两个保险箱，挖掉前面的一个，后面的那个是打开的保险箱",
+		"describe": "#G在地上点一下，出现两个保险箱，挖掉前面的一个，后面的那个是打开的保险箱",
+		"icon": "*845",
+		"id": 2003,
+		"model": "",
+		"name": "#G打开的保险箱" 
+	},
+	"mod_desc": {
+		"author": "4072958",
+		"filename": "1534596371",
+		"uuid": "667f325c-1ff1-11e7-93ae-92361f002671",
+		"version": "1" 
+	},
+	"property": {
+		"anti_explode": 491,
+		"breakable": false,
+		"burn_speed": 0,
+		"catch_fire": 0,
+		"copyid": 828,
+		"english_name": "1534596371",
+		"hardness": 197.5,
+		"id": 2003,
+		"light_src": 0,
+		"move_collide": 1,
+		"slipperiness": 1,
+		"tool_mine_drop1": 101 
+	} 
+} 

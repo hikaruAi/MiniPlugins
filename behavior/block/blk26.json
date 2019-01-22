@@ -1,0 +1,27 @@
+{
+	"foreign_ids": [
+	],
+	"item_property": {
+		"copyid": 974,
+		"desc": "箱子",
+		"describe": "箱子",
+		"icon": "*974",
+		"id": 974,
+		"model": "",
+		"name": "白杨柜子" 
+	},
+	"property": {
+		"anti_explode": 500,
+		"breakable": false,
+		"burn_speed": 0,
+		"catch_fire": 0,
+		"copyid": 801,
+		"english_name": "blk26",
+		"hardness": 5,
+		"id": 974,
+		"light_src": 0,
+		"move_collide": 1,
+		"slipperiness": 1,
+		"tool_mine_drop1": 974 
+	} 
+} 

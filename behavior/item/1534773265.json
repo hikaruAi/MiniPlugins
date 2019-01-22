@@ -1,0 +1,55 @@
+{
+	"foreign_ids": [
+		{
+			"id": 100159,
+			"key": "4072958667f325c-1ff1-11e7-93ae-92361f0026711534773265" 
+		} 
+	],
+	"itemskills": [
+		{
+			"ChargeTime": 1.5,
+			"ChargeType": 2,
+			"Cooldown": 5,
+			"Costs": [
+				{
+					"CostTarget": 100159,
+					"CostType": 1,
+					"CostVal": 0 
+				} 
+			],
+			"Functions": [
+				{
+					"AttackType": 0,
+					"AttackVal": 0,
+					"BuffID": 4003,
+					"Duration": 280,
+					"Odds": 100 
+				} 
+			],
+			"RangeType": 1,
+			"RangeVal1": 1000,
+			"RangeVal2": 300,
+			"RangeVal3": 300,
+			"SkillType": 1,
+			"TargetCamp": 0,
+			"name": "feature_buff",
+			"priority": 0,
+			"templateid": 104 
+		} 
+	],
+	"mod_desc": {
+		"author": "4072958",
+		"filename": "1534773265",
+		"uuid": "667f325c-1ff1-11e7-93ae-92361f002671",
+		"version": "1" 
+	},
+	"property": {
+		"copyid": 10100,
+		"describe": "没有用，放不了",
+		"icon": "*13808",
+		"id": 100159,
+		"model": "*13808",
+		"name": "荷灯（假的）",
+		"stack_max": 64 
+	} 
+} 

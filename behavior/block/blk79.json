@@ -1,0 +1,27 @@
+{
+	"foreign_ids": [
+	],
+	"item_property": {
+		"copyid": 881,
+		"desc": "装饰",
+		"describe": "装饰",
+		"icon": "*881",
+		"id": 881,
+		"model": "",
+		"name": "喷花烟花" 
+	},
+	"property": {
+		"anti_explode": 500,
+		"breakable": false,
+		"burn_speed": 0,
+		"catch_fire": 0,
+		"copyid": 101,
+		"english_name": "blk79",
+		"hardness": 5,
+		"id": 881,
+		"light_src": 1,
+		"move_collide": 1,
+		"slipperiness": 1,
+		"tool_mine_drop1": 881 
+	} 
+} 

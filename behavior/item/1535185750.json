@@ -1,0 +1,52 @@
+{
+	"foreign_ids": [
+	],
+	"itemskills": [
+		{
+			"ChargeTime": 1.5,
+			"ChargeType": 2,
+			"Cooldown": 5,
+			"Costs": [
+				{
+					"CostTarget": 10100,
+					"CostType": 1,
+					"CostVal": 0 
+				} 
+			],
+			"Functions": [
+				{
+					"AttackType": 0,
+					"AttackVal": 9999 
+				},
+				{
+					"BlowUpPower": 330,
+					"RepelPower": 640 
+				} 
+			],
+			"RangeType": 2,
+			"RangeVal1": 9999,
+			"RangeVal2": 9999,
+			"RangeVal3": 9999,
+			"SkillType": 1,
+			"TargetCamp": 0,
+			"name": "feature_attack",
+			"priority": 0,
+			"templateid": 101 
+		} 
+	],
+	"mod_desc": {
+		"author": "4072958",
+		"filename": "1535185750",
+		"uuid": "667f325c-1ff1-11e7-93ae-92361f002671",
+		"version": "1" 
+	},
+	"property": {
+		"copyid": 10100,
+		"describe": "#R少年制作~一下清理附近如何生物，现在可以不怕黑龙烦了！",
+		"icon": "*11061",
+		"id": 100179,
+		"model": "*11061",
+		"name": "#R嗜神剑",
+		"stack_max": 1 
+	} 
+} 

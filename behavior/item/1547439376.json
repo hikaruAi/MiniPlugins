@@ -1,0 +1,44 @@
+{
+	"foreign_ids": [
+	],
+	"itemskills": [
+		{
+			"ChargeTime": 1.5,
+			"ChargeType": 0,
+			"Cooldown": 5,
+			"Costs": [
+				{
+					"CostTarget": 10100,
+					"CostType": 0,
+					"CostVal": 0 
+				} 
+			],
+			"Functions": [
+				{
+					"ProjectileID": 12280,
+					"SpeedAdd": 0.15000000596046 
+				} 
+			],
+			"SkillType": 1,
+			"TargetCamp": 0,
+			"name": "feature_throw",
+			"priority": 0,
+			"templateid": 105 
+		} 
+	],
+	"mod_desc": {
+		"author": "1023148540",
+		"filename": "1547439376",
+		"uuid": "667f325c-1ff1-11e7-93ae-92361f002671",
+		"version": "1" 
+	},
+	"property": {
+		"copyid": 10100,
+		"describe": "",
+		"icon": "*12827",
+		"id": 100013,
+		"model": "*12827",
+		"name": "Globos Explosivos",
+		"stack_max": 64 
+	} 
+} 

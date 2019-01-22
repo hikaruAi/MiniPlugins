@@ -1,0 +1,50 @@
+{
+	"foreign_ids": [
+	],
+	"itemskills": [
+		{
+			"Costs": [
+			],
+			"Functions": [
+				{
+					"BlowUpPower": 640,
+					"RepelPower": 640 
+				} 
+			],
+			"RangeType": 1,
+			"RangeVal1": 1000,
+			"RangeVal2": 300,
+			"RangeVal3": 300,
+			"TargetCamp": 0,
+			"name": "feature_attack_fly_throw",
+			"priority": 0,
+			"templateid": 202 
+		} 
+	],
+	"mod_desc": {
+		"author": "4072958",
+		"filename": "BigFirecracker",
+		"uuid": "667f325c-1ff1-11e7-93ae-92361f002671",
+		"version": "1" 
+	},
+	"property": {
+		"accumulator_type": 2,
+		"attack_type": 1,
+		"break": false,
+		"can_throw": true,
+		"cooldown": 100,
+		"describe": "作者少年",
+		"gravity": 1,
+		"icon": "*15000",
+		"id": 15055,
+		"model": "*15000",
+		"name": "严禁盗插件",
+		"pickable": false,
+		"projectile_attack": 8,
+		"speed_decay": 1,
+		"speed_init": 130,
+		"stack_max": 64,
+		"trigger_condition": 4,
+		"trigger_delay": 5 
+	} 
+} 

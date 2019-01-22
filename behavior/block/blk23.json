@@ -1,0 +1,27 @@
+{
+	"foreign_ids": [
+	],
+	"item_property": {
+		"copyid": 971,
+		"desc": "建筑",
+		"describe": "建筑",
+		"icon": "*971",
+		"id": 971,
+		"model": "",
+		"name": "白杨桌子" 
+	},
+	"property": {
+		"anti_explode": 500,
+		"breakable": false,
+		"burn_speed": 0,
+		"catch_fire": 0,
+		"copyid": 966,
+		"english_name": "blk23",
+		"hardness": 5,
+		"id": 971,
+		"light_src": 0,
+		"move_collide": 1,
+		"slipperiness": 1,
+		"tool_mine_drop1": 971 
+	} 
+} 

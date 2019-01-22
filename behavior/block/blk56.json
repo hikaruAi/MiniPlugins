@@ -1,0 +1,27 @@
+{
+	"foreign_ids": [
+	],
+	"item_property": {
+		"copyid": 419,
+		"desc": "方块",
+		"describe": "方块",
+		"icon": "*419",
+		"id": 419,
+		"model": "",
+		"name": "落叶松地板" 
+	},
+	"property": {
+		"anti_explode": 500,
+		"breakable": false,
+		"burn_speed": 0,
+		"catch_fire": 0,
+		"copyid": 206,
+		"english_name": "blk56",
+		"hardness": 5,
+		"id": 419,
+		"light_src": 0,
+		"move_collide": 1,
+		"slipperiness": 1,
+		"tool_mine_drop1": 419 
+	} 
+} 

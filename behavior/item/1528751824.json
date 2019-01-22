@@ -1,0 +1,58 @@
+{
+	"foreign_ids": [
+	],
+	"itemskills": [
+		{
+			"ChargeTime": 0.5,
+			"ChargeType": 2,
+			"Cooldown": 0,
+			"Costs": [
+				{
+					"CostTarget": 11005,
+					"CostType": 0,
+					"CostVal": 1 
+				} 
+			],
+			"Functions": [
+				{
+					"ActionType": 0,
+					"BlockID": 200,
+					"DropOut": 1 
+				} 
+			],
+			"RangeType": 1,
+			"RangeVal1": 3200,
+			"RangeVal2": 3200,
+			"RangeVal3": 300,
+			"SkillType": 1,
+			"TargetClass": 1,
+			"name": "feature_block",
+			"priority": 0,
+			"templateid": 100 
+		} 
+	],
+	"mod_desc": {
+		"author": "1000408823",
+		"filename": "1528751824",
+		"uuid": "667f325c-1ff1-11e7-93ae-92361f002671",
+		"version": "1" 
+	},
+	"property": {
+		"accumulate_time": 0,
+		"attack": 100,
+		"attack_consume": 2,
+		"collect_consume": 1,
+		"copyid": 11005,
+		"describe": "#G Daño cuerpo a cuerpo +25#n\nHerramienta para #cFF7F00talar #n. Corta los árboles rapidísimo.",
+		"icon": "*11060",
+		"id": 100036,
+		"model": "*11060",
+		"name": "Hacha de youtuber",
+		"tool_duration": 2000,
+		"tool_efficient": 1000,
+		"tool_level": 5,
+		"tool_repare_amount1": 500,
+		"tool_repareid1": 11203,
+		"tool_type": 1 
+	} 
+} 

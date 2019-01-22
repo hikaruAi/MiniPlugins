@@ -1,0 +1,78 @@
+{
+	"property": {
+		"attack": 50,
+		"attack_distance": 2,
+		"desc": "",
+		"drop_exp": 13,
+		"drop_item1": 12526,
+		"drop_item2": 312,
+		"drop_item3": 0,
+		"id": 3101,
+		"kill_score": 5,
+		"life": 200,
+		"model_scale": 2,
+		"speed": 200,
+		"team_id": 0,
+		"view_distance": 24 
+	},
+	"set_ai": [
+		{
+			"name": "pass_closed_door" 
+		},
+		{
+			"name": "sun_hurt" 
+		},
+		{
+			"name": "swimming",
+			"priority": 1 
+		},
+		{
+			"name": "follow_direction",
+			"priority": 1,
+			"speed": 1.1 
+		},
+		{
+			"name": "break_door",
+			"priority": 1 
+		},
+		{
+			"maxhp": 0.0001,
+			"name": "panic",
+			"priority": 1,
+			"speed": 3.25 
+		},
+		{
+			"attack_type": 0,
+			"move_speed": 1,
+			"name": "attack",
+			"priority": 3,
+			"will_trace": false 
+		},
+		{
+			"name": "wander",
+			"priority": 6,
+			"speed": 1 
+		},
+		{
+			"dist": 800,
+			"name": "watch_closest",
+			"priority": 7 
+		},
+		{
+			"name": "look_idle",
+			"priority": 7 
+		},
+		{
+			"help": true,
+			"name": "target_hurtee",
+			"priority": 1 
+		},
+		{
+			"brightness": 0,
+			"chance": 0,
+			"check_sight": true,
+			"name": "target_nearest",
+			"priority": 2 
+		} 
+	] 
+} 
