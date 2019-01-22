@@ -1,16 +1,24 @@
 {
+	"foreign_ids": [
+	],
+	"mod_desc": {
+		"author": "1023148540",
+		"filename": "Skin Người Máy. ",
+		"uuid": "667f325c-1ff1-11e7-93ae-92361f002671",
+		"version": "1" 
+	},
 	"property": {
-		"icon": "3101",
-		"copyid": 3001,
-		"id": 3001,
-		"model": "@140029",
-		"model_scale": 1,
-		"texture": "img0",
-		"life": 100,
+		"Effect": "",
+		"TextureID": 0,
 		"attack": 1,
-		"speed": 5,
-		"name": "幻火",
+		"attack_distance": 1,
+		"attack_type": 0,
+		"bag_num": 0,
+		"buff_id": 4003,
+		"copyid": 3001,
 		"desc": "。",
+		"desc_display": false,
+		"dialogue": "",
 		"drop_exp": 99999,
 		"drop_exp_prob": 100,
 		"drop_item1": 6,
@@ -19,38 +27,27 @@
 		"drop_item_prob1": 100,
 		"drop_item_prob2": 100,
 		"drop_item_prob3": 100,
-		"attack_distance": 1,
-		"attack_type": 0,
-		"buff_id": 4003,
-		"height": 120,
-		"hit_height": 150,
-		"hit_thickness": 150,
-		"hit_width": 150,
+		"food": 0,
+		"food_reduce": 0,
+		"height": 195,
+		"hit_height": 220,
+		"hit_thickness": 110,
+		"hit_width": 110,
+		"icon": "3101",
+		"id": 3001,
+		"life": 100,
+		"model": "100026",
+		"model_scale": 1,
+		"model_type": 3101,
+		"name": "Robot",
+		"name_display": false,
+		"speed": 5,
 		"team_id": 0,
 		"type": 1,
 		"view_distance": 24,
-		"width": 120 
+		"width": 95 
 	},
 	"set_ai": [
-		{
-			"name": "follow_direction",
-			"priority": 1,
-			"speed": 1.1 
-		},
-		{
-			"name": "move_towards_restriction",
-			"priority": 4,
-			"speed": 1 
-		},
-		{
-			"name": "wander",
-			"priority": 5,
-			"speed": 1 
-		},
-		{
-			"name": "look_idle",
-			"priority": 7 
-		},
 		{
 			"attack_type": 0,
 			"move_speed": 1,

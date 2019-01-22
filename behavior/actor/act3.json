@@ -1,17 +1,24 @@
 {
+	"foreign_ids": [
+	],
+	"mod_desc": {
+		"author": "1023148540",
+		"filename": "act3",
+		"uuid": "667f325c-1ff1-11e7-93ae-92361f002671",
+		"version": "1" 
+	},
 	"property": {
-		
-		
-		"id": 3439,
-		"model": "@110053",
-		"model_scale": 1,
-		
-		"life": 9999,
-		"attack": 0,
-		"speed": 99,
-		"name": "跃动陆行鸟",
-		"desc": "超级坐骑，",
-		"drop_exp": 4072958,
+		"Effect": "",
+		"TextureID": 0,
+		"attack": 1,
+		"attack_distance": 1,
+		"attack_type": 0,
+		"bag_num": 1,
+		"buff_id": 4003,
+		"desc": "",
+		"desc_display": false,
+		"dialogue": "",
+		"drop_exp": 100,
 		"drop_exp_prob": 100,
 		"drop_item1": 847,
 		"drop_item2": 930,
@@ -19,38 +26,27 @@
 		"drop_item_prob1": 100,
 		"drop_item_prob2": 100,
 		"drop_item_prob3": 100,
-		"attack_distance": 1,
-		"attack_type": 0,
-		"buff_id": 4003,
-		"height": 120,
-		"hit_height": 150,
-		"hit_thickness": 150,
-		"hit_width": 150,
+		"food": 1,
+		"food_reduce": 0,
+		"height": 280,
+		"hit_height": 300,
+		"hit_thickness": 180,
+		"hit_width": 180,
+		"icon": "3439",
+		"id": 3439,
+		"life": 1200,
+		"model": "110053",
+		"model_scale": 0.9,
+		"model_type": 3439,
+		"name": "Dinosaurio con pico",
+		"name_display": false,
+		"speed": 99,
 		"team_id": 0,
 		"type": 1,
 		"view_distance": 24,
-		"width": 120 
+		"width": 160 
 	},
 	"set_ai": [
-		{
-			"name": "follow_direction",
-			"priority": 1,
-			"speed": 1.1 
-		},
-		{
-			"name": "move_towards_restriction",
-			"priority": 4,
-			"speed": 1 
-		},
-		{
-			"name": "wander",
-			"priority": 5,
-			"speed": 1 
-		},
-		{
-			"name": "look_idle",
-			"priority": 7 
-		},
 		{
 			"attack_type": 0,
 			"move_speed": 1,

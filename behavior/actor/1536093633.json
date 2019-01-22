@@ -17,6 +17,7 @@
 		"copyid": 4000,
 		"desc": "",
 		"desc_display": false,
+		"dialogue": "@10836",
 		"drop_exp": 0,
 		"drop_exp_prob": 0,
 		"drop_item1": 0,

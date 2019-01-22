@@ -2,13 +2,19 @@
 	"foreign_ids": [
 	],
 	"item_property": {
-		"copyid": 552,
-		"desc": "建筑",
-		"describe": "建筑",
+		"copyid": 534,
+		"desc": "",
+		"describe": "",
 		"icon": "*552",
 		"id": 552,
 		"model": "",
-		"name": "白杨木围栏" 
+		"name": "Cerca Gris" 
+	},
+	"mod_desc": {
+		"author": "1023148540",
+		"filename": "blk76",
+		"uuid": "667f325c-1ff1-11e7-93ae-92361f002671",
+		"version": "1" 
 	},
 	"property": {
 		"anti_explode": 500,

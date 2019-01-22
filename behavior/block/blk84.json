@@ -2,13 +2,19 @@
 	"foreign_ids": [
 	],
 	"item_property": {
-		"copyid": 945,
-		"desc": "照明",
-		"describe": "照明",
+		"copyid": 816,
+		"desc": "",
+		"describe": "",
 		"icon": "*945",
 		"id": 945,
 		"model": "",
-		"name": "中式宫灯" 
+		"name": "Lampara Amarilla" 
+	},
+	"mod_desc": {
+		"author": "1023148540",
+		"filename": "blk84",
+		"uuid": "667f325c-1ff1-11e7-93ae-92361f002671",
+		"version": "1" 
 	},
 	"property": {
 		"anti_explode": 500,

@@ -16,6 +16,7 @@
 		"buff_id": 0,
 		"desc": "",
 		"desc_display": false,
+		"dialogue": "@10836",
 		"drop_exp": 5,
 		"drop_exp_prob": 100,
 		"drop_item1": 11303,
