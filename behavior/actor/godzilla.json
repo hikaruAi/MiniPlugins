@@ -14,7 +14,7 @@
 		"attack_distance": 10.4,
 		"attack_type": 1,
 		"bag_num": 5,
-		"buff_id": 1000003,
+		"buff_id": 68001,
 		"copyid": 4000,
 		"desc": "",
 		"desc_display": false,
@@ -42,9 +42,9 @@
 		"name": "Godzilla",
 		"name_display": false,
 		"speed": 280,
-		"team_id": 0,
+		"team_id": 2,
 		"type": 0,
-		"view_distance": 14,
+		"view_distance": 19,
 		"width": 160 
 	},
 	"set_ai": [
@@ -79,7 +79,7 @@
 			"name": "projectile_attack",
 			"power": 0.8,
 			"priority": 2,
-			"projectileid": 15055,
+			"projectileid": 15056,
 			"speed": 1 
 		},
 		{

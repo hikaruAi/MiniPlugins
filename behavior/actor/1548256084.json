@@ -1,23 +1,26 @@
 {
+	"PhysicsActor": [
+	],
 	"foreign_ids": [
 	],
 	"mod_desc": {
-		"author": "1010824201",
-		"filename": "1536475936",
+		"author": "1023148540",
+		"filename": "1548256084",
 		"uuid": "667f325c-1ff1-11e7-93ae-92361f002671",
 		"version": "1" 
 	},
 	"property": {
-		"Effect": "140001",
+		"Effect": "140026_3",
 		"TextureID": 0,
 		"attack": 30,
 		"attack_distance": 1,
 		"bag_num": 5,
 		"buff_id": 0,
 		"copyid": 4000,
-		"desc": "",
+		"desc": "20026",
 		"desc_display": false,
-		"drop_exp": 999,
+		"dialogue": "@10836",
+		"drop_exp": 0,
 		"drop_exp_prob": 0,
 		"drop_item1": 0,
 		"drop_item2": 0,
@@ -31,13 +34,13 @@
 		"hit_height": 220,
 		"hit_thickness": 120,
 		"hit_width": 120,
-		"icon": "30",
-		"id": 100380,
+		"icon": "55",
+		"id": 100049,
 		"life": 150,
-		"model": "140001",
-		"model_scale": 10,
-		"model_type": 20003,
-		"name": "test",
+		"model": "140026",
+		"model_scale": 1,
+		"model_type": 20026,
+		"name": "Niño Pez",
 		"name_display": false,
 		"speed": 280,
 		"team_id": 0,
@@ -73,12 +76,6 @@
 			"dist": 800,
 			"name": "watch_closest",
 			"priority": 7 
-		},
-		{
-			"dist": 2000,
-			"id": 12526,
-			"name": "beg",
-			"priority": 8 
 		} 
 	] 
 } 
