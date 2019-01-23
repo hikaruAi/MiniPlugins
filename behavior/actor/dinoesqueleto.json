@@ -3,27 +3,27 @@
 	],
 	"mod_desc": {
 		"author": "1010824201",
-		"filename": "可以骑超级陆行鸟",
+		"filename": "dinoesqueleto",
 		"uuid": "667f325c-1ff1-11e7-93ae-92361f002671",
 		"version": "1" 
 	},
 	"property": {
-		"Effect": "horse_3441",
+		"Effect": "horse_3430",
 		"TextureID": 2,
-		"attack": 1,
-		"attack_distance": 1,
+		"attack": 75,
+		"attack_distance": 2,
 		"bag_num": 5,
 		"buff_id": 0,
-		"desc": "",
+		"desc": "Esqueleto",
 		"desc_display": false,
 		"dialogue": "@10836",
-		"drop_exp": 5,
+		"drop_exp": 100,
 		"drop_exp_prob": 100,
-		"drop_item1": 11303,
-		"drop_item2": 11303,
+		"drop_item1": 0,
+		"drop_item2": 0,
 		"drop_item3": 0,
-		"drop_item_prob1": 100,
-		"drop_item_prob2": 100,
+		"drop_item_prob1": 0,
+		"drop_item_prob2": 0,
 		"drop_item_prob3": 0,
 		"food": 100,
 		"food_reduce": 0,
@@ -31,18 +31,18 @@
 		"hit_height": 300,
 		"hit_thickness": 180,
 		"hit_width": 180,
-		"icon": "3441",
-		"id": 3411,
-		"life": 100,
+		"icon": "3432",
+		"id": 3413,
+		"life": 200,
 		"mass": 999999,
-		"model": "110053",
+		"model": "110040",
 		"model_scale": 1,
-		"model_type": 3441,
-		"name": "Chocobo",
+		"model_type": 3432,
+		"name": "Esqueleto dinosaurio",
 		"name_display": false,
 		"speed": 0,
 		"team_id": 0,
-		"type": 2,
+		"type": 1,
 		"view_distance": 16,
 		"width": 160 
 	},
@@ -53,15 +53,39 @@
 			"speed": 1.1 
 		},
 		{
+			"atkeeid": 3400,
+			"chance": 200,
+			"name": "target_nontamed",
+			"priority": 4 
+		},
+		{
+			"atkeeid": 3401,
+			"chance": 200,
+			"name": "target_nontamed",
+			"priority": 4 
+		},
+		{
+			"atkeeid": 3402,
+			"chance": 200,
+			"name": "target_nontamed",
+			"priority": 4 
+		},
+		{
+			"atkeeid": 3403,
+			"chance": 200,
+			"name": "target_nontamed",
+			"priority": 4 
+		},
+		{
 			"name": "wander",
-			"priority": 2,
-			"prop": 20,
+			"priority": 5,
+			"prop": 40,
 			"speed": 1 
 		},
 		{
 			"name": "look_idle",
-			"priority": 3,
-			"prop": 20 
+			"priority": 6,
+			"prop": 60 
 		},
 		{
 			"name": "swimming",
@@ -71,6 +95,7 @@
 			"name": "avoid_water" 
 		},
 		{
+			"maxhp": 0.4,
 			"name": "panic",
 			"priority": 1,
 			"speed": 1.4 
@@ -78,13 +103,13 @@
 		{
 			"dist": 600,
 			"name": "watch_closest",
-			"priority": 4 
+			"priority": 7 
 		},
 		{
 			"dist": 600,
-			"id": 12508,
+			"id": 12543,
 			"name": "beg",
-			"priority": 7 
+			"priority": 8 
 		} 
 	] 
 } 
