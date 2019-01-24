@@ -1,59 +1,30 @@
 {
-	"PhysicsActor": [
-	],
-	"foreign_ids": [
-	],
-	"mod_desc": {
-		"author": "1023148540",
-		"filename": "Savage",
-		"uuid": "667f325c-1ff1-11e7-93ae-92361f002671",
-		"version": "1" 
-	},
 	"property": {
-		"Effect": "",
-		"TextureID": 0,
 		"attack": 50,
 		"attack_distance": 2,
-		"attack_type": 0,
-		"bag_num": 5,
-		"buff_id": 0,
 		"desc": "",
-		"desc_display": false,
-		"dialogue": "@10836",
 		"drop_exp": 13,
-		"drop_exp_prob": 100,
 		"drop_item1": 12526,
 		"drop_item2": 312,
 		"drop_item3": 0,
-		"drop_item_prob1": 100,
-		"drop_item_prob2": 100,
-		"drop_item_prob3": 0,
-		"food": 100,
-		"food_reduce": 0,
-		"height": 195,
-		"hit_height": 220,
-		"hit_thickness": 110,
-		"hit_width": 110,
-		"icon": "3101",
 		"id": 3101,
+		"kill_score": 5,
 		"life": 200,
-		"model": "100026",
 		"model_scale": 2,
-		"model_type": 3101,
-		"name": "Hombre Jabalí",
-		"name_display": false,
 		"speed": 200,
 		"team_id": 0,
-		"type": 0,
-		"view_distance": 24,
-		"width": 95 
+		"view_distance": 24 
 	},
 	"set_ai": [
 		{
-			"dist": 3000,
-			"monster_id": 3407,
-			"name": "ride",
-			"priority": 0 
+			"name": "pass_closed_door" 
+		},
+		{
+			"name": "sun_hurt" 
+		},
+		{
+			"name": "swimming",
+			"priority": 1 
 		},
 		{
 			"name": "follow_direction",
@@ -65,9 +36,17 @@
 			"priority": 1 
 		},
 		{
-			"name": "move_towards_restriction",
-			"priority": 4,
-			"speed": 1 
+			"maxhp": 0.0001,
+			"name": "panic",
+			"priority": 1,
+			"speed": 3.25 
+		},
+		{
+			"attack_type": 0,
+			"move_speed": 1,
+			"name": "attack",
+			"priority": 3,
+			"will_trace": false 
 		},
 		{
 			"name": "wander",
@@ -75,41 +54,25 @@
 			"speed": 1 
 		},
 		{
+			"dist": 800,
+			"name": "watch_closest",
+			"priority": 7 
+		},
+		{
 			"name": "look_idle",
 			"priority": 7 
 		},
 		{
-			"name": "swimming",
+			"help": true,
+			"name": "target_hurtee",
 			"priority": 1 
-		},
-		{
-			"attack_type": 0,
-			"move_speed": 1,
-			"name": "attack",
-			"priority": 2,
-			"will_trace": false 
 		},
 		{
 			"brightness": 0,
 			"chance": 0,
 			"check_sight": true,
-			"minhp": 0,
 			"name": "target_nearest",
 			"priority": 2 
-		},
-		{
-			"name": "sun_hurt" 
-		},
-		{
-			"maxhp": 0.0001,
-			"name": "panic",
-			"priority": 1,
-			"speed": 3.25 
-		},
-		{
-			"dist": 800,
-			"name": "watch_closest",
-			"priority": 7 
 		} 
 	] 
 } 

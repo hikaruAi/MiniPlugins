@@ -1,0 +1,13 @@
+{
+	"property": {
+		"anti_explode": 150,
+		"burn_speed": 0,
+		"catch_fire": 0,
+		"hardness": 45,
+		"id": 408,
+		"light_src": 15,
+		"move_collide": 1,
+		"slipperiness": 1,
+		"tool_mine_drop1": 408 
+	} 
+} 

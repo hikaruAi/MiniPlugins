@@ -1,31 +1,13 @@
 {
-	"foreign_ids": [
-	],
-	"item_property": {
-		"desc": "地下世界常见的方块",
-		"describe": "地下世界常见的方块",
-		"icon": "*123",
-		"id": 124,
-		"model": "*123",
-		"name": "硫磺岩" 
-	},
-	"mod_desc": {
-		"author": "1011641204",
-		"filename": "SulphurRock",
-		"uuid": "667f325c-1ff1-11e7-93ae-92361f002671",
-		"version": "1" 
-	},
 	"property": {
-		"anti_explode": 50,
-		"breakable": false,
-		"burn_speed": 0,
-		"catch_fire": 0,
-		"english_name": "SulphurRock",
-		"hardness": 8,
+		"anti_explode": 20,
+		"burn_speed": 1,
+		"catch_fire": 100,
+		"hardness": 5,
 		"id": 124,
 		"light_src": 0,
 		"move_collide": 1,
 		"slipperiness": 1,
-		"tool_mine_drop1": 505 
+		"tool_mine_drop1": 124 
 	} 
 } 
