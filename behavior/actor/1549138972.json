@@ -1,0 +1,180 @@
+{
+	"PhysicsActor": [
+	],
+	"foreign_ids": [
+	],
+	"mod_desc": {
+		"author": "1023148540",
+		"filename": "1549138972",
+		"uuid": "667f325c-1ff1-11e7-93ae-92361f002671",
+		"version": "1" 
+	},
+	"property": {
+		"Effect": "",
+		"TextureID": 0,
+		"attack": 10,
+		"attack_distance": 2.5,
+		"attack_type": 0,
+		"bag_num": 5,
+		"buff_id": 0,
+		"copyid": 4000,
+		"desc": "",
+		"desc_display": false,
+		"dialogue": "@10836",
+		"drop_exp": 14,
+		"drop_exp_prob": 100,
+		"drop_item1": 11303,
+		"drop_item2": 12052,
+		"drop_item3": 0,
+		"drop_item_prob1": 100,
+		"drop_item_prob2": 100,
+		"drop_item_prob3": 0,
+		"food": 100,
+		"food_reduce": 0,
+		"height": 35,
+		"hit_height": 40,
+		"hit_thickness": 20,
+		"hit_width": 20,
+		"icon": "3813",
+		"id": 100002,
+		"life": 20,
+		"model": "110004",
+		"model_scale": 1.4,
+		"model_type": 3813,
+		"name": "Ave Voladora",
+		"name_display": false,
+		"speed": 322,
+		"team_id": 0,
+		"type": 1,
+		"view_distance": 16,
+		"width": 15 
+	},
+	"set_ai": [
+		{
+			"name": "follow_direction",
+			"priority": 1,
+			"speed": 1.1 
+		},
+		{
+			"name": "move_towards_restriction",
+			"priority": 4,
+			"speed": 1 
+		},
+		{
+			"name": "wander",
+			"priority": 5,
+			"speed": 1 
+		},
+		{
+			"name": "look_idle",
+			"priority": 7 
+		},
+		{
+			"name": "swimming",
+			"priority": 1 
+		},
+		{
+			"name": "can_fly" 
+		},
+		{
+			"attack_type": 0,
+			"move_speed": 1,
+			"name": "attack",
+			"priority": 2,
+			"will_trace": false 
+		},
+		{
+			"brightness": 0,
+			"chance": 0,
+			"check_sight": true,
+			"minhp": 0,
+			"name": "target_nearest",
+			"priority": 2 
+		},
+		{
+			"max_range": 600,
+			"min_range": 100,
+			"motion_y": 40,
+			"name": "leap_at_target",
+			"priority": 2 
+		},
+		{
+			"name": "invulnerable_prob",
+			"prob": 3 
+		},
+		{
+			"name": "path_hide",
+			"type": 1 
+		},
+		{
+			"dist": 800,
+			"name": "watch_closest",
+			"priority": 7 
+		},
+		{
+			"dist": 2200,
+			"id": 12500,
+			"name": "beg",
+			"priority": 8 
+		},
+		{
+			"id": 12500,
+			"name": "tempt",
+			"priority": 3,
+			"scared": false,
+			"speed": 1 
+		},
+		{
+			"food_id": 12500,
+			"how_long": 5,
+			"hungry_check": 1,
+			"name": "eat_food",
+			"onlyone_food": true,
+			"priority": 2,
+			"prob": 20 
+		},
+		{
+			"cd_time": 10000,
+			"dance_time": 100,
+			"dist": 1800,
+			"name": "closest_dance",
+			"number": 3,
+			"priority": 0,
+			"speed": 2,
+			"width": 2 
+		},
+		{
+			"block_id": 200,
+			"name": "love_block",
+			"priority": 1,
+			"prob": 40,
+			"speed": 1 
+		},
+		{
+			"container_id": 801,
+			"container_type": 1,
+			"distance": 200,
+			"hungry_check": 0,
+			"hungry_expend": 0,
+			"item_id": 12500,
+			"name": "get_item",
+			"priority": 2,
+			"prob": 20,
+			"quantity": 10,
+			"range": 800,
+			"speed": 1 
+		},
+		{
+			"distance": 200,
+			"hungry_check": 0,
+			"hungry_expend": 0,
+			"item_id": 12500,
+			"name": "pick",
+			"priority": 2,
+			"prob": 20,
+			"quantity": 30,
+			"range": 800,
+			"speed": 1 
+		} 
+	] 
+} 
