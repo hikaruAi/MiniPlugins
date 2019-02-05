@@ -2,6 +2,10 @@
 	"PhysicsActor": [
 	],
 	"foreign_ids": [
+		{
+			"id": 100057,
+			"key": "1023148540667f325c-1ff1-11e7-93ae-92361f0026711548257207" 
+		} 
 	],
 	"mod_desc": {
 		"author": "1023148540",
@@ -12,22 +16,23 @@
 	"property": {
 		"Effect": "140023_2",
 		"TextureID": 0,
-		"attack": 30,
+		"attack": 18,
 		"attack_distance": 1,
-		"bag_num": 5,
+		"attack_type": 0,
+		"bag_num": 13,
 		"buff_id": 0,
 		"copyid": 4000,
 		"desc": "20023",
 		"desc_display": false,
 		"dialogue": "@10836",
-		"drop_exp": 0,
-		"drop_exp_prob": 0,
-		"drop_item1": 0,
-		"drop_item2": 0,
-		"drop_item3": 0,
-		"drop_item_prob1": 0,
-		"drop_item_prob2": 0,
-		"drop_item_prob3": 0,
+		"drop_exp": 30,
+		"drop_exp_prob": 100,
+		"drop_item1": 12509,
+		"drop_item2": 12001,
+		"drop_item3": 12205,
+		"drop_item_prob1": 100,
+		"drop_item_prob2": 100,
+		"drop_item_prob3": 100,
 		"food": 100,
 		"food_reduce": 0,
 		"height": 180,
@@ -36,16 +41,16 @@
 		"hit_width": 120,
 		"icon": "52",
 		"id": 100057,
-		"life": 150,
+		"life": 125,
 		"model": "140023",
 		"model_scale": 1,
 		"model_type": 20023,
 		"name": "Peleadora",
 		"name_display": false,
-		"speed": 280,
+		"speed": 391,
 		"team_id": 0,
-		"type": 0,
-		"view_distance": 16,
+		"type": 1,
+		"view_distance": 4,
 		"width": 60 
 	},
 	"set_ai": [
@@ -69,13 +74,70 @@
 			"priority": 7 
 		},
 		{
-			"name": "swimming",
-			"priority": 1 
+			"name": "can_pass_closed_wooden_doors" 
+		},
+		{
+			"attack_type": 0,
+			"move_speed": 1,
+			"name": "attack",
+			"priority": 2,
+			"will_trace": false 
+		},
+		{
+			"brightness": 0,
+			"chance": 0,
+			"check_sight": true,
+			"minhp": 0,
+			"name": "target_nearest",
+			"priority": 2 
+		},
+		{
+			"name": "path_hide",
+			"type": 1 
 		},
 		{
 			"dist": 800,
 			"name": "watch_closest",
 			"priority": 7 
+		},
+		{
+			"atkeeid": 3105,
+			"chance": 27.027027027027,
+			"name": "target_specific_entity",
+			"priority": 2 
+		},
+		{
+			"atkeeid": 3501,
+			"chance": 20,
+			"name": "target_specific_entity",
+			"priority": 2 
+		},
+		{
+			"atkeeid": 3102,
+			"chance": 86.95652173913,
+			"name": "target_specific_entity",
+			"priority": 2 
+		},
+		{
+			"craft_id": 64,
+			"craft_time": 3,
+			"hungry_check": 0,
+			"hungry_expend": 0,
+			"name": "compose_item",
+			"priority": 2,
+			"prob": 20 
+		},
+		{
+			"atkeeid": 100057,
+			"chance": 34.188034188034,
+			"name": "target_specific_entity",
+			"priority": 2 
+		},
+		{
+			"maxhp": 33,
+			"name": "panic",
+			"priority": 1,
+			"speed": 1.8999999761581 
 		} 
 	] 
 } 

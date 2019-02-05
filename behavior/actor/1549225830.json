@@ -1,0 +1,132 @@
+{
+	"PhysicsActor": [
+	],
+	"foreign_ids": [
+		{
+			"id": 100010,
+			"key": "1023148540667f325c-1ff1-11e7-93ae-92361f0026711549255379" 
+		} 
+	],
+	"mod_desc": {
+		"author": "1023148540",
+		"filename": "1549225830",
+		"uuid": "667f325c-1ff1-11e7-93ae-92361f002671",
+		"version": "1" 
+	},
+	"property": {
+		"Effect": "",
+		"TextureID": 0,
+		"attack": 19,
+		"attack_distance": 3.9,
+		"attack_type": 1,
+		"bag_num": 14,
+		"buff_id": 0,
+		"copyid": 4000,
+		"desc": "",
+		"desc_display": false,
+		"dialogue": "@10836",
+		"drop_exp": 0,
+		"drop_exp_prob": 0,
+		"drop_item1": 13409,
+		"drop_item2": 0,
+		"drop_item3": 0,
+		"drop_item_prob1": 100,
+		"drop_item_prob2": 0,
+		"drop_item_prob3": 0,
+		"food": 100,
+		"food_reduce": 0,
+		"height": 80,
+		"hit_height": 100,
+		"hit_thickness": 80,
+		"hit_width": 80,
+		"icon": "3409",
+		"id": 100007,
+		"life": 150,
+		"model": "110022",
+		"model_scale": 2,
+		"model_type": 3409,
+		"name": "Mama Pinguino",
+		"name_display": false,
+		"speed": 122,
+		"team_id": 0,
+		"type": 1,
+		"view_distance": 6,
+		"width": 60 
+	},
+	"set_ai": [
+		{
+			"name": "follow_direction",
+			"priority": 1,
+			"speed": 1.1 
+		},
+		{
+			"name": "move_towards_restriction",
+			"priority": 4,
+			"speed": 1 
+		},
+		{
+			"name": "wander",
+			"priority": 5,
+			"speed": 1 
+		},
+		{
+			"name": "look_idle",
+			"priority": 7 
+		},
+		{
+			"name": "swimming",
+			"priority": 1 
+		},
+		{
+			"atkrange": 1500,
+			"buffid": 0,
+			"count": 1,
+			"max_atktime": 60,
+			"min_atktime": 20,
+			"name": "projectile_attack",
+			"power": 0.8,
+			"priority": 2,
+			"projectileid": 100010,
+			"speed": 1 
+		},
+		{
+			"brightness": 0,
+			"chance": 0,
+			"check_sight": true,
+			"minhp": 0,
+			"name": "target_nearest",
+			"priority": 2 
+		},
+		{
+			"block_id": 239,
+			"name": "love_block",
+			"priority": 1,
+			"prob": 40,
+			"speed": 1 
+		},
+		{
+			"maxhp": 14,
+			"name": "panic",
+			"priority": 1,
+			"speed": 1.5 
+		},
+		{
+			"atkeeid": 3412,
+			"chance": 25,
+			"name": "target_specific_entity",
+			"priority": 2 
+		},
+		{
+			"distance": 200,
+			"hungry_check": 0,
+			"hungry_expend": 0,
+			"item_id": 12524,
+			"name": "pick",
+			"priority": 2,
+			"prob": 20,
+			"quantity": 30,
+			"range": 800,
+			"speed": 1 
+		} 
+	] 
+} 

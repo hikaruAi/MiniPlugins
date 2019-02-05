@@ -1,0 +1,61 @@
+{
+	"PhysicsActor": {
+		"EditType": 2,
+		"ModelScale": 1,
+		"ShapeID": 0,
+		"ShapeVal1": 14,
+		"ShapeVal2": 0,
+		"ShapeVal3": 0 
+	},
+	"foreign_ids": [
+	],
+	"itemskills": [
+		{
+			"Costs": [
+			],
+			"Functions": [
+				{
+					"CallNum": 6,
+					"Duration": 10,
+					"IsFollow": 1,
+					"MobID": 3409 
+				} 
+			],
+			"RangeType": 1,
+			"RangeVal1": 1000,
+			"RangeVal2": 300,
+			"RangeVal3": 300,
+			"TargetCamp": 0,
+			"name": "feature_call_monster_throw",
+			"priority": 0,
+			"templateid": 203 
+		} 
+	],
+	"mod_desc": {
+		"author": "1023148540",
+		"filename": "1549255379",
+		"uuid": "667f325c-1ff1-11e7-93ae-92361f002671",
+		"version": "1" 
+	},
+	"property": {
+		"accumulate_time": 1,
+		"accumulator_type": 0,
+		"attack_type": 0,
+		"break": false,
+		"can_throw": true,
+		"copyid": 10103,
+		"describe": "",
+		"gravity": 3,
+		"icon": "*12053",
+		"id": 100010,
+		"model": "*12053",
+		"name": "Huevo clon Pinguino",
+		"pickable": true,
+		"projectile_attack": 15,
+		"speed_decay": 0,
+		"speed_init": 280,
+		"stack_max": 64,
+		"trigger_condition": 3,
+		"trigger_delay": 0 
+	} 
+} 

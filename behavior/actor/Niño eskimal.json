@@ -1,4 +1,6 @@
 {
+	"PhysicsActor": [
+	],
 	"foreign_ids": [
 	],
 	"mod_desc": {
@@ -10,22 +12,23 @@
 	"property": {
 		"Effect": "140011",
 		"TextureID": 0,
-		"attack": 30,
-		"attack_distance": 1,
+		"attack": 12,
+		"attack_distance": 4.6,
+		"attack_type": 0,
 		"bag_num": 5,
 		"buff_id": 0,
 		"copyid": 4000,
 		"desc": "",
 		"desc_display": false,
 		"dialogue": "@10836",
-		"drop_exp": 0,
-		"drop_exp_prob": 0,
-		"drop_item1": 0,
-		"drop_item2": 0,
-		"drop_item3": 0,
-		"drop_item_prob1": 0,
-		"drop_item_prob2": 0,
-		"drop_item_prob3": 0,
+		"drop_exp": 14,
+		"drop_exp_prob": 100,
+		"drop_item1": 122,
+		"drop_item2": 123,
+		"drop_item3": 11012,
+		"drop_item_prob1": 100,
+		"drop_item_prob2": 100,
+		"drop_item_prob3": 100,
 		"food": 100,
 		"food_reduce": 0,
 		"height": 180,
@@ -34,16 +37,16 @@
 		"hit_width": 120,
 		"icon": "40",
 		"id": 100031,
-		"life": 150,
+		"life": 42,
 		"model": "140011",
 		"model_scale": 1,
 		"model_type": 20011,
 		"name": "Niño Eskimal",
 		"name_display": false,
-		"speed": 280,
+		"speed": 327,
 		"team_id": 0,
-		"type": 0,
-		"view_distance": 16,
+		"type": 1,
+		"view_distance": 6,
 		"width": 60 
 	},
 	"set_ai": [
@@ -71,9 +74,61 @@
 			"priority": 1 
 		},
 		{
+			"attack_type": 0,
+			"move_speed": 1,
+			"name": "attack",
+			"priority": 2,
+			"will_trace": false 
+		},
+		{
+			"brightness": 0,
+			"chance": 0,
+			"check_sight": true,
+			"minhp": 0,
+			"name": "target_nearest",
+			"priority": 2 
+		},
+		{
 			"dist": 800,
 			"name": "watch_closest",
 			"priority": 7 
+		},
+		{
+			"force": 5,
+			"monster_id": 3412,
+			"name": "kick_away",
+			"priority": 3,
+			"prob": 40 
+		},
+		{
+			"force": 5,
+			"monster_id": 3403,
+			"name": "kick_away",
+			"priority": 3,
+			"prob": 40 
+		},
+		{
+			"atkeeid": 3412,
+			"chance": 30.075187969925,
+			"name": "target_specific_entity",
+			"priority": 2 
+		},
+		{
+			"atkeeid": 3105,
+			"chance": 27.777777777778,
+			"name": "target_specific_entity",
+			"priority": 2 
+		},
+		{
+			"block_id": 115,
+			"distance": 400,
+			"hungry_check": 0,
+			"hungry_expend": 0,
+			"name": "gather",
+			"priority": 2,
+			"prob": 20,
+			"range": 800,
+			"speed": 1 
 		} 
 	] 
 } 

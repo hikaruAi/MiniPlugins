@@ -1,0 +1,61 @@
+{
+	"foreign_ids": [
+	],
+	"itemskills": [
+		{
+			"ChargeTime": 1.5,
+			"ChargeType": 0,
+			"Cooldown": 0,
+			"Costs": [
+				{
+					"CostTarget": 12005,
+					"CostType": 1,
+					"CostVal": 0 
+				} 
+			],
+			"Functions": [
+				{
+					"AttackType": 0,
+					"AttackVal": 200 
+				},
+				{
+					"BlowUpPower": 50,
+					"RepelPower": 50 
+				} 
+			],
+			"RangeType": 1,
+			"RangeVal1": 3200,
+			"RangeVal2": 3200,
+			"RangeVal3": 300,
+			"SkillType": 1,
+			"TargetCamp": 0,
+			"name": "feature_attack",
+			"priority": 0,
+			"templateid": 101 
+		} 
+	],
+	"mod_desc": {
+		"author": "1011641204",
+		"filename": "1534051101",
+		"uuid": "679f77c8-f422-11e6-bc64-92361f002671",
+		"version": "1" 
+	},
+	"property": {
+		"accumulate_time": 0.6,
+		"attack": 40,
+		"attack_consume": 1,
+		"collect_consume": 2,
+		"copyid": 12005,
+		"describe": "#c00FF00近战伤害+40#n\n蓄力可以向前方迅速闪现，对碰到的敌人造成伤害。似乎散发着蓝钻的能量",
+		"icon": "*12005",
+		"id": 4097,
+		"model": "*12005",
+		"name": "杀",
+		"tool_duration": 1500,
+		"tool_efficient": 0,
+		"tool_level": 5,
+		"tool_repare_amount1": 750,
+		"tool_repareid1": 11203,
+		"tool_type": 6 
+	} 
+} 

@@ -1,0 +1,61 @@
+{
+	"PhysicsActor": {
+		"ModelScale": 1,
+		"ShapeID": 0,
+		"ShapeVal1": 50,
+		"ShapeVal2": 0,
+		"ShapeVal3": 0 
+	},
+	"foreign_ids": [
+		{
+			"id": 100159,
+			"key": "4072958667f325c-1ff1-11e7-93ae-92361f0026711534773265" 
+		} 
+	],
+	"itemskills": [
+		{
+			"ChargeTime": 1.5,
+			"ChargeType": 0,
+			"Cooldown": 5,
+			"Costs": [
+				{
+					"CostTarget": 100159,
+					"CostType": 1,
+					"CostVal": 0 
+				} 
+			],
+			"Functions": [
+				{
+					"CallNum": 5,
+					"Duration": 10,
+					"IsFollow": 1,
+					"MobID": 3409 
+				} 
+			],
+			"RangeType": 0,
+			"RangeVal1": 1000,
+			"RangeVal2": 300,
+			"RangeVal3": 300,
+			"SkillType": 0,
+			"TargetCamp": 0,
+			"name": "feature_call_monster",
+			"priority": 0,
+			"templateid": 103 
+		} 
+	],
+	"mod_desc": {
+		"author": "1023148540",
+		"filename": "1549255294",
+		"uuid": "667f325c-1ff1-11e7-93ae-92361f002671",
+		"version": "1" 
+	},
+	"property": {
+		"copyid": 10100,
+		"describe": "",
+		"icon": "*13808",
+		"id": 100009,
+		"model": "*13808",
+		"name": "Huevo clon Pinguino",
+		"stack_max": 64 
+	} 
+} 

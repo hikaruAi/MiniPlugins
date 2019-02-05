@@ -1,0 +1,123 @@
+{
+	"foreign_ids": [
+	],
+	"mod_desc": {
+		"author": "1011890718",
+		"filename": "1534508106",
+		"uuid": "667f325c-1ff1-11e7-93ae-92361f002671",
+		"version": "1" 
+	},
+	"property": {
+		"Effect": "BUFF_FREEZE",
+		"TextureID": 0,
+		"attack": 40,
+		"attack_distance": 23.8,
+		"attack_type": 1,
+		"bag_num": 5,
+		"buff_id": 8002,
+		"copyid": 4000,
+		"desc": "",
+		"desc_display": false,
+		"drop_exp": 0,
+		"drop_exp_prob": 0,
+		"drop_item1": 0,
+		"drop_item2": 0,
+		"drop_item3": 0,
+		"drop_item_prob1": 0,
+		"drop_item_prob2": 0,
+		"drop_item_prob3": 0,
+		"food": 100,
+		"food_reduce": 0,
+		"height": 70,
+		"hit_height": 100,
+		"hit_thickness": 100,
+		"hit_width": 100,
+		"icon": "3102",
+		"id": 58,
+		"life": 250,
+		"mass": 999999,
+		"model": "@150003",
+		"model_scale": 1,
+		"model_type": 3102,
+		"name": "Ice Cactus ",
+		"name_display": false,
+		"speed": 0,
+		"team_id": 1,
+		"type": 0,
+		"view_distance": 24,
+		"width": 70 
+	},
+	"set_ai": [
+		{
+			"name": "follow_direction",
+			"priority": 1,
+			"speed": 1.1 
+		},
+		{
+			"name": "move_towards_restriction",
+			"priority": 4,
+			"speed": 1 
+		},
+		{
+			"name": "wander",
+			"priority": 5,
+			"speed": 1 
+		},
+		{
+			"name": "look_idle",
+			"priority": 7 
+		},
+		{
+			"name": "swimming",
+			"priority": 1 
+		},
+		{
+			"atkrange": 1500,
+			"buffid": 0,
+			"count": 1,
+			"max_atktime": 60,
+			"min_atktime": 20,
+			"name": "projectile_attack",
+			"power": 0.8,
+			"priority": 2,
+			"projectileid": 12054,
+			"speed": 1 
+		},
+		{
+			"brightness": 0,
+			"chance": 0,
+			"check_sight": true,
+			"minhp": 0,
+			"name": "target_nearest",
+			"priority": 2 
+		},
+		{
+			"attach_timer": 200,
+			"name": "ceiling_atk",
+			"priority": 0 
+		},
+		{
+			"dist": 800,
+			"name": "watch_closest",
+			"priority": 7 
+		},
+		{
+			"atkeeid": 3101,
+			"chance": 20,
+			"name": "target_specific_entity",
+			"priority": 2 
+		},
+		{
+			"atkeeid": 3105,
+			"chance": 20,
+			"name": "target_specific_entity",
+			"priority": 2 
+		},
+		{
+			"atkeeid": 62,
+			"chance": 20,
+			"name": "target_specific_entity",
+			"priority": 2 
+		} 
+	] 
+} 

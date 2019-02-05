@@ -1,5 +1,11 @@
 {
+	"PhysicsActor": [
+	],
 	"foreign_ids": [
+		{
+			"id": 100013,
+			"key": "1023148540667f325c-1ff1-11e7-93ae-92361f0026711549306504" 
+		} 
 	],
 	"mod_desc": {
 		"author": "1023148540",
@@ -11,21 +17,22 @@
 		"Effect": "140019_2",
 		"TextureID": 0,
 		"attack": 30,
-		"attack_distance": 1,
-		"bag_num": 5,
+		"attack_distance": 4.5,
+		"attack_type": 1,
+		"bag_num": 13,
 		"buff_id": 0,
 		"copyid": 4000,
 		"desc": "",
 		"desc_display": false,
 		"dialogue": "@10836",
-		"drop_exp": 0,
-		"drop_exp_prob": 0,
-		"drop_item1": 0,
-		"drop_item2": 0,
-		"drop_item3": 0,
-		"drop_item_prob1": 0,
-		"drop_item_prob2": 0,
-		"drop_item_prob3": 0,
+		"drop_exp": 24,
+		"drop_exp_prob": 100,
+		"drop_item1": 12531,
+		"drop_item2": 12521,
+		"drop_item3": 11058,
+		"drop_item_prob1": 100,
+		"drop_item_prob2": 100,
+		"drop_item_prob3": 100,
 		"food": 100,
 		"food_reduce": 0,
 		"height": 180,
@@ -34,16 +41,16 @@
 		"hit_width": 120,
 		"icon": "48",
 		"id": 100045,
-		"life": 150,
+		"life": 72,
 		"model": "140019",
 		"model_scale": 1,
 		"model_type": 20019,
 		"name": "Niña Pirata",
 		"name_display": false,
-		"speed": 280,
+		"speed": 325,
 		"team_id": 0,
-		"type": 0,
-		"view_distance": 16,
+		"type": 1,
+		"view_distance": 10,
 		"width": 60 
 	},
 	"set_ai": [
@@ -71,9 +78,136 @@
 			"priority": 1 
 		},
 		{
-			"dist": 800,
-			"name": "watch_closest",
-			"priority": 7 
+			"name": "can_pass_closed_wooden_doors" 
+		},
+		{
+			"atkrange": 1500,
+			"buffid": 0,
+			"count": 1,
+			"max_atktime": 60,
+			"min_atktime": 20,
+			"name": "projectile_attack",
+			"power": 0.8,
+			"priority": 2,
+			"projectileid": 100013,
+			"speed": 1 
+		},
+		{
+			"help": false,
+			"name": "target_hurtee",
+			"priority": 2 
+		},
+		{
+			"name": "path_hide",
+			"type": 1 
+		},
+		{
+			"block_id": 737,
+			"name": "love_block",
+			"priority": 1,
+			"prob": 40,
+			"speed": 1 
+		},
+		{
+			"container_id": 801,
+			"container_type": 1,
+			"distance": 200,
+			"hungry_check": 0,
+			"hungry_expend": 0,
+			"item_id": 12518,
+			"name": "get_item",
+			"priority": 2,
+			"prob": 20,
+			"quantity": 1,
+			"range": 800,
+			"speed": 1 
+		},
+		{
+			"container_id": 801,
+			"container_type": 1,
+			"distance": 200,
+			"hungry_check": 0,
+			"hungry_expend": 0,
+			"item_id": 11001,
+			"name": "get_item",
+			"priority": 2,
+			"prob": 20,
+			"quantity": 10,
+			"range": 800,
+			"speed": 1 
+		},
+		{
+			"container_id": 801,
+			"container_type": 1,
+			"distance": 200,
+			"hungry_check": 0,
+			"hungry_expend": 0,
+			"item_id": 12005,
+			"name": "get_item",
+			"priority": 2,
+			"prob": 20,
+			"quantity": 1,
+			"range": 800,
+			"speed": 1 
+		},
+		{
+			"container_id": 801,
+			"container_type": 1,
+			"distance": 200,
+			"hungry_check": 0,
+			"hungry_expend": 0,
+			"item_id": 410,
+			"name": "get_item",
+			"priority": 2,
+			"prob": 20,
+			"quantity": 10,
+			"range": 800,
+			"speed": 1 
+		},
+		{
+			"maxhp": 81,
+			"name": "panic",
+			"priority": 1,
+			"speed": 1 
+		},
+		{
+			"food_id": 12521,
+			"how_long": 5,
+			"hungry_check": 1,
+			"name": "eat_food",
+			"onlyone_food": true,
+			"priority": 2,
+			"prob": 20 
+		},
+		{
+			"food_id": 12516,
+			"how_long": 5,
+			"hungry_check": 0,
+			"name": "eat_food",
+			"onlyone_food": true,
+			"priority": 2,
+			"prob": 20 
+		},
+		{
+			"food_id": 12516,
+			"how_long": 5,
+			"hungry_check": 0,
+			"name": "hungry",
+			"onlyone_food": true,
+			"priority": 2,
+			"prob": 20 
+		},
+		{
+			"distance": 200,
+			"hungry_check": 0,
+			"hungry_expend": 0,
+			"item_id": 12516,
+			"name": "pick",
+			"priority": 2,
+			"prob": 20,
+			"quantity": 30,
+			"range": 800,
+			"speed": 1 
 		} 
 	] 
 } 

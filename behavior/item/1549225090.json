@@ -1,0 +1,82 @@
+{
+	"PhysicsActor": {
+		"EditType": 2,
+		"ModelScale": 1,
+		"ShapeID": 0,
+		"ShapeVal1": 50,
+		"ShapeVal2": 0,
+		"ShapeVal3": 0 
+	},
+	"foreign_ids": [
+	],
+	"itemskills": [
+		{
+			"Costs": [
+			],
+			"Functions": [
+				{
+					"AttackType": 1,
+					"AttackVal": 10 
+				},
+				{
+					"BlowUpPower": 50,
+					"RepelPower": -460 
+				} 
+			],
+			"RangeType": 1,
+			"RangeVal1": 1000,
+			"RangeVal2": 300,
+			"RangeVal3": 300,
+			"TargetCamp": 0,
+			"name": "feature_attack_throw",
+			"priority": 0,
+			"templateid": 201 
+		},
+		{
+			"Costs": [
+			],
+			"Functions": [
+				{
+					"ActionType": 0,
+					"BlockID": 200,
+					"DropOut": 1 
+				} 
+			],
+			"RangeType": 1,
+			"RangeVal1": 1000,
+			"RangeVal2": 300,
+			"RangeVal3": 300,
+			"TargetClass": 0,
+			"name": "feature_block_throw",
+			"priority": 0,
+			"templateid": 200 
+		} 
+	],
+	"mod_desc": {
+		"author": "1023148540",
+		"filename": "1549225090",
+		"uuid": "667f325c-1ff1-11e7-93ae-92361f002671",
+		"version": "1" 
+	},
+	"property": {
+		"accumulate_time": 2.1,
+		"accumulator_type": 0,
+		"attack_type": 0,
+		"break": false,
+		"can_throw": true,
+		"copyid": 10103,
+		"describe": "",
+		"gravity": 3,
+		"icon": "*12297",
+		"id": 100005,
+		"model": "*12297",
+		"name": "Balon Proyectil",
+		"pickable": true,
+		"projectile_attack": 15,
+		"speed_decay": 0.4,
+		"speed_init": 280,
+		"stack_max": 64,
+		"trigger_condition": 1,
+		"trigger_delay": 0 
+	} 
+} 

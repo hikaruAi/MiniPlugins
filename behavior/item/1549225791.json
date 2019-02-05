@@ -1,0 +1,86 @@
+{
+	"PhysicsActor": {
+		"AngularDrag": 0.5,
+		"Drag": 0.5,
+		"EditType": 3,
+		"Mass": 1500,
+		"MaterialID": 10,
+		"ModelScale": 1,
+		"ShapeID": 0,
+		"ShapeVal1": 16,
+		"ShapeVal2": 0,
+		"ShapeVal3": 0,
+		"UseGravity": 1 
+	},
+	"foreign_ids": [
+		{
+			"id": 100050,
+			"key": "1023148540667f325c-1ff1-11e7-93ae-92361f0026711548256199" 
+		} 
+	],
+	"itemskills": [
+		{
+			"Costs": [
+			],
+			"Functions": [
+				{
+					"CallNum": 5,
+					"Duration": 5,
+					"IsFollow": 1,
+					"MobID": 3409 
+				} 
+			],
+			"RangeType": 2,
+			"RangeVal1": 1000,
+			"RangeVal2": 300,
+			"RangeVal3": 300,
+			"TargetCamp": 0,
+			"name": "feature_call_monster_throw",
+			"priority": 0,
+			"templateid": 203 
+		},
+		{
+			"Costs": [
+			],
+			"Functions": [
+				{
+					"TreatType": 0,
+					"TreatVal": 50 
+				} 
+			],
+			"RangeType": 1,
+			"RangeVal1": 1000,
+			"RangeVal2": 300,
+			"RangeVal3": 300,
+			"TargetCamp": 0,
+			"name": "feature_cure_throw",
+			"priority": 0,
+			"templateid": 206 
+		} 
+	],
+	"mod_desc": {
+		"author": "1023148540",
+		"filename": "1549225791",
+		"uuid": "667f325c-1ff1-11e7-93ae-92361f002671",
+		"version": "1" 
+	},
+	"property": {
+		"accumulate_time": 3.4,
+		"accumulator_type": 0,
+		"attack_type": 0,
+		"break": true,
+		"can_throw": true,
+		"copyid": 10103,
+		"describe": "",
+		"icon": "*12827",
+		"id": 100006,
+		"model": "*12827",
+		"name": "Huevo Agua",
+		"pickable": true,
+		"projectile_attack": 8,
+		"speed_init": 280,
+		"stack_max": 64,
+		"trigger_condition": 4,
+		"trigger_delay": 0 
+	} 
+} 

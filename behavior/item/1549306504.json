@@ -1,0 +1,59 @@
+{
+	"PhysicsActor": {
+		"EditType": 2,
+		"ModelScale": 1,
+		"ShapeID": 0,
+		"ShapeVal1": 23,
+		"ShapeVal2": 0,
+		"ShapeVal3": 0 
+	},
+	"foreign_ids": [
+	],
+	"itemskills": [
+		{
+			"Costs": [
+			],
+			"Functions": [
+				{
+					"BlowUpPower": 50,
+					"RepelPower": 50 
+				} 
+			],
+			"RangeType": 1,
+			"RangeVal1": 2100,
+			"RangeVal2": 300,
+			"RangeVal3": 300,
+			"TargetCamp": 0,
+			"name": "feature_attack_fly_throw",
+			"priority": 0,
+			"templateid": 202 
+		} 
+	],
+	"mod_desc": {
+		"author": "1023148540",
+		"filename": "1549306504",
+		"uuid": "667f325c-1ff1-11e7-93ae-92361f002671",
+		"version": "1" 
+	},
+	"property": {
+		"accumulate_time": 1,
+		"accumulator_type": 0,
+		"attack_type": 0,
+		"break": true,
+		"can_throw": true,
+		"copyid": 10103,
+		"describe": "",
+		"gravity": 3,
+		"icon": "*12287",
+		"id": 100013,
+		"model": "*12287",
+		"name": "Arma Pirata",
+		"pickable": false,
+		"projectile_attack": 15,
+		"speed_decay": 0,
+		"speed_init": 280,
+		"stack_max": 64,
+		"trigger_condition": 3,
+		"trigger_delay": 0 
+	} 
+} 

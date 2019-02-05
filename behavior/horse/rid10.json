@@ -1,0 +1,17 @@
+{
+	"property":
+	{
+		"id":3409,
+		"copyid":3508,
+		"ride_height":300,
+		"ui_scale":0.7,
+		"min_hp":854,
+		"max_hp":854,
+		"min_landspeed":3,
+		"max_landspeed":3,
+		"min_jumpheight":1,
+		"max_jumpheight":1,
+		"born_saddle":1,
+		"saddle_model":1,
+	},
+}

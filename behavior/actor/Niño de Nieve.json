@@ -1,4 +1,6 @@
 {
+	"PhysicsActor": [
+	],
 	"foreign_ids": [
 	],
 	"mod_desc": {
@@ -10,22 +12,23 @@
 	"property": {
 		"Effect": "140033_2",
 		"TextureID": 0,
-		"attack": 30,
-		"attack_distance": 1,
+		"attack": 11,
+		"attack_distance": 4.6,
+		"attack_type": 1,
 		"bag_num": 5,
 		"buff_id": 0,
 		"copyid": 4000,
 		"desc": "",
 		"desc_display": false,
 		"dialogue": "@10836",
-		"drop_exp": 0,
-		"drop_exp_prob": 0,
-		"drop_item1": 0,
-		"drop_item2": 0,
-		"drop_item3": 0,
-		"drop_item_prob1": 0,
-		"drop_item_prob2": 0,
-		"drop_item_prob3": 0,
+		"drop_exp": 11,
+		"drop_exp_prob": 100,
+		"drop_item1": 123,
+		"drop_item2": 115,
+		"drop_item3": 236,
+		"drop_item_prob1": 100,
+		"drop_item_prob2": 100,
+		"drop_item_prob3": 100,
 		"food": 100,
 		"food_reduce": 0,
 		"height": 180,
@@ -34,16 +37,16 @@
 		"hit_width": 120,
 		"icon": "62",
 		"id": 100041,
-		"life": 150,
+		"life": 95,
 		"model": "140033",
 		"model_scale": 1,
 		"model_type": 20033,
 		"name": "Niño de Nieve",
 		"name_display": false,
-		"speed": 280,
+		"speed": 34,
 		"team_id": 0,
 		"type": 0,
-		"view_distance": 16,
+		"view_distance": 7,
 		"width": 60 
 	},
 	"set_ai": [
@@ -71,9 +74,72 @@
 			"priority": 1 
 		},
 		{
+			"atkrange": 1500,
+			"buffid": 0,
+			"count": 1,
+			"max_atktime": 60,
+			"min_atktime": 20,
+			"name": "projectile_attack",
+			"power": 0.8,
+			"priority": 2,
+			"projectileid": 12054,
+			"speed": 1 
+		},
+		{
+			"brightness": 0,
+			"chance": 0,
+			"check_sight": true,
+			"minhp": 0,
+			"name": "target_nearest",
+			"priority": 2 
+		},
+		{
 			"dist": 800,
 			"name": "watch_closest",
 			"priority": 7 
+		},
+		{
+			"check_sight": false,
+			"name": "target_following_player",
+			"priority": 3,
+			"prob": 40,
+			"speed": 1 
+		},
+		{
+			"distance": 200,
+			"hungry_check": 0,
+			"hungry_expend": 0,
+			"item_id": 122,
+			"name": "pick",
+			"priority": 2,
+			"prob": 20,
+			"quantity": 30,
+			"range": 800,
+			"speed": 1 
+		},
+		{
+			"block_id": 115,
+			"distance": 400,
+			"hungry_check": 0,
+			"hungry_expend": 0,
+			"name": "gather",
+			"priority": 2,
+			"prob": 20,
+			"range": 800,
+			"speed": 1 
+		},
+		{
+			"monster_id": 3409,
+			"name": "hold_monster",
+			"priority": 0,
+			"prob": 54.054054054054 
+		},
+		{
+			"force": 5,
+			"monster_id": 3412,
+			"name": "kick_away",
+			"priority": 3,
+			"prob": 31.746031746032 
 		} 
 	] 
 } 

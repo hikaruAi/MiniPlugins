@@ -1,4 +1,6 @@
 {
+	"PhysicsActor": [
+	],
 	"foreign_ids": [
 	],
 	"mod_desc": {
@@ -10,7 +12,7 @@
 	"property": {
 		"Effect": "140030_2",
 		"TextureID": 0,
-		"attack": 30,
+		"attack": 15,
 		"attack_distance": 1,
 		"bag_num": 5,
 		"buff_id": 0,
@@ -18,13 +20,13 @@
 		"desc": "",
 		"desc_display": false,
 		"dialogue": "@10836",
-		"drop_exp": 0,
-		"drop_exp_prob": 0,
-		"drop_item1": 0,
-		"drop_item2": 0,
+		"drop_exp": 10,
+		"drop_exp_prob": 100,
+		"drop_item1": 12549,
+		"drop_item2": 12568,
 		"drop_item3": 0,
-		"drop_item_prob1": 0,
-		"drop_item_prob2": 0,
+		"drop_item_prob1": 100,
+		"drop_item_prob2": 100,
 		"drop_item_prob3": 0,
 		"food": 100,
 		"food_reduce": 0,
@@ -42,7 +44,7 @@
 		"name_display": false,
 		"speed": 280,
 		"team_id": 0,
-		"type": 0,
+		"type": 1,
 		"view_distance": 16,
 		"width": 60 
 	},
@@ -67,13 +69,36 @@
 			"priority": 7 
 		},
 		{
-			"name": "swimming",
-			"priority": 1 
+			"name": "avoid_water" 
 		},
 		{
-			"dist": 800,
-			"name": "watch_closest",
-			"priority": 7 
+			"name": "can_fly" 
+		},
+		{
+			"name": "can_pass_closed_wooden_doors" 
+		},
+		{
+			"block_id": 300,
+			"distance": 400,
+			"hungry_check": 0,
+			"hungry_expend": 0,
+			"name": "gather",
+			"priority": 2,
+			"prob": 20,
+			"range": 800,
+			"speed": 1 
+		},
+		{
+			"distance": 200,
+			"hungry_check": 0,
+			"hungry_expend": 0,
+			"item_id": 218,
+			"name": "pick",
+			"priority": 2,
+			"prob": 20,
+			"quantity": 30,
+			"range": 2400,
+			"speed": 1 
 		} 
 	] 
 } 

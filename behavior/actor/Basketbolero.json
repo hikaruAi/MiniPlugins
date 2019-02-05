@@ -1,5 +1,11 @@
 {
+	"PhysicsActor": [
+	],
 	"foreign_ids": [
+		{
+			"id": 100005,
+			"key": "1023148540667f325c-1ff1-11e7-93ae-92361f0026711549225090" 
+		} 
 	],
 	"mod_desc": {
 		"author": "1023148540",
@@ -10,9 +16,10 @@
 	"property": {
 		"Effect": "",
 		"TextureID": 0,
-		"attack": 30,
-		"attack_distance": 1,
-		"bag_num": 5,
+		"attack": 16,
+		"attack_distance": 5.5,
+		"attack_type": 1,
+		"bag_num": 3,
 		"buff_id": 0,
 		"copyid": 4000,
 		"desc": "",
@@ -20,12 +27,12 @@
 		"dialogue": "@10836",
 		"drop_exp": 0,
 		"drop_exp_prob": 0,
-		"drop_item1": 0,
-		"drop_item2": 0,
-		"drop_item3": 0,
-		"drop_item_prob1": 0,
-		"drop_item_prob2": 0,
-		"drop_item_prob3": 0,
+		"drop_item1": 12297,
+		"drop_item2": 11058,
+		"drop_item3": 12573,
+		"drop_item_prob1": 100,
+		"drop_item_prob2": 100,
+		"drop_item_prob3": 100,
 		"food": 100,
 		"food_reduce": 0,
 		"height": 180,
@@ -34,15 +41,15 @@
 		"hit_width": 120,
 		"icon": "44",
 		"id": 100035,
-		"life": 150,
+		"life": 99,
 		"model": "140015",
 		"model_scale": 1,
 		"model_type": 20015,
 		"name": "Basketbolero",
 		"name_display": false,
-		"speed": 280,
+		"speed": 440,
 		"team_id": 0,
-		"type": 0,
+		"type": 1,
 		"view_distance": 16,
 		"width": 60 
 	},
@@ -71,9 +78,95 @@
 			"priority": 1 
 		},
 		{
-			"dist": 800,
-			"name": "watch_closest",
-			"priority": 7 
+			"name": "avoid_water" 
+		},
+		{
+			"name": "can_pass_closed_wooden_doors" 
+		},
+		{
+			"atkrange": 1500,
+			"buffid": 0,
+			"count": 1,
+			"max_atktime": 60,
+			"min_atktime": 20,
+			"name": "projectile_attack",
+			"power": 0.8,
+			"priority": 2,
+			"projectileid": 12297,
+			"speed": 1 
+		},
+		{
+			"help": false,
+			"name": "target_hurtee",
+			"priority": 2 
+		},
+		{
+			"attach_timer": 200,
+			"name": "ceiling_atk",
+			"priority": 0 
+		},
+		{
+			"max_range": 600,
+			"min_range": 100,
+			"motion_y": 40,
+			"name": "leap_at_target",
+			"priority": 2 
+		},
+		{
+			"name": "path_hide",
+			"type": 1 
+		},
+		{
+			"dist": 2000,
+			"id": 12544,
+			"name": "beg",
+			"priority": 8 
+		},
+		{
+			"block_id": 801,
+			"name": "love_block",
+			"priority": 1,
+			"prob": 40,
+			"speed": 1 
+		},
+		{
+			"container_id": 801,
+			"distance": 200,
+			"hungry_check": 0,
+			"hungry_expend": 0,
+			"item_id": 12297,
+			"name": "store_item",
+			"priority": 2,
+			"prob": 20,
+			"quantity": 8,
+			"range": 2300,
+			"speed": 1 
+		},
+		{
+			"cd_time": 10000,
+			"dance_time": 100,
+			"dist": 400,
+			"name": "closest_dance",
+			"number": 2,
+			"priority": 0,
+			"speed": 2,
+			"width": 2 
+		},
+		{
+			"force": 5,
+			"monster_id": 3813,
+			"name": "kick_away",
+			"priority": 3,
+			"prob": 40 
+		},
+		{
+			"craft_id": 24,
+			"craft_time": 3,
+			"hungry_check": 0,
+			"hungry_expend": 0,
+			"name": "compose_item",
+			"priority": 2,
+			"prob": 20 
 		} 
 	] 
 } 

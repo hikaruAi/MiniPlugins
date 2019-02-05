@@ -15,7 +15,7 @@
 		"attack": 10,
 		"attack_distance": 2.5,
 		"attack_type": 0,
-		"bag_num": 5,
+		"bag_num": 2,
 		"buff_id": 0,
 		"copyid": 4000,
 		"desc": "",
@@ -84,11 +84,8 @@
 			"will_trace": false 
 		},
 		{
-			"brightness": 0,
-			"chance": 0,
-			"check_sight": true,
-			"minhp": 0,
-			"name": "target_nearest",
+			"help": false,
+			"name": "target_hurtee",
 			"priority": 2 
 		},
 		{
@@ -160,8 +157,8 @@
 			"name": "get_item",
 			"priority": 2,
 			"prob": 20,
-			"quantity": 10,
-			"range": 800,
+			"quantity": 1,
+			"range": 1400,
 			"speed": 1 
 		},
 		{
@@ -174,6 +171,24 @@
 			"prob": 20,
 			"quantity": 30,
 			"range": 800,
+			"speed": 1 
+		},
+		{
+			"block_id": 1019,
+			"is_hit": false,
+			"name": "make_trouble",
+			"priority": 3,
+			"prob": 40,
+			"search_block_dist": 2000,
+			"speed": 1 
+		},
+		{
+			"block_id": 830,
+			"is_hit": false,
+			"name": "make_trouble",
+			"priority": 3,
+			"prob": 40,
+			"search_block_dist": 2000,
 			"speed": 1 
 		} 
 	] 

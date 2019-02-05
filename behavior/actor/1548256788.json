@@ -12,16 +12,17 @@
 	"property": {
 		"Effect": "140022_2",
 		"TextureID": 0,
-		"attack": 30,
+		"attack": 17,
 		"attack_distance": 1,
+		"attack_type": 1,
 		"bag_num": 5,
-		"buff_id": 0,
+		"buff_id": 42001,
 		"copyid": 4000,
 		"desc": "\b20022",
 		"desc_display": false,
 		"dialogue": "@10836",
-		"drop_exp": 0,
-		"drop_exp_prob": 0,
+		"drop_exp": 19,
+		"drop_exp_prob": 100,
 		"drop_item1": 0,
 		"drop_item2": 0,
 		"drop_item3": 0,
@@ -36,16 +37,16 @@
 		"hit_width": 120,
 		"icon": "51",
 		"id": 100054,
-		"life": 150,
+		"life": 155,
 		"model": "140022",
 		"model_scale": 1,
 		"model_type": 20022,
 		"name": "Brujita",
 		"name_display": false,
-		"speed": 280,
+		"speed": 384,
 		"team_id": 0,
-		"type": 0,
-		"view_distance": 16,
+		"type": 1,
+		"view_distance": 7,
 		"width": 60 
 	},
 	"set_ai": [
@@ -69,13 +70,113 @@
 			"priority": 7 
 		},
 		{
-			"name": "swimming",
-			"priority": 1 
+			"name": "go_ceiling",
+			"priority": 1,
+			"prob": 1 
 		},
 		{
-			"dist": 800,
-			"name": "watch_closest",
-			"priority": 7 
+			"name": "can_fly" 
+		},
+		{
+			"name": "can_pass_closed_wooden_doors" 
+		},
+		{
+			"atkrange": 1500,
+			"buffid": 0,
+			"count": 1,
+			"max_atktime": 60,
+			"min_atktime": 20,
+			"name": "projectile_attack",
+			"power": 0.8,
+			"priority": 2,
+			"projectileid": 12249,
+			"speed": 1 
+		},
+		{
+			"brightness": 0,
+			"chance": 0,
+			"check_sight": true,
+			"minhp": 0,
+			"name": "target_nearest",
+			"priority": 2 
+		},
+		{
+			"name": "immune_fire",
+			"type": 2 
+		},
+		{
+			"block_id": 226,
+			"name": "love_block",
+			"priority": 1,
+			"prob": 40,
+			"speed": 1 
+		},
+		{
+			"block_id": 230,
+			"name": "love_block",
+			"priority": 1,
+			"prob": 40,
+			"speed": 1 
+		},
+		{
+			"block_id": 812,
+			"name": "love_block",
+			"priority": 1,
+			"prob": 40,
+			"speed": 1 
+		},
+		{
+			"block_id": 230,
+			"is_hit": false,
+			"name": "make_trouble",
+			"priority": 3,
+			"prob": 40,
+			"search_block_dist": 2000,
+			"speed": 1 
+		},
+		{
+			"block_id": 226,
+			"is_hit": false,
+			"name": "make_trouble",
+			"priority": 3,
+			"prob": 40,
+			"search_block_dist": 2000,
+			"speed": 1 
+		},
+		{
+			"block_id": 230,
+			"distance": 400,
+			"hungry_check": 0,
+			"hungry_expend": 0,
+			"name": "gather",
+			"priority": 2,
+			"prob": 20,
+			"range": 800,
+			"speed": 1 
+		},
+		{
+			"block_id": 226,
+			"distance": 400,
+			"hungry_check": 0,
+			"hungry_expend": 0,
+			"name": "gather",
+			"priority": 2,
+			"prob": 20,
+			"range": 800,
+			"speed": 1 
+		},
+		{
+			"container_id": 801,
+			"distance": 200,
+			"hungry_check": 0,
+			"hungry_expend": 0,
+			"item_id": 230,
+			"name": "store_item",
+			"priority": 2,
+			"prob": 20,
+			"quantity": 0,
+			"range": 800,
+			"speed": 1 
 		} 
 	] 
 } 

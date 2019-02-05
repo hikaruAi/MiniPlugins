@@ -1,4 +1,6 @@
 {
+	"PhysicsActor": [
+	],
 	"foreign_ids": [
 	],
 	"mod_desc": {
@@ -10,22 +12,23 @@
 	"property": {
 		"Effect": "140014_2",
 		"TextureID": 0,
-		"attack": 30,
-		"attack_distance": 1,
+		"attack": 20,
+		"attack_distance": 10.6,
+		"attack_type": 1,
 		"bag_num": 5,
 		"buff_id": 0,
 		"copyid": 4000,
 		"desc": "",
 		"desc_display": false,
 		"dialogue": "@10836",
-		"drop_exp": 0,
-		"drop_exp_prob": 0,
-		"drop_item1": 0,
-		"drop_item2": 0,
-		"drop_item3": 0,
-		"drop_item_prob1": 0,
-		"drop_item_prob2": 0,
-		"drop_item_prob3": 0,
+		"drop_exp": 25,
+		"drop_exp_prob": 100,
+		"drop_item1": 15003,
+		"drop_item2": 15003,
+		"drop_item3": 15002,
+		"drop_item_prob1": 100,
+		"drop_item_prob2": 100,
+		"drop_item_prob3": 100,
 		"food": 100,
 		"food_reduce": 0,
 		"height": 180,
@@ -34,16 +37,16 @@
 		"hit_width": 120,
 		"icon": "43",
 		"id": 100034,
-		"life": 150,
+		"life": 84,
 		"model": "140014",
 		"model_scale": 1,
 		"model_type": 20014,
 		"name": "Vaquero",
 		"name_display": false,
-		"speed": 280,
+		"speed": 128,
 		"team_id": 0,
-		"type": 0,
-		"view_distance": 16,
+		"type": 1,
+		"view_distance": 9,
 		"width": 60 
 	},
 	"set_ai": [
@@ -67,13 +70,73 @@
 			"priority": 7 
 		},
 		{
-			"name": "swimming",
-			"priority": 1 
+			"name": "avoid_water" 
 		},
 		{
-			"dist": 800,
+			"name": "can_pass_closed_wooden_doors" 
+		},
+		{
+			"atkrange": 1500,
+			"buffid": 0,
+			"count": 1,
+			"max_atktime": 60,
+			"min_atktime": 20,
+			"name": "projectile_attack",
+			"power": 0.8,
+			"priority": 2,
+			"projectileid": 15003,
+			"speed": 1 
+		},
+		{
+			"brightness": 0,
+			"chance": 0,
+			"check_sight": true,
+			"minhp": 0,
+			"name": "target_nearest",
+			"priority": 2 
+		},
+		{
+			"dist": 2000,
 			"name": "watch_closest",
 			"priority": 7 
+		},
+		{
+			"block_id": 812,
+			"name": "love_block",
+			"priority": 1,
+			"prob": 40,
+			"speed": 1 
+		},
+		{
+			"block_id": 737,
+			"is_hit": false,
+			"name": "make_trouble",
+			"priority": 3,
+			"prob": 40,
+			"search_block_dist": 2000,
+			"speed": 1 
+		},
+		{
+			"distance": 200,
+			"hungry_check": 0,
+			"hungry_expend": 0,
+			"item_id": 11207,
+			"name": "pick",
+			"priority": 2,
+			"prob": 20,
+			"quantity": 30,
+			"range": 800,
+			"speed": 1 
+		},
+		{
+			"how_long": 8,
+			"name": "like_sleep",
+			"priority": 2,
+			"prob": 20,
+			"range": 800,
+			"sleep_blockid": 828,
+			"speed": 1,
+			"what_time": 20 
 		} 
 	] 
 } 

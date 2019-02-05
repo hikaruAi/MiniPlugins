@@ -12,21 +12,22 @@
 	"property": {
 		"Effect": "140021_2",
 		"TextureID": 0,
-		"attack": 30,
-		"attack_distance": 1,
+		"attack": 12,
+		"attack_distance": 7.6,
+		"attack_type": 2,
 		"bag_num": 5,
-		"buff_id": 0,
+		"buff_id": 33001,
 		"copyid": 4000,
 		"desc": "20021",
 		"desc_display": false,
 		"dialogue": "@10836",
-		"drop_exp": 0,
-		"drop_exp_prob": 0,
-		"drop_item1": 0,
-		"drop_item2": 0,
+		"drop_exp": 10,
+		"drop_exp_prob": 100,
+		"drop_item1": 12500,
+		"drop_item2": 12501,
 		"drop_item3": 0,
-		"drop_item_prob1": 0,
-		"drop_item_prob2": 0,
+		"drop_item_prob1": 100,
+		"drop_item_prob2": 100,
 		"drop_item_prob3": 0,
 		"food": 100,
 		"food_reduce": 0,
@@ -36,7 +37,7 @@
 		"hit_width": 120,
 		"icon": "50",
 		"id": 100053,
-		"life": 150,
+		"life": 87,
 		"model": "140021",
 		"model_scale": 1,
 		"model_type": 20021,
@@ -44,8 +45,8 @@
 		"name_display": false,
 		"speed": 280,
 		"team_id": 0,
-		"type": 0,
-		"view_distance": 16,
+		"type": 1,
+		"view_distance": 4,
 		"width": 60 
 	},
 	"set_ai": [
@@ -73,9 +74,111 @@
 			"priority": 1 
 		},
 		{
-			"dist": 800,
-			"name": "watch_closest",
-			"priority": 7 
+			"name": "avoid_water" 
+		},
+		{
+			"name": "can_fly" 
+		},
+		{
+			"name": "can_pass_closed_wooden_doors" 
+		},
+		{
+			"name": "boom_atk",
+			"priority": 2 
+		},
+		{
+			"help": false,
+			"name": "target_hurtee",
+			"priority": 2 
+		},
+		{
+			"name": "immune_fire",
+			"type": 2 
+		},
+		{
+			"name": "path_hide",
+			"type": 1 
+		},
+		{
+			"block_id": 230,
+			"is_hit": false,
+			"name": "make_trouble",
+			"priority": 3,
+			"prob": 40,
+			"search_block_dist": 2000,
+			"speed": 1 
+		},
+		{
+			"maxhp": 84,
+			"name": "panic",
+			"priority": 1,
+			"speed": 1 
+		},
+		{
+			"id": 12500,
+			"name": "tempt",
+			"priority": 3,
+			"scared": false,
+			"speed": 1 
+		},
+		{
+			"food_id": 12500,
+			"how_long": 5,
+			"hungry_check": 1,
+			"name": "hungry",
+			"onlyone_food": true,
+			"priority": 2,
+			"prob": 20 
+		},
+		{
+			"food_id": 12500,
+			"how_long": 5,
+			"hungry_check": 0,
+			"name": "eat_food",
+			"onlyone_food": true,
+			"priority": 2,
+			"prob": 20 
+		},
+		{
+			"distance": 200,
+			"hungry_check": 0,
+			"hungry_expend": 0,
+			"item_id": 12500,
+			"name": "pick",
+			"priority": 2,
+			"prob": 20,
+			"quantity": 37,
+			"range": 2400,
+			"speed": 3 
+		},
+		{
+			"container_id": 801,
+			"container_type": 1,
+			"distance": 200,
+			"hungry_check": 0,
+			"hungry_expend": 0,
+			"item_id": 12500,
+			"name": "get_item",
+			"priority": 2,
+			"prob": 20,
+			"quantity": 10,
+			"range": 800,
+			"speed": 1 
+		},
+		{
+			"craft_id": 56,
+			"craft_time": 3,
+			"hungry_check": 0,
+			"hungry_expend": 0,
+			"name": "compose_item",
+			"priority": 2,
+			"prob": 20 
+		},
+		{
+			"name": "sleep",
+			"period": 363.63636363636,
+			"priority": 5,
+			"sleep_ticks": 260 
 		} 
 	] 
 } 

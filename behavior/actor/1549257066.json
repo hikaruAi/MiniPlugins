@@ -1,0 +1,146 @@
+{
+	"PhysicsActor": [
+	],
+	"foreign_ids": [
+	],
+	"mod_desc": {
+		"author": "1023148540",
+		"filename": "1549257066",
+		"uuid": "667f325c-1ff1-11e7-93ae-92361f002671",
+		"version": "1" 
+	},
+	"property": {
+		"Effect": "",
+		"TextureID": 1,
+		"attack": 30,
+		"attack_distance": 4.5,
+		"attack_type": 0,
+		"bag_num": 5,
+		"buff_id": 0,
+		"copyid": 4000,
+		"desc": "",
+		"desc_display": false,
+		"dialogue": "@10836",
+		"drop_exp": 0,
+		"drop_exp_prob": 0,
+		"drop_item1": 12530,
+		"drop_item2": 0,
+		"drop_item3": 0,
+		"drop_item_prob1": 100,
+		"drop_item_prob2": 0,
+		"drop_item_prob3": 0,
+		"food": 100,
+		"food_reduce": 0,
+		"height": 90,
+		"hit_height": 100,
+		"hit_thickness": 90,
+		"hit_width": 90,
+		"icon": "3408",
+		"id": 100011,
+		"life": 211,
+		"model": "110010",
+		"model_scale": 1.6,
+		"model_type": 3408,
+		"name": "Perro Cuidador",
+		"name_display": false,
+		"speed": 470,
+		"team_id": 0,
+		"type": 0,
+		"view_distance": 10,
+		"width": 70 
+	},
+	"set_ai": [
+		{
+			"name": "follow_direction",
+			"priority": 1,
+			"speed": 1.1 
+		},
+		{
+			"name": "move_towards_restriction",
+			"priority": 4,
+			"speed": 1 
+		},
+		{
+			"name": "wander",
+			"priority": 5,
+			"speed": 1 
+		},
+		{
+			"name": "look_idle",
+			"priority": 7 
+		},
+		{
+			"name": "go_ceiling",
+			"priority": 1,
+			"prob": 1 
+		},
+		{
+			"name": "swimming",
+			"priority": 1 
+		},
+		{
+			"name": "avoid_water" 
+		},
+		{
+			"attack_type": 0,
+			"move_speed": 1,
+			"name": "attack",
+			"priority": 2,
+			"will_trace": false 
+		},
+		{
+			"help": false,
+			"name": "target_hurtee",
+			"priority": 2 
+		},
+		{
+			"atkeeid": 3407,
+			"chance": 20,
+			"name": "target_specific_entity",
+			"priority": 2 
+		},
+		{
+			"atkeeid": 3102,
+			"chance": 22.727272727273,
+			"name": "target_specific_entity",
+			"priority": 2 
+		},
+		{
+			"atkeeid": 3101,
+			"chance": 26.845637583893,
+			"name": "target_specific_entity",
+			"priority": 2 
+		},
+		{
+			"atkeeid": 3105,
+			"chance": 20.618556701031,
+			"name": "target_specific_entity",
+			"priority": 2 
+		},
+		{
+			"atkeeid": 3107,
+			"chance": 21.390374331551,
+			"name": "target_specific_entity",
+			"priority": 2 
+		},
+		{
+			"atkeeid": 3109,
+			"chance": 20,
+			"name": "target_specific_entity",
+			"priority": 2 
+		},
+		{
+			"atkeeid": 3501,
+			"chance": 20,
+			"name": "target_specific_entity",
+			"priority": 2 
+		},
+		{
+			"block_id": 817,
+			"name": "love_block",
+			"priority": 1,
+			"prob": 40,
+			"speed": 1 
+		} 
+	] 
+} 

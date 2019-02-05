@@ -1,5 +1,11 @@
 {
+	"PhysicsActor": [
+	],
 	"foreign_ids": [
+		{
+			"id": 100035,
+			"key": "1023148540667f325c-1ff1-11e7-93ae-92361f002671Basketbolero" 
+		} 
 	],
 	"mod_desc": {
 		"author": "1023148540",
@@ -10,8 +16,9 @@
 	"property": {
 		"Effect": "",
 		"TextureID": 0,
-		"attack": 30,
+		"attack": 9,
 		"attack_distance": 1,
+		"attack_type": 1,
 		"bag_num": 5,
 		"buff_id": 0,
 		"copyid": 4000,
@@ -34,7 +41,7 @@
 		"hit_width": 120,
 		"icon": "45",
 		"id": 100036,
-		"life": 150,
+		"life": 69,
 		"model": "140016",
 		"model_scale": 1,
 		"model_type": 20016,
@@ -43,7 +50,7 @@
 		"speed": 280,
 		"team_id": 0,
 		"type": 0,
-		"view_distance": 16,
+		"view_distance": 7,
 		"width": 60 
 	},
 	"set_ai": [
@@ -71,9 +78,43 @@
 			"priority": 1 
 		},
 		{
-			"dist": 800,
-			"name": "watch_closest",
-			"priority": 7 
+			"atkrange": 1500,
+			"buffid": 0,
+			"count": 1,
+			"max_atktime": 60,
+			"min_atktime": 20,
+			"name": "projectile_attack",
+			"power": 0.8,
+			"priority": 2,
+			"projectileid": 12059,
+			"speed": 1 
+		},
+		{
+			"brightness": 0,
+			"chance": 0,
+			"check_sight": true,
+			"minhp": 0,
+			"name": "target_nearest",
+			"priority": 2 
+		},
+		{
+			"atkeeid": 100035,
+			"chance": 78.43137254902,
+			"name": "target_specific_entity",
+			"priority": 2 
+		},
+		{
+			"monster_id": 100035,
+			"name": "hold_monster",
+			"priority": 0,
+			"prob": 34.782608695652 
+		},
+		{
+			"block_id": 830,
+			"name": "love_block",
+			"priority": 1,
+			"prob": 40,
+			"speed": 1 
 		} 
 	] 
 } 

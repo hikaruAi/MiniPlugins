@@ -1,4 +1,6 @@
 {
+	"PhysicsActor": [
+	],
 	"foreign_ids": [
 	],
 	"mod_desc": {
@@ -10,22 +12,23 @@
 	"property": {
 		"Effect": "140032_2",
 		"TextureID": 0,
-		"attack": 30,
+		"attack": 7,
 		"attack_distance": 1,
+		"attack_type": 0,
 		"bag_num": 5,
-		"buff_id": 0,
+		"buff_id": 8001,
 		"copyid": 4000,
 		"desc": "",
 		"desc_display": false,
 		"dialogue": "@10836",
-		"drop_exp": 0,
-		"drop_exp_prob": 0,
-		"drop_item1": 0,
-		"drop_item2": 0,
-		"drop_item3": 0,
-		"drop_item_prob1": 0,
-		"drop_item_prob2": 0,
-		"drop_item_prob3": 0,
+		"drop_exp": 10,
+		"drop_exp_prob": 100,
+		"drop_item1": 248,
+		"drop_item2": 247,
+		"drop_item3": 12524,
+		"drop_item_prob1": 100,
+		"drop_item_prob2": 100,
+		"drop_item_prob3": 100,
 		"food": 100,
 		"food_reduce": 0,
 		"height": 180,
@@ -34,16 +37,16 @@
 		"hit_width": 120,
 		"icon": "61",
 		"id": 100040,
-		"life": 150,
+		"life": 65,
 		"model": "140032",
 		"model_scale": 1,
 		"model_type": 20032,
 		"name": "Sirena",
 		"name_display": false,
-		"speed": 280,
+		"speed": 109,
 		"team_id": 0,
-		"type": 0,
-		"view_distance": 16,
+		"type": 1,
+		"view_distance": 5,
 		"width": 60 
 	},
 	"set_ai": [
@@ -71,9 +74,114 @@
 			"priority": 1 
 		},
 		{
+			"attack_type": 0,
+			"move_speed": 1,
+			"name": "attack",
+			"priority": 2,
+			"will_trace": false 
+		},
+		{
+			"help": false,
+			"name": "target_hurtee",
+			"priority": 2 
+		},
+		{
 			"dist": 800,
 			"name": "watch_closest",
 			"priority": 7 
+		},
+		{
+			"block_id": 239,
+			"name": "love_block",
+			"priority": 1,
+			"prob": 40,
+			"speed": 1 
+		},
+		{
+			"cd_time": 3000,
+			"dance_time": 600,
+			"dist": 2000,
+			"name": "closest_dance",
+			"number": 1,
+			"priority": 0,
+			"speed": 2,
+			"width": 2 
+		},
+		{
+			"how_long": 8,
+			"name": "like_sleep",
+			"priority": 2,
+			"prob": 86.95652173913,
+			"range": 800,
+			"sleep_blockid": 200,
+			"speed": 1,
+			"what_time": 20 
+		},
+		{
+			"food_id": 12521,
+			"how_long": 5,
+			"hungry_check": 1,
+			"name": "hungry",
+			"onlyone_food": true,
+			"priority": 2,
+			"prob": 20 
+		},
+		{
+			"dist": 2000,
+			"id": 12521,
+			"name": "beg",
+			"priority": 8 
+		},
+		{
+			"container_id": 801,
+			"container_type": 1,
+			"distance": 200,
+			"hungry_check": 0,
+			"hungry_expend": 0,
+			"item_id": 12525,
+			"name": "get_item",
+			"priority": 2,
+			"prob": 20,
+			"quantity": 10,
+			"range": 800,
+			"speed": 1 
+		},
+		{
+			"container_id": 801,
+			"container_type": 1,
+			"distance": 200,
+			"hungry_check": 0,
+			"hungry_expend": 0,
+			"item_id": 12521,
+			"name": "get_item",
+			"priority": 2,
+			"prob": 20,
+			"quantity": 10,
+			"range": 800,
+			"speed": 1 
+		},
+		{
+			"food_id": 12520,
+			"how_long": 5,
+			"hungry_check": 96,
+			"name": "eat_food",
+			"onlyone_food": true,
+			"priority": 2,
+			"prob": 20 
+		},
+		{
+			"container_id": 801,
+			"container_type": 1,
+			"distance": 200,
+			"hungry_check": 0,
+			"hungry_expend": 0,
+			"item_id": 11058,
+			"name": "get_item",
+			"priority": 2,
+			"prob": 20,
+			"quantity": 1,
+			"range": 800,
+			"speed": 1 
 		} 
 	] 
 } 

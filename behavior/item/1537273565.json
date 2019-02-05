@@ -1,0 +1,60 @@
+{
+	"foreign_ids": [
+	],
+	"itemskills": [
+		{
+			"ChargeTime": 1.5,
+			"ChargeType": 2,
+			"Cooldown": 20,
+			"Costs": [
+				{
+					"CostTarget": 10101,
+					"CostType": 1,
+					"CostVal": 0 
+				} 
+			],
+			"Functions": [
+				{
+					"AttackType": 0,
+					"AttackVal": 0,
+					"BuffID": 1003001,
+					"Duration": 45,
+					"Odds": 100 
+				} 
+			],
+			"RangeType": 0,
+			"RangeVal1": 1000,
+			"RangeVal2": 300,
+			"RangeVal3": 300,
+			"SkillType": 1,
+			"TargetCamp": 1,
+			"name": "feature_buff",
+			"priority": 0,
+			"templateid": 104 
+		} 
+	],
+	"mod_desc": {
+		"author": "1011890718",
+		"filename": "1537273565",
+		"uuid": "667f325c-1ff1-11e7-93ae-92361f002671",
+		"version": "1" 
+	},
+	"property": {
+		"accumulate_time": 0,
+		"attack": 8,
+		"attack_consume": 1,
+		"collect_consume": 1,
+		"copyid": 10101,
+		"describe": "a chicken",
+		"icon": "*12060",
+		"id": 4161,
+		"model": "*12060",
+		"name": "Hide",
+		"tool_duration": 50,
+		"tool_efficient": 50,
+		"tool_level": 1,
+		"tool_repare_amount1": 10,
+		"tool_repareid1": 0,
+		"tool_type": 6 
+	} 
+} 

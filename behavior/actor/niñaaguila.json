@@ -1,4 +1,6 @@
 {
+	"PhysicsActor": [
+	],
 	"foreign_ids": [
 	],
 	"mod_desc": {
@@ -10,22 +12,23 @@
 	"property": {
 		"Effect": "140008",
 		"TextureID": 0,
-		"attack": 30,
-		"attack_distance": 1,
+		"attack": 73,
+		"attack_distance": 2.5,
+		"attack_type": 0,
 		"bag_num": 5,
 		"buff_id": 0,
 		"copyid": 4000,
 		"desc": "",
 		"desc_display": false,
 		"dialogue": "@10836",
-		"drop_exp": 0,
-		"drop_exp_prob": 0,
-		"drop_item1": 0,
-		"drop_item2": 0,
-		"drop_item3": 0,
-		"drop_item_prob1": 0,
-		"drop_item_prob2": 0,
-		"drop_item_prob3": 0,
+		"drop_exp": 31,
+		"drop_exp_prob": 100,
+		"drop_item1": 12205,
+		"drop_item2": 11303,
+		"drop_item3": 12052,
+		"drop_item_prob1": 100,
+		"drop_item_prob2": 100,
+		"drop_item_prob3": 100,
 		"food": 100,
 		"food_reduce": 0,
 		"height": 180,
@@ -34,15 +37,15 @@
 		"hit_width": 120,
 		"icon": "37",
 		"id": 100025,
-		"life": 150,
+		"life": 16,
 		"model": "140008",
 		"model_scale": 1,
 		"model_type": 20008,
 		"name": "Niña Aguila",
 		"name_display": false,
-		"speed": 280,
+		"speed": 403,
 		"team_id": 0,
-		"type": 0,
+		"type": 1,
 		"view_distance": 16,
 		"width": 60 
 	},
@@ -67,13 +70,116 @@
 			"priority": 7 
 		},
 		{
-			"name": "swimming",
-			"priority": 1 
+			"name": "avoid_water" 
 		},
 		{
-			"dist": 800,
-			"name": "watch_closest",
-			"priority": 7 
+			"name": "can_fly" 
+		},
+		{
+			"name": "can_pass_closed_wooden_doors" 
+		},
+		{
+			"attack_type": 0,
+			"move_speed": 1,
+			"name": "attack",
+			"priority": 2,
+			"will_trace": false 
+		},
+		{
+			"brightness": 0,
+			"chance": 0,
+			"check_sight": true,
+			"minhp": 0,
+			"name": "target_nearest",
+			"priority": 2 
+		},
+		{
+			"max_range": 600,
+			"min_range": 100,
+			"motion_y": 40,
+			"name": "leap_at_target",
+			"priority": 2 
+		},
+		{
+			"name": "invulnerable_prob",
+			"prob": 3 
+		},
+		{
+			"block_id": 1020,
+			"name": "love_block",
+			"priority": 1,
+			"prob": 40,
+			"speed": 1 
+		},
+		{
+			"block_id": 1019,
+			"name": "love_block",
+			"priority": 1,
+			"prob": 40,
+			"speed": 1 
+		},
+		{
+			"block_id": 822,
+			"name": "love_block",
+			"priority": 1,
+			"prob": 40,
+			"speed": 1 
+		},
+		{
+			"block_id": 738,
+			"name": "love_block",
+			"priority": 1,
+			"prob": 40,
+			"speed": 1 
+		},
+		{
+			"check_sight": false,
+			"name": "target_following_player",
+			"priority": 3,
+			"prob": 40,
+			"speed": 0.60000002384186 
+		},
+		{
+			"atkeeid": 3400,
+			"chance": 26.315789473684,
+			"name": "target_specific_entity",
+			"priority": 2 
+		},
+		{
+			"atkeeid": 3411,
+			"chance": 63.492063492063,
+			"name": "target_specific_entity",
+			"priority": 2 
+		},
+		{
+			"force": 5,
+			"monster_id": 3105,
+			"name": "kick_away",
+			"priority": 3,
+			"prob": 40 
+		},
+		{
+			"distance": 200,
+			"hungry_check": 0,
+			"hungry_expend": 0,
+			"item_id": 11311,
+			"name": "pick",
+			"priority": 2,
+			"prob": 20,
+			"quantity": 30,
+			"range": 800,
+			"speed": 1 
+		},
+		{
+			"block_id": 1019,
+			"distance": 400,
+			"hungry_check": 0,
+			"hungry_expend": 0,
+			"name": "gather",
+			"priority": 2,
+			"prob": 20,
+			"range": 2400,
+			"speed": 1 
 		} 
 	] 
 } 

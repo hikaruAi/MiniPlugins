@@ -1,4 +1,6 @@
 {
+	"PhysicsActor": [
+	],
 	"foreign_ids": [
 	],
 	"mod_desc": {
@@ -10,20 +12,21 @@
 	"property": {
 		"Effect": "140010_1",
 		"TextureID": 0,
-		"attack": 30,
+		"attack": 8,
 		"attack_distance": 1,
+		"attack_type": 2,
 		"bag_num": 5,
-		"buff_id": 0,
+		"buff_id": 4002,
 		"copyid": 4000,
 		"desc": "",
 		"desc_display": false,
 		"dialogue": "@10836",
-		"drop_exp": 0,
-		"drop_exp_prob": 0,
-		"drop_item1": 0,
+		"drop_exp": 15,
+		"drop_exp_prob": 100,
+		"drop_item1": 817,
 		"drop_item2": 0,
 		"drop_item3": 0,
-		"drop_item_prob1": 0,
+		"drop_item_prob1": 100,
 		"drop_item_prob2": 0,
 		"drop_item_prob3": 0,
 		"food": 100,
@@ -40,9 +43,9 @@
 		"model_type": 20010,
 		"name": "Niña Reno",
 		"name_display": false,
-		"speed": 280,
+		"speed": 73,
 		"team_id": 0,
-		"type": 0,
+		"type": 1,
 		"view_distance": 16,
 		"width": 60 
 	},
@@ -67,13 +70,57 @@
 			"priority": 7 
 		},
 		{
-			"name": "swimming",
-			"priority": 1 
+			"name": "boom_atk",
+			"priority": 2 
+		},
+		{
+			"help": false,
+			"name": "target_hurtee",
+			"priority": 2 
 		},
 		{
 			"dist": 800,
 			"name": "watch_closest",
 			"priority": 7 
+		},
+		{
+			"cd_time": 10000,
+			"dance_time": 100,
+			"dist": 2000,
+			"name": "closest_dance",
+			"number": 3,
+			"priority": 0,
+			"speed": 2,
+			"width": 2 
+		},
+		{
+			"maxhp": 50,
+			"name": "panic",
+			"priority": 1,
+			"speed": 1 
+		},
+		{
+			"distance": 200,
+			"hungry_check": 0,
+			"hungry_expend": 0,
+			"item_id": 12002,
+			"name": "pick",
+			"priority": 2,
+			"prob": 20,
+			"quantity": 30,
+			"range": 800,
+			"speed": 1 
+		},
+		{
+			"block_id": 737,
+			"distance": 400,
+			"hungry_check": 0,
+			"hungry_expend": 0,
+			"name": "gather",
+			"priority": 2,
+			"prob": 20,
+			"range": 800,
+			"speed": 1 
 		} 
 	] 
 } 

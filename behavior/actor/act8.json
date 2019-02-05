@@ -1,0 +1,67 @@
+{
+	"property": {
+		"icon": "3400",
+		"copyid": 3001,
+		"id": 3001,
+		"model": "@200002",
+		"model_scale": 1,
+		
+		"life": 160,
+		"attack": 40,
+		"speed": 700,
+		"name": "史蒂芬教授",
+		"desc": "人物",
+		"drop_exp": 0,
+		"drop_exp_prob": 100,
+		"drop_item1": 747,
+		"drop_item2": 747,
+		"drop_item3": 747,
+		"drop_item_prob1": 100,
+		"drop_item_prob2": 100,
+		"drop_item_prob3": 100,
+		"attack_distance": 1,
+		"attack_type": 0,
+		"buff_id": 4003,
+		"height": 120,
+		"hit_height": 150,
+		"hit_thickness": 150,
+		"hit_width": 150,
+		"team_id": 0,
+		"type": 1,
+		"view_distance": 24,
+		"width": 120 
+	},
+	"set_ai": [
+		{
+			"name": "follow_direction",
+			"priority": 1,
+			"speed": 1.1 
+		},
+		{
+			"name": "move_towards_restriction",
+			"priority": 4,
+			"speed": 1 
+		},
+		{
+			"name": "wander",
+			"priority": 5,
+			"speed": 1 
+		},
+		{
+			"name": "look_idle",
+			"priority": 7 
+		},
+		{
+			"attack_type": 0,
+			"move_speed": 1,
+			"name": "attack",
+			"priority": 2,
+			"will_trace": false 
+		},
+		{
+			"help": false,
+			"name": "target_hurtee",
+			"priority": 2 
+		} 
+	] 
+} 

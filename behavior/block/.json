@@ -1,0 +1,31 @@
+{
+	"foreign_ids": [
+	],
+	"item_property": {
+		"desc": "普通桃花树叶，透气性良好",
+		"describe": "普通桃花树叶，透气性良好",
+		"icon": "",
+		"id": 255,
+		"model": "",
+		"name": "桃花树叶" 
+	},
+	"mod_desc": {
+		"author": "1011641204",
+		"filename": "",
+		"uuid": "667f325c-1ff1-11e7-93ae-92361f002671",
+		"version": "1" 
+	},
+	"property": {
+		"anti_explode": 3,
+		"breakable": true,
+		"burn_speed": 15,
+		"catch_fire": 100,
+		"english_name": "",
+		"hardness": 0.5,
+		"id": 255,
+		"light_src": 15,
+		"move_collide": 1,
+		"slipperiness": 1,
+		"tool_mine_drop1": 256 
+	} 
+} 

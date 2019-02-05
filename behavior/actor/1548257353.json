@@ -12,22 +12,23 @@
 	"property": {
 		"Effect": "140029_2",
 		"TextureID": 0,
-		"attack": 30,
-		"attack_distance": 1,
+		"attack": 29,
+		"attack_distance": 8,
+		"attack_type": 1,
 		"bag_num": 5,
 		"buff_id": 0,
 		"copyid": 4000,
 		"desc": "20029",
 		"desc_display": false,
 		"dialogue": "@10836",
-		"drop_exp": 0,
-		"drop_exp_prob": 0,
-		"drop_item1": 0,
-		"drop_item2": 0,
-		"drop_item3": 0,
-		"drop_item_prob1": 0,
-		"drop_item_prob2": 0,
-		"drop_item_prob3": 0,
+		"drop_exp": 37,
+		"drop_exp_prob": 100,
+		"drop_item1": 1009,
+		"drop_item2": 706,
+		"drop_item3": 11015,
+		"drop_item_prob1": 100,
+		"drop_item_prob2": 100,
+		"drop_item_prob3": 100,
 		"food": 100,
 		"food_reduce": 0,
 		"height": 180,
@@ -36,16 +37,16 @@
 		"hit_width": 120,
 		"icon": "58",
 		"id": 100063,
-		"life": 150,
+		"life": 200,
 		"model": "140029",
 		"model_scale": 1,
 		"model_type": 20029,
 		"name": "Robot",
 		"name_display": false,
-		"speed": 280,
+		"speed": 102,
 		"team_id": 0,
 		"type": 0,
-		"view_distance": 16,
+		"view_distance": 9,
 		"width": 60 
 	},
 	"set_ai": [
@@ -69,13 +70,102 @@
 			"priority": 7 
 		},
 		{
-			"name": "swimming",
-			"priority": 1 
+			"name": "avoid_water" 
 		},
 		{
-			"dist": 800,
-			"name": "watch_closest",
-			"priority": 7 
+			"name": "can_fly" 
+		},
+		{
+			"atkrange": 1500,
+			"buffid": 0,
+			"count": 1,
+			"max_atktime": 60,
+			"min_atktime": 20,
+			"name": "projectile_attack",
+			"power": 0.8,
+			"priority": 2,
+			"projectileid": 12292,
+			"speed": 1 
+		},
+		{
+			"help": false,
+			"name": "target_hurtee",
+			"priority": 2 
+		},
+		{
+			"max_range": 600,
+			"min_range": 100,
+			"motion_y": 40,
+			"name": "leap_at_target",
+			"priority": 2 
+		},
+		{
+			"name": "immune_fire",
+			"type": 2 
+		},
+		{
+			"atkeeid": 3131,
+			"chance": 26.845637583893,
+			"name": "target_specific_entity",
+			"priority": 2 
+		},
+		{
+			"atkeeid": 3105,
+			"chance": 20,
+			"name": "target_specific_entity",
+			"priority": 2 
+		},
+		{
+			"atkeeid": 3109,
+			"chance": 20,
+			"name": "target_specific_entity",
+			"priority": 2 
+		},
+		{
+			"atkeeid": 3501,
+			"chance": 20,
+			"name": "target_specific_entity",
+			"priority": 2 
+		},
+		{
+			"distance": 200,
+			"hungry_check": 0,
+			"hungry_expend": 0,
+			"item_id": 706,
+			"name": "pick",
+			"priority": 2,
+			"prob": 20,
+			"quantity": 30,
+			"range": 800,
+			"speed": 1 
+		},
+		{
+			"block_id": 724,
+			"is_hit": false,
+			"name": "make_trouble",
+			"priority": 3,
+			"prob": 40,
+			"search_block_dist": 2000,
+			"speed": 1 
+		},
+		{
+			"block_id": 724,
+			"name": "love_block",
+			"priority": 1,
+			"prob": 100,
+			"speed": 0.60000002384186 
+		},
+		{
+			"atkeeid": 3107,
+			"chance": 20,
+			"name": "target_specific_entity",
+			"priority": 2 
+		},
+		{
+			"atkeeid": 3130,
+			"chance": 1000,
+			"name": "target_specific_entity",
+			"priority": 2 
 		} 
 	] 
 } 

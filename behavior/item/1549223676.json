@@ -1,0 +1,87 @@
+{
+	"PhysicsActor": {
+		"EditType": 2,
+		"ModelScale": 1,
+		"ShapeID": 1,
+		"ShapeVal1": 12,
+		"ShapeVal2": 81,
+		"ShapeVal3": 39 
+	},
+	"foreign_ids": [
+		{
+			"id": 100050,
+			"key": "1023148540667f325c-1ff1-11e7-93ae-92361f0026711548256199" 
+		} 
+	],
+	"itemskills": [
+		{
+			"Costs": [
+			],
+			"Functions": [
+				{
+					"CallNum": 3,
+					"Duration": 10,
+					"IsFollow": 1,
+					"MobID": 100050 
+				} 
+			],
+			"RangeType": 1,
+			"RangeVal1": 1000,
+			"RangeVal2": 300,
+			"RangeVal3": 300,
+			"TargetCamp": 1,
+			"name": "feature_call_monster_throw",
+			"priority": 0,
+			"templateid": 203 
+		},
+		{
+			"Costs": [
+			],
+			"Functions": [
+				{
+					"AttackType": 1,
+					"AttackVal": 50 
+				},
+				{
+					"BlowUpPower": 50,
+					"RepelPower": 50 
+				} 
+			],
+			"RangeType": 1,
+			"RangeVal1": 1000,
+			"RangeVal2": 300,
+			"RangeVal3": 300,
+			"TargetCamp": 0,
+			"name": "feature_attack_throw",
+			"priority": 0,
+			"templateid": 201 
+		} 
+	],
+	"mod_desc": {
+		"author": "1023148540",
+		"filename": "1549223676",
+		"uuid": "667f325c-1ff1-11e7-93ae-92361f002671",
+		"version": "1" 
+	},
+	"property": {
+		"accumulate_time": 0,
+		"accumulator_type": 0,
+		"attack_type": 0,
+		"break": false,
+		"can_throw": true,
+		"copyid": 10103,
+		"describe": "",
+		"gravity": 3,
+		"icon": "*11060",
+		"id": 100004,
+		"model": "*11060",
+		"name": "Paleta Municion",
+		"pickable": true,
+		"projectile_attack": 15,
+		"speed_decay": 0,
+		"speed_init": 280,
+		"stack_max": 64,
+		"trigger_condition": 1,
+		"trigger_delay": 0 
+	} 
+} 

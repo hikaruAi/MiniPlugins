@@ -2,6 +2,10 @@
 	"PhysicsActor": [
 	],
 	"foreign_ids": [
+		{
+			"id": 100004,
+			"key": "1023148540667f325c-1ff1-11e7-93ae-92361f0026711549223676" 
+		} 
 	],
 	"mod_desc": {
 		"author": "1023148540",
@@ -13,21 +17,22 @@
 		"Effect": "140001",
 		"TextureID": 0,
 		"attack": 30,
-		"attack_distance": 1,
+		"attack_distance": 4.3,
+		"attack_type": 1,
 		"bag_num": 5,
-		"buff_id": 0,
+		"buff_id": 4001,
 		"copyid": 4000,
 		"desc": "20003",
 		"desc_display": false,
 		"dialogue": "@10836",
 		"drop_exp": 0,
 		"drop_exp_prob": 0,
-		"drop_item1": 0,
-		"drop_item2": 0,
-		"drop_item3": 0,
-		"drop_item_prob1": 0,
-		"drop_item_prob2": 0,
-		"drop_item_prob3": 0,
+		"drop_item1": 236,
+		"drop_item2": 236,
+		"drop_item3": 11001,
+		"drop_item_prob1": 100,
+		"drop_item_prob2": 100,
+		"drop_item_prob3": 100,
 		"food": 100,
 		"food_reduce": 0,
 		"height": 180,
@@ -44,7 +49,7 @@
 		"name_display": false,
 		"speed": 280,
 		"team_id": 0,
-		"type": 0,
+		"type": 1,
 		"view_distance": 16,
 		"width": 60 
 	},
@@ -73,9 +78,212 @@
 			"priority": 1 
 		},
 		{
-			"dist": 800,
-			"name": "watch_closest",
-			"priority": 7 
+			"atkrange": 1500,
+			"buffid": 0,
+			"count": 1,
+			"max_atktime": 60,
+			"min_atktime": 20,
+			"name": "projectile_attack",
+			"power": 0.8,
+			"priority": 2,
+			"projectileid": 100004,
+			"speed": 1 
+		},
+		{
+			"help": false,
+			"name": "target_hurtee",
+			"priority": 2 
+		},
+		{
+			"container_id": 801,
+			"distance": 200,
+			"hungry_check": 0,
+			"hungry_expend": 0,
+			"item_id": 236,
+			"name": "store_item",
+			"priority": 2,
+			"prob": 33.898305084746,
+			"quantity": 1,
+			"range": 800,
+			"speed": 1 
+		},
+		{
+			"block_id": 236,
+			"name": "love_block",
+			"priority": 1,
+			"prob": 43.010752688172,
+			"speed": 1.3999999761581 
+		},
+		{
+			"dist": 2000,
+			"id": 236,
+			"name": "beg",
+			"priority": 8 
+		},
+		{
+			"force": 16,
+			"monster_id": 3402,
+			"name": "kick_away",
+			"priority": 3,
+			"prob": 20 
+		},
+		{
+			"block_id": 100,
+			"distance": 200,
+			"hungry_check": 57,
+			"hungry_expend": 3,
+			"item_id": 236,
+			"name": "plant",
+			"priority": 2,
+			"prob": 20,
+			"range": 800,
+			"speed": 3.4000000953674 
+		},
+		{
+			"container_id": 801,
+			"container_type": 1,
+			"distance": 200,
+			"hungry_check": 0,
+			"hungry_expend": 0,
+			"item_id": 11031,
+			"name": "get_item",
+			"priority": 2,
+			"prob": 20,
+			"quantity": 1,
+			"range": 800,
+			"speed": 1 
+		},
+		{
+			"craft_id": 12,
+			"craft_time": 3,
+			"hungry_check": 0,
+			"hungry_expend": 0,
+			"name": "compose_item",
+			"priority": 2,
+			"prob": 20 
+		},
+		{
+			"block_id": 200,
+			"distance": 400,
+			"hungry_check": 0,
+			"hungry_expend": 0,
+			"name": "gather",
+			"priority": 2,
+			"prob": 27.027027027027,
+			"range": 2100,
+			"speed": 1 
+		},
+		{
+			"block_id": 236,
+			"distance": 400,
+			"hungry_check": 2,
+			"hungry_expend": 0,
+			"name": "gather",
+			"priority": 2,
+			"prob": 28.368794326241,
+			"range": 800,
+			"speed": 1 
+		},
+		{
+			"distance": 200,
+			"hungry_check": 0,
+			"hungry_expend": 0,
+			"item_id": 236,
+			"name": "pick",
+			"priority": 2,
+			"prob": 20,
+			"quantity": 30,
+			"range": 800,
+			"speed": 1 
+		},
+		{
+			"distance": 200,
+			"hungry_check": 0,
+			"hungry_expend": 0,
+			"item_id": 200,
+			"name": "pick",
+			"priority": 2,
+			"prob": 26.666666666667,
+			"quantity": 30,
+			"range": 800,
+			"speed": 1 
+		},
+		{
+			"container_id": 801,
+			"container_type": 1,
+			"distance": 200,
+			"hungry_check": 0,
+			"hungry_expend": 0,
+			"item_id": 11035,
+			"name": "get_item",
+			"priority": 2,
+			"prob": 20,
+			"quantity": 1,
+			"range": 800,
+			"speed": 1 
+		},
+		{
+			"container_id": 801,
+			"container_type": 1,
+			"distance": 200,
+			"hungry_check": 0,
+			"hungry_expend": 0,
+			"item_id": 11001,
+			"name": "get_item",
+			"priority": 2,
+			"prob": 20,
+			"quantity": 1,
+			"range": 2400,
+			"speed": 1 
+		},
+		{
+			"container_id": 801,
+			"container_type": 1,
+			"distance": 200,
+			"hungry_check": 0,
+			"hungry_expend": 0,
+			"item_id": 11005,
+			"name": "get_item",
+			"priority": 2,
+			"prob": 20,
+			"quantity": 1,
+			"range": 800,
+			"speed": 1 
+		},
+		{
+			"block_id": 236,
+			"is_hit": false,
+			"name": "make_trouble",
+			"priority": 3,
+			"prob": 20,
+			"search_block_dist": 2500,
+			"speed": 1 
+		},
+		{
+			"container_id": 801,
+			"distance": 200,
+			"hungry_check": 0,
+			"hungry_expend": 0,
+			"item_id": 200,
+			"name": "store_item",
+			"priority": 2,
+			"prob": 20,
+			"quantity": 1,
+			"range": 2400,
+			"speed": 1 
+		},
+		{
+			"container_id": 801,
+			"distance": 200,
+			"hungry_check": 0,
+			"hungry_expend": 0,
+			"item_id": 236,
+			"name": "store_item",
+			"priority": 2,
+			"prob": 20,
+			"quantity": 1,
+			"range": 2400,
+			"speed": 1 
 		} 
 	] 
 } 

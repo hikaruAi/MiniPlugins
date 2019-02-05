@@ -1,0 +1,78 @@
+{
+	"PhysicsActor": {
+		"EditType": 2,
+		"ModelScale": 1,
+		"ShapeID": 2,
+		"ShapeVal1": 50,
+		"ShapeVal2": 18,
+		"ShapeVal3": 1 
+	},
+	"foreign_ids": [
+	],
+	"itemskills": [
+		{
+			"Costs": [
+			],
+			"Functions": [
+				{
+					"BlowUpPower": 50,
+					"RepelPower": 50 
+				} 
+			],
+			"RangeType": 1,
+			"RangeVal1": 1000,
+			"RangeVal2": 300,
+			"RangeVal3": 300,
+			"TargetCamp": 0,
+			"name": "feature_attack_fly_throw",
+			"priority": 0,
+			"templateid": 202 
+		},
+		{
+			"Costs": [
+			],
+			"Functions": [
+				{
+					"ActionType": 2,
+					"BlockID": 230,
+					"DropOut": 1 
+				} 
+			],
+			"RangeType": 1,
+			"RangeVal1": 1000,
+			"RangeVal2": 300,
+			"RangeVal3": 300,
+			"TargetClass": 0,
+			"name": "feature_block_throw",
+			"priority": 0,
+			"templateid": 200 
+		} 
+	],
+	"mod_desc": {
+		"author": "1023148540",
+		"filename": "1549257884",
+		"uuid": "667f325c-1ff1-11e7-93ae-92361f002671",
+		"version": "1" 
+	},
+	"property": {
+		"accumulate_time": 1,
+		"accumulator_type": 0,
+		"attack_type": 0,
+		"break": true,
+		"can_throw": true,
+		"copyid": 10103,
+		"describe": "",
+		"gravity": 3,
+		"icon": "*12830",
+		"id": 100012,
+		"model": "*12830",
+		"name": "Invoca calabazas",
+		"pickable": true,
+		"projectile_attack": 15,
+		"speed_decay": 0,
+		"speed_init": 280,
+		"stack_max": 64,
+		"trigger_condition": 3,
+		"trigger_delay": 0 
+	} 
+} 

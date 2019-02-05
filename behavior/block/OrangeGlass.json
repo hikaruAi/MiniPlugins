@@ -1,0 +1,31 @@
+{
+	"foreign_ids": [
+	],
+	"item_property": {
+		"desc": "Hati-hati pencuri! Bisa cat dgn pistol atau telur berwarna",
+		"describe": "Hati-hati pencuri! Bisa cat dgn pistol atau telur berwarna",
+		"icon": "*218",
+		"id": 634,
+		"model": "*218",
+		"name": "Kristal orange" 
+	},
+	"mod_desc": {
+		"author": "1011890718",
+		"filename": "OrangeGlass",
+		"uuid": "667f325c-1ff1-11e7-93ae-92361f002671",
+		"version": "1" 
+	},
+	"property": {
+		"anti_explode": 8,
+		"breakable": false,
+		"burn_speed": 0,
+		"catch_fire": 0,
+		"english_name": "OrangeGlass",
+		"hardness": 0.6,
+		"id": 634,
+		"light_src": 0,
+		"move_collide": 1,
+		"slipperiness": 1,
+		"tool_mine_drop1": 0 
+	} 
+} 

@@ -1,5 +1,11 @@
 {
+	"PhysicsActor": [
+	],
 	"foreign_ids": [
+		{
+			"id": 100050,
+			"key": "1023148540667f325c-1ff1-11e7-93ae-92361f0026711548256199" 
+		} 
 	],
 	"mod_desc": {
 		"author": "1023148540",
@@ -10,21 +16,22 @@
 	"property": {
 		"TextureID": 0,
 		"attack": 30,
-		"attack_distance": 1,
+		"attack_distance": 2.6,
+		"attack_type": 0,
 		"bag_num": 5,
-		"buff_id": 0,
+		"buff_id": 68001,
 		"copyid": 4000,
 		"desc": "",
 		"desc_display": false,
 		"dialogue": "@10836",
 		"drop_exp": 0,
 		"drop_exp_prob": 0,
-		"drop_item1": 0,
-		"drop_item2": 0,
-		"drop_item3": 0,
-		"drop_item_prob1": 0,
-		"drop_item_prob2": 0,
-		"drop_item_prob3": 0,
+		"drop_item1": 11070,
+		"drop_item2": 12293,
+		"drop_item3": 800,
+		"drop_item_prob1": 100,
+		"drop_item_prob2": 100,
+		"drop_item_prob3": 100,
 		"food": 100,
 		"food_reduce": 0,
 		"height": 180,
@@ -33,16 +40,16 @@
 		"hit_width": 120,
 		"icon": "9",
 		"id": 100022,
-		"life": 150,
+		"life": 72,
 		"model": "p9",
 		"model_scale": 1,
 		"model_type": 10009,
 		"name": "Peli Morado",
 		"name_display": false,
-		"speed": 280,
+		"speed": 455,
 		"team_id": 0,
 		"type": 0,
-		"view_distance": 16,
+		"view_distance": 19,
 		"width": 60 
 	},
 	"set_ai": [
@@ -70,9 +77,55 @@
 			"priority": 1 
 		},
 		{
-			"dist": 800,
-			"name": "watch_closest",
-			"priority": 7 
+			"attack_type": 0,
+			"move_speed": 1,
+			"name": "attack",
+			"priority": 2,
+			"will_trace": false 
+		},
+		{
+			"help": false,
+			"name": "target_hurtee",
+			"priority": 2 
+		},
+		{
+			"distance": 200,
+			"hungry_check": 0,
+			"hungry_expend": 0,
+			"item_id": 556,
+			"name": "pick",
+			"priority": 2,
+			"prob": 20,
+			"quantity": 30,
+			"range": 800,
+			"speed": 1 
+		},
+		{
+			"force": 5,
+			"monster_id": 100050,
+			"name": "kick_away",
+			"priority": 3,
+			"prob": 40 
+		},
+		{
+			"block_id": 724,
+			"is_hit": false,
+			"name": "make_trouble",
+			"priority": 3,
+			"prob": 40,
+			"search_block_dist": 2000,
+			"speed": 1 
+		},
+		{
+			"block_id": 106,
+			"distance": 400,
+			"hungry_check": 0,
+			"hungry_expend": 0,
+			"name": "gather",
+			"priority": 2,
+			"prob": 20,
+			"range": 800,
+			"speed": 1 
 		} 
 	] 
 } 

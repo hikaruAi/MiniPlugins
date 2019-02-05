@@ -1,4 +1,6 @@
 {
+	"PhysicsActor": [
+	],
 	"foreign_ids": [
 	],
 	"mod_desc": {
@@ -10,22 +12,23 @@
 	"property": {
 		"Effect": "140012",
 		"TextureID": 0,
-		"attack": 30,
+		"attack": 12,
 		"attack_distance": 1,
-		"bag_num": 5,
+		"attack_type": 2,
+		"bag_num": 18,
 		"buff_id": 0,
 		"copyid": 4000,
 		"desc": "",
 		"desc_display": false,
 		"dialogue": "@10836",
-		"drop_exp": 0,
-		"drop_exp_prob": 0,
-		"drop_item1": 0,
-		"drop_item2": 0,
-		"drop_item3": 0,
-		"drop_item_prob1": 0,
-		"drop_item_prob2": 0,
-		"drop_item_prob3": 0,
+		"drop_exp": 13,
+		"drop_exp_prob": 100,
+		"drop_item1": 600,
+		"drop_item2": 748,
+		"drop_item3": 820,
+		"drop_item_prob1": 100,
+		"drop_item_prob2": 100,
+		"drop_item_prob3": 100,
 		"food": 100,
 		"food_reduce": 0,
 		"height": 180,
@@ -34,15 +37,15 @@
 		"hit_width": 120,
 		"icon": "41",
 		"id": 100032,
-		"life": 150,
+		"life": 31,
 		"model": "140012",
 		"model_scale": 1,
 		"model_type": 20012,
 		"name": "Niña Asiatica",
 		"name_display": false,
-		"speed": 280,
+		"speed": 79,
 		"team_id": 0,
-		"type": 0,
+		"type": 1,
 		"view_distance": 16,
 		"width": 60 
 	},
@@ -71,9 +74,43 @@
 			"priority": 1 
 		},
 		{
-			"dist": 800,
-			"name": "watch_closest",
-			"priority": 7 
+			"name": "avoid_water" 
+		},
+		{
+			"name": "can_pass_closed_wooden_doors" 
+		},
+		{
+			"name": "boom_atk",
+			"priority": 2 
+		},
+		{
+			"help": false,
+			"name": "target_hurtee",
+			"priority": 2 
+		},
+		{
+			"name": "immune_fire",
+			"type": 2 
+		},
+		{
+			"block_id": 817,
+			"name": "love_block",
+			"priority": 1,
+			"prob": 40,
+			"speed": 1 
+		},
+		{
+			"container_id": 801,
+			"distance": 200,
+			"hungry_check": 0,
+			"hungry_expend": 0,
+			"item_id": 556,
+			"name": "store_item",
+			"priority": 2,
+			"prob": 20,
+			"quantity": 0,
+			"range": 800,
+			"speed": 1 
 		} 
 	] 
 } 

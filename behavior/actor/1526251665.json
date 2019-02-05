@@ -1,25 +1,19 @@
 {
-	"PhysicsActor": [
-	],
 	"foreign_ids": [
 	],
 	"mod_desc": {
-		"author": "1023148540",
-		"filename": "1548257313",
-		"uuid": "667f325c-1ff1-11e7-93ae-92361f002671",
+		"author": "1000872134",
+		"filename": "1526251665",
+		"uuid": "90b4c879-b9a8-443d-860d-6e6aad5f3e83",
 		"version": "1" 
 	},
 	"property": {
-		"Effect": "140026_3",
-		"TextureID": 0,
-		"attack": 30,
+		"attack": 5,
 		"attack_distance": 1,
-		"bag_num": 5,
+		"attack_type": 0,
 		"buff_id": 0,
 		"copyid": 4000,
-		"desc": "\b20026",
-		"desc_display": false,
-		"dialogue": "@10836",
+		"desc": "",
 		"drop_exp": 0,
 		"drop_exp_prob": 0,
 		"drop_item1": 0,
@@ -28,25 +22,21 @@
 		"drop_item_prob1": 0,
 		"drop_item_prob2": 0,
 		"drop_item_prob3": 0,
-		"food": 100,
-		"food_reduce": 0,
-		"height": 180,
-		"hit_height": 220,
-		"hit_thickness": 120,
-		"hit_width": 120,
-		"icon": "55",
-		"id": 100060,
-		"life": 150,
-		"model": "140026",
+		"height": 90,
+		"hit_height": 100,
+		"hit_thickness": 90,
+		"hit_width": 90,
+		"icon": "3408",
+		"id": 100036,
+		"life": 9999,
+		"model": "110010",
 		"model_scale": 1,
-		"model_type": 20026,
-		"name": "Niño pez",
-		"name_display": false,
+		"name": "Dog Pet",
 		"speed": 280,
 		"team_id": 0,
-		"type": 0,
+		"type": 1,
 		"view_distance": 16,
-		"width": 60 
+		"width": 70 
 	},
 	"set_ai": [
 		{
@@ -73,9 +63,32 @@
 			"priority": 1 
 		},
 		{
+			"attack_type": 0,
+			"move_speed": 1,
+			"name": "attack",
+			"priority": 2,
+			"will_trace": false 
+		},
+		{
+			"help": false,
+			"name": "target_hurtee",
+			"priority": 2 
+		},
+		{
+			"attach_timer": 200,
+			"name": "ceiling_atk",
+			"priority": 0 
+		},
+		{
 			"dist": 800,
 			"name": "watch_closest",
 			"priority": 7 
+		},
+		{
+			"name": "sleep",
+			"period": 40,
+			"priority": 5,
+			"sleep_ticks": 4000 
 		} 
 	] 
 } 
