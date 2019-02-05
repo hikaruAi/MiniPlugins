@@ -1,4 +1,6 @@
 {
+	"PhysicsActor": [
+	],
 	"foreign_ids": [
 	],
 	"mod_desc": {
@@ -18,6 +20,7 @@
 		"copyid": 3001,
 		"desc": "人物",
 		"desc_display": false,
+		"dialogue": "",
 		"drop_exp": 0,
 		"drop_exp_prob": 0,
 		"drop_item1": 747,
@@ -38,7 +41,7 @@
 		"model": "110003",
 		"model_scale": 1.8,
 		"model_type": 3400,
-		"name": "羽姬",
+		"name": "Gallinota",
 		"name_display": false,
 		"speed": 1500,
 		"team_id": 0,

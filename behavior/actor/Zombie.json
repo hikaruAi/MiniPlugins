@@ -1,9 +1,11 @@
 {
+	"PhysicsActor": [
+	],
 	"foreign_ids": [
 	],
 	"mod_desc": {
 		"author": "1011890718",
-		"filename": "1537072373",
+		"filename": "Zombie",
 		"uuid": "667f325c-1ff1-11e7-93ae-92361f002671",
 		"version": "1" 
 	},
@@ -18,6 +20,7 @@
 		"copyid": 4000,
 		"desc": "",
 		"desc_display": false,
+		"dialogue": "@10836",
 		"drop_exp": 0,
 		"drop_exp_prob": 0,
 		"drop_item1": 0,
@@ -28,23 +31,23 @@
 		"drop_item_prob3": 0,
 		"food": 100,
 		"food_reduce": 0,
-		"height": 70,
+		"height": 100,
 		"hit_height": 100,
 		"hit_thickness": 100,
 		"hit_width": 100,
-		"icon": "3102",
+		"icon": "3112",
 		"id": 62,
 		"life": 200,
-		"model": "@100001",
+		"model": "100042",
 		"model_scale": 1,
-		"model_type": 3102,
-		"name": "Zombie",
+		"model_type": 3112,
+		"name": "Diablito rojo",
 		"name_display": false,
 		"speed": 280,
 		"team_id": 2,
 		"type": 0,
 		"view_distance": 17,
-		"width": 70 
+		"width": 100 
 	},
 	"set_ai": [
 		{

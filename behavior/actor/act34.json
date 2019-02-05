@@ -1,56 +1,55 @@
 {
+	"PhysicsActor": [
+	],
+	"foreign_ids": [
+	],
+	"mod_desc": {
+		"author": "1023148540",
+		"filename": "act34",
+		"uuid": "667f325c-1ff1-11e7-93ae-92361f002671",
+		"version": "1" 
+	},
 	"property": {
-		"icon": "3502",
-		"copyid": 3503,
-		"id": 3503,
-		"model": "@140020",
-		"model_scale": 1,
-		
-		"life": 850,
+		"Effect": "",
+		"TextureID": 0,
 		"attack": 55,
-		"speed": 1800,
-		"name": "程锦衣",
+		"attack_distance": 1,
+		"attack_type": 0,
+		"bag_num": 0,
+		"buff_id": 4003,
+		"copyid": 3503,
 		"desc": "boss",
+		"desc_display": false,
+		"dialogue": "",
 		"drop_exp": 0,
-		"drop_exp_prob": 100,
+		"drop_exp_prob": 0,
 		"drop_item1": 408,
 		"drop_item2": 904,
 		"drop_item3": 12207,
 		"drop_item_prob1": 100,
 		"drop_item_prob2": 100,
 		"drop_item_prob3": 100,
-		"attack_distance": 1,
-		"attack_type": 0,
-		"buff_id": 4003,
-		"height": 120,
-		"hit_height": 150,
-		"hit_thickness": 150,
-		"hit_width": 150,
+		"food": 0,
+		"food_reduce": 0,
+		"height": 400,
+		"hit_height": 500,
+		"hit_thickness": 700,
+		"hit_width": 700,
+		"icon": "3502",
+		"id": 3503,
+		"life": 850,
+		"model": "100008",
+		"model_scale": 1,
+		"model_type": 3502,
+		"name": "Dragonzote",
+		"name_display": false,
+		"speed": 1800,
 		"team_id": 0,
 		"type": 1,
 		"view_distance": 24,
-		"width": 120 
+		"width": 600 
 	},
 	"set_ai": [
-		{
-			"name": "follow_direction",
-			"priority": 1,
-			"speed": 1.1 
-		},
-		{
-			"name": "move_towards_restriction",
-			"priority": 4,
-			"speed": 1 
-		},
-		{
-			"name": "wander",
-			"priority": 5,
-			"speed": 1 
-		},
-		{
-			"name": "look_idle",
-			"priority": 7 
-		},
 		{
 			"attack_type": 0,
 			"move_speed": 1,
