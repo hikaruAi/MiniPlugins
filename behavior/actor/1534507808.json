@@ -1,6 +1,4 @@
 {
-	"PhysicsActor": [
-	],
 	"foreign_ids": [
 	],
 	"mod_desc": {
@@ -20,7 +18,6 @@
 		"copyid": 4000,
 		"desc": "",
 		"desc_display": false,
-		"dialogue": "@10836",
 		"drop_exp": 0,
 		"drop_exp_prob": 0,
 		"drop_item1": 0,
@@ -39,7 +36,7 @@
 		"id": 56,
 		"life": 251,
 		"mass": 999999,
-		"model": "100027",
+		"model": "@150001",
 		"model_scale": 1,
 		"model_type": 3102,
 		"name": "Small.Cactus",

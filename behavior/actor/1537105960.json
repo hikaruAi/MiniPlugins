@@ -1,0 +1,62 @@
+{
+	"foreign_ids": [
+		{
+			"id": 100022,
+			"key": "1011890718667f325c-1ff1-11e7-93ae-92361f0026711537072373" 
+		} 
+	],
+	"itemskills": [
+		{
+			"ChargeTime": 0.69999998807907,
+			"ChargeType": 2,
+			"Cooldown": 20,
+			"Costs": [
+				{
+					"CostTarget": 10104,
+					"CostType": 1,
+					"CostVal": 0 
+				} 
+			],
+			"Functions": [
+				{
+					"CallNum": 1,
+					"Duration": 105,
+					"IsFollow": 0,
+					"MobID": 62 
+				} 
+			],
+			"RangeType": 1,
+			"RangeVal1": 1000,
+			"RangeVal2": 300,
+			"RangeVal3": 300,
+			"SkillType": 1,
+			"TargetCamp": 0,
+			"name": "feature_call_monster",
+			"priority": 0,
+			"templateid": 103 
+		} 
+	],
+	"mod_desc": {
+		"author": "1011890718",
+		"filename": "1537105960",
+		"uuid": "667f325c-1ff1-11e7-93ae-92361f002671",
+		"version": "1" 
+	},
+	"property": {
+		"bullet_id": 15003,
+		"continuous_fire": 0,
+		"copyid": 10104,
+		"describe": "",
+		"fire_interval": 300,
+		"gun_attack": 30,
+		"gun_speed_add": 0,
+		"gun_type": 10105,
+		"icon": "*12058",
+		"id": 4160,
+		"magazines": 6,
+		"model": "*12058",
+		"name": "Summon Zombie",
+		"need_bullet": 1,
+		"weight": 500 
+	} 
+} 
