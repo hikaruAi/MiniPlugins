@@ -1,0 +1,16 @@
+{
+	"property": {
+		"accumulate_time": 0.5,
+		"attack": 20,
+		"attack_consume": 1,
+		"consume_count": 1,
+		"consume_itemid": 12285,
+		"describe": "这家伙可不是闹着玩的！发射#cf4b222火箭弹#n\n#cffff01解锁途径：#n活动获得",
+		"id": 12284,
+		"name": "#R#b火箭筒",
+		"speed_add": 0,
+		"tool_duration": 150,
+		"tool_repare_amount1": 1,
+		"tool_repareid1": 844 
+	} 
+} 

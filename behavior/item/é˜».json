@@ -1,0 +1,16 @@
+{
+	"property": {
+		"bullet_id": 15003,
+		"continuous_fire": false,
+		"describe": "威力非常大，开瞄准镜后可以射得更准。",
+		"fire_interval": 400,
+		"gun_attack": 98,
+		"gun_speed_add": 0.5,
+		"gun_type": 10107,
+		"id": 15004,
+		"magazines": 6,
+		"name": "#B#b狙击枪",
+		"need_bullet": 0,
+		"weight": 7000 
+	} 
+} 

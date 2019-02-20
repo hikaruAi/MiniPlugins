@@ -1,0 +1,16 @@
+{
+	"property": {
+		"accumulate_time": 0.4,
+		"attack": 30,
+		"attack_consume": 1,
+		"consume_count": 1,
+		"consume_itemid": 12051,
+		"describe": "伤害与蓄力程度相关\n主要的远程武器，每次攻击消耗1支箭。",
+		"id": 12050,
+		"name": "#R#b后羿之弓",
+		"speed_add": 0,
+		"tool_duration": 300,
+		"tool_repare_amount1": 1,
+		"tool_repareid1": 710 
+	} 
+} 

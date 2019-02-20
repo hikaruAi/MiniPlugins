@@ -1,0 +1,61 @@
+{
+	"foreign_ids": [
+	],
+	"mod_desc": {
+		"author": "4072958",
+		"filename": "act0",
+		"uuid": "2b96d66d-509b-475b-96fe-7fc131bc2b90",
+		"version": "1" 
+	},
+	"property": {
+		"TextureID": 0,
+		"attack": 10,
+		"attack_distance": 1,
+		"attack_type": 0,
+		"bag_num": 0,
+		"buff_id": 4003,
+		"desc": "#R少年制作~史诗生物~可以保护自己",
+		"desc_display": false,
+		"drop_exp": 4072958,
+		"drop_exp_prob": 100,
+		"drop_item1": 9,
+		"drop_item2": 5,
+		"drop_item3": 7,
+		"drop_item_prob1": 100,
+		"drop_item_prob2": 100,
+		"drop_item_prob3": 100,
+		"food": 0,
+		"food_reduce": 0,
+		"height": 180,
+		"hit_height": 220,
+		"hit_thickness": 120,
+		"hit_width": 120,
+		"icon": "5",
+		"id": 3604,
+		"life": 1,
+		"model": "p5",
+		"model_scale": 1.1,
+		"model_type": 10005,
+		"name": "#G保护精灵",
+		"name_display": true,
+		"speed": 50,
+		"team_id": 0,
+		"type": 1,
+		"view_distance": 24,
+		"width": 60 
+	},
+	"set_ai": [
+		{
+			"attack_type": 0,
+			"move_speed": 1,
+			"name": "attack",
+			"priority": 2,
+			"will_trace": false 
+		},
+		{
+			"help": false,
+			"name": "target_hurtee",
+			"priority": 2 
+		} 
+	] 
+} 

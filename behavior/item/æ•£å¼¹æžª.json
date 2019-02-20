@@ -1,0 +1,26 @@
+{
+	"PhysicsActor": [
+	],
+	"foreign_ids": [
+	],
+	"mod_desc": {
+		"author": "1023148540",
+		"filename": "散弹枪",
+		"uuid": "667f325c-1ff1-11e7-93ae-92361f002671",
+		"version": "1" 
+	},
+	"property": {
+		"bullet_id": 15003,
+		"continuous_fire": 0,
+		"describe": "",
+		"fire_interval": 400,
+		"gun_attack": 98,
+		"gun_speed_add": 0.5,
+		"gun_type": 10109,
+		"id": 15006,
+		"magazines": 6,
+		"name": "Escopeta",
+		"need_bullet": 0,
+		"weight": 7000 
+	} 
+} 

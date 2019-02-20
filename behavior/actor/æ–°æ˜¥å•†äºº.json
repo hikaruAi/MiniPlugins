@@ -1,0 +1,77 @@
+{
+	"PhysicsActor": [
+	],
+	"foreign_ids": [
+	],
+	"mod_desc": {
+		"author": "1023148540",
+		"filename": "新春商人",
+		"uuid": "667f325c-1ff1-11e7-93ae-92361f002671",
+		"version": "1" 
+	},
+	"property": {
+		"Effect": "",
+		"TextureID": 3,
+		"attack": 1,
+		"attack_distance": 1,
+		"bag_num": 0,
+		"buff_id": 0,
+		"desc": "",
+		"desc_display": false,
+		"dialogue": "",
+		"drop_exp": 100,
+		"drop_exp_prob": 100,
+		"drop_item1": 0,
+		"drop_item2": 0,
+		"drop_item3": 0,
+		"drop_item_prob1": 0,
+		"drop_item_prob2": 0,
+		"drop_item_prob3": 0,
+		"food": 0,
+		"food_reduce": 0,
+		"height": 200,
+		"hit_height": 220,
+		"hit_thickness": 120,
+		"hit_width": 120,
+		"icon": "3015",
+		"id": 3015,
+		"life": 200,
+		"mass": 999999,
+		"model": "130002",
+		"model_scale": 1.4,
+		"model_type": 3015,
+		"name": "Vendedor Chino",
+		"name_display": false,
+		"speed": 0,
+		"team_id": 0,
+		"type": 1,
+		"view_distance": 16,
+		"width": 95 
+	},
+	"set_ai": [
+		{
+			"name": "panic",
+			"priority": 1,
+			"speed": 2 
+		},
+		{
+			"id": 229,
+			"name": "tempt",
+			"priority": 5,
+			"scared": false,
+			"speed": 1.25 
+		},
+		{
+			"id": 11400,
+			"name": "tempt",
+			"priority": 6,
+			"scared": false,
+			"speed": 1.25 
+		},
+		{
+			"dist": 600,
+			"name": "watch_closest",
+			"priority": 8 
+		} 
+	] 
+} 

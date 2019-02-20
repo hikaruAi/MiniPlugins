@@ -1,0 +1,16 @@
+{
+	"property": {
+		"bullet_id": 15003,
+		"continuous_fire": false,
+		"describe": "神秘的牛仔左轮枪，使用子弹作为弹药。\n仅出现在创造模式，尝试用插件来修改吧！",
+		"fire_interval": 300,
+		"gun_attack": 30,
+		"gun_speed_add": 0.5,
+		"gun_type": 10105,
+		"id": 15002,
+		"magazines": 6,
+		"name": "#B#b牛仔左轮",
+		"need_bullet": 0,
+		"weight": 500 
+	} 
+} 

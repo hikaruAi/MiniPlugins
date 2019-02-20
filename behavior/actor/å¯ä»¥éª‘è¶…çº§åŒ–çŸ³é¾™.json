@@ -1,0 +1,117 @@
+{
+	"PhysicsActor": [
+	],
+	"foreign_ids": [
+	],
+	"mod_desc": {
+		"author": "1023148540",
+		"filename": "可以骑超级化石龙",
+		"uuid": "667f325c-1ff1-11e7-93ae-92361f002671",
+		"version": "1" 
+	},
+	"property": {
+		"Effect": "horse_3430",
+		"TextureID": 2,
+		"attack": 75,
+		"attack_distance": 2,
+		"bag_num": 5,
+		"buff_id": 0,
+		"desc": "",
+		"desc_display": false,
+		"dialogue": "@10836",
+		"drop_exp": 100,
+		"drop_exp_prob": 100,
+		"drop_item1": 0,
+		"drop_item2": 0,
+		"drop_item3": 0,
+		"drop_item_prob1": 0,
+		"drop_item_prob2": 0,
+		"drop_item_prob3": 0,
+		"food": 100,
+		"food_reduce": 0,
+		"height": 280,
+		"hit_height": 300,
+		"hit_thickness": 180,
+		"hit_width": 180,
+		"icon": "3432",
+		"id": 3413,
+		"life": 200,
+		"mass": 999999,
+		"model": "110040",
+		"model_scale": 1,
+		"model_type": 3432,
+		"name": "Dino Esqueleto",
+		"name_display": false,
+		"speed": 0,
+		"team_id": 0,
+		"type": 1,
+		"view_distance": 16,
+		"width": 160 
+	},
+	"set_ai": [
+		{
+			"name": "follow_direction",
+			"priority": 1,
+			"speed": 1.1 
+		},
+		{
+			"atkeeid": 3400,
+			"chance": 200,
+			"name": "target_nontamed",
+			"priority": 4 
+		},
+		{
+			"atkeeid": 3401,
+			"chance": 200,
+			"name": "target_nontamed",
+			"priority": 4 
+		},
+		{
+			"atkeeid": 3402,
+			"chance": 200,
+			"name": "target_nontamed",
+			"priority": 4 
+		},
+		{
+			"atkeeid": 3403,
+			"chance": 200,
+			"name": "target_nontamed",
+			"priority": 4 
+		},
+		{
+			"name": "wander",
+			"priority": 5,
+			"prop": 40,
+			"speed": 1 
+		},
+		{
+			"name": "look_idle",
+			"priority": 6,
+			"prop": 60 
+		},
+		{
+			"name": "swimming",
+			"priority": 1 
+		},
+		{
+			"name": "avoid_water" 
+		},
+		{
+			"maxhp": 0.4,
+			"name": "panic",
+			"priority": 1,
+			"speed": 1.4 
+		},
+		{
+			"dist": 600,
+			"name": "watch_closest",
+			"priority": 7 
+		},
+		{
+			"dist": 600,
+			"id": 12543,
+			"name": "beg",
+			"priority": 8 
+		} 
+	] 
+} 

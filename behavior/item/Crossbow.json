@@ -1,0 +1,16 @@
+{
+	"property": {
+		"accumulate_time": 0.5,
+		"attack": 50,
+		"attack_consume": 1,
+		"consume_count": 3,
+		"consume_itemid": 12051,
+		"describe": "一次射出三支石箭\n#cffff01解锁途径：#n家园植物果实有几率开出",
+		"id": 12283,
+		"name": "#R#b诸葛亮弩",
+		"speed_add": 0,
+		"tool_duration": 150,
+		"tool_repare_amount1": 1,
+		"tool_repareid1": 11209 
+	} 
+} 

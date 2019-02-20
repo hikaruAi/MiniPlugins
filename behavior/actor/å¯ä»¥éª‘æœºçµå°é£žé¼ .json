@@ -1,0 +1,118 @@
+{
+	"PhysicsActor": [
+	],
+	"foreign_ids": [
+	],
+	"mod_desc": {
+		"author": "1023148540",
+		"filename": "可以骑机灵小飞鼠",
+		"uuid": "667f325c-1ff1-11e7-93ae-92361f002671",
+		"version": "1" 
+	},
+	"property": {
+		"Effect": "horse_3433_body",
+		"TextureID": 2,
+		"attack": 1,
+		"attack_distance": 1,
+		"bag_num": 5,
+		"buff_id": 0,
+		"desc": "",
+		"desc_display": false,
+		"dialogue": "@10836",
+		"drop_exp": 100,
+		"drop_exp_prob": 100,
+		"drop_item1": 0,
+		"drop_item2": 0,
+		"drop_item3": 0,
+		"drop_item_prob1": 0,
+		"drop_item_prob2": 0,
+		"drop_item_prob3": 0,
+		"food": 100,
+		"food_reduce": 0,
+		"height": 280,
+		"hit_height": 280,
+		"hit_thickness": 200,
+		"hit_width": 200,
+		"icon": "3435",
+		"id": 3409,
+		"life": 50,
+		"mass": 999999,
+		"model": "110041",
+		"model_scale": 1,
+		"model_type": 3435,
+		"name": "Ardilla Voladora",
+		"name_display": false,
+		"speed": 0,
+		"team_id": 0,
+		"type": 1,
+		"view_distance": 16,
+		"width": 160 
+	},
+	"set_ai": [
+		{
+			"name": "follow_direction",
+			"priority": 2,
+			"speed": 1.1 
+		},
+		{
+			"name": "mate",
+			"priority": 3,
+			"speed": 1 
+		},
+		{
+			"name": "follow_parent",
+			"priority": 5,
+			"speed": 1.1 
+		},
+		{
+			"item1": 12053,
+			"lay_prob": 6000,
+			"lay_sound": "",
+			"name": "lay_eggs",
+			"priority": 6 
+		},
+		{
+			"name": "wander",
+			"priority": 7,
+			"speed": 1 
+		},
+		{
+			"name": "look_idle",
+			"priority": 9 
+		},
+		{
+			"name": "swimming",
+			"priority": 1 
+		},
+		{
+			"name": "can_fly" 
+		},
+		{
+			"cd_time": 2000,
+			"dance_time": 200,
+			"dist": 30,
+			"name": "closest_dance",
+			"number": 3,
+			"priority": 0,
+			"speed": 2,
+			"width": 2 
+		},
+		{
+			"name": "panic",
+			"priority": 2,
+			"speed": 1.4 
+		},
+		{
+			"id": 11400,
+			"name": "tempt",
+			"priority": 4,
+			"scared": false,
+			"speed": 1 
+		},
+		{
+			"dist": 600,
+			"name": "watch_closest",
+			"priority": 8 
+		} 
+	] 
+} 

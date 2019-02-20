@@ -1,0 +1,54 @@
+{
+	"PhysicsActor": [
+	],
+	"foreign_ids": [
+	],
+	"mod_desc": {
+		"author": "1023148540",
+		"filename": "不可以骑超级陆行鸟",
+		"uuid": "667f325c-1ff1-11e7-93ae-92361f002671",
+		"version": "1" 
+	},
+	"property": {
+		"Effect": "horse_3441",
+		"TextureID": 2,
+		"attack": 1,
+		"attack_distance": 2,
+		"bag_num": 5,
+		"buff_id": 0,
+		"copyid": 3441,
+		"desc": "：#b#R上瘾制作",
+		"desc_display": false,
+		"dialogue": "@10836",
+		"drop_exp": 0,
+		"drop_exp_prob": 0,
+		"drop_item1": 0,
+		"drop_item2": 0,
+		"drop_item3": 0,
+		"drop_item_prob1": 0,
+		"drop_item_prob2": 0,
+		"drop_item_prob3": 0,
+		"food": 100,
+		"food_reduce": 0,
+		"height": 280,
+		"hit_height": 300,
+		"hit_thickness": 180,
+		"hit_width": 180,
+		"icon": "3441",
+		"id": 100025,
+		"life": 60,
+		"mass": 999999,
+		"model": "110053",
+		"model_scale": 1,
+		"model_type": 3441,
+		"name": "Dino Pollo",
+		"name_display": false,
+		"speed": 0,
+		"team_id": 0,
+		"type": 1,
+		"view_distance": 16,
+		"width": 160 
+	},
+	"set_ai": [
+	] 
+} 

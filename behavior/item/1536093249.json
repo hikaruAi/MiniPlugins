@@ -2,13 +2,13 @@
 	"foreign_ids": [
 	],
 	"mod_desc": {
-		"author": "1000593480",
-		"filename": "1538296749",
+		"author": "1010824201",
+		"filename": "1536093249",
 		"uuid": "667f325c-1ff1-11e7-93ae-92361f002671",
 		"version": "1" 
 	},
 	"property": {
-		"Effect": "140030_2",
+		"Effect": "",
 		"TextureID": 0,
 		"attack": 30,
 		"attack_distance": 1,
@@ -17,7 +17,6 @@
 		"copyid": 4000,
 		"desc": "",
 		"desc_display": false,
-		"dialogue": "@10836",
 		"drop_exp": 0,
 		"drop_exp_prob": 0,
 		"drop_item1": 0,
@@ -32,13 +31,13 @@
 		"hit_height": 220,
 		"hit_thickness": 120,
 		"hit_width": 120,
-		"icon": "59",
-		"id": 72,
+		"icon": "47",
+		"id": 100205,
 		"life": 150,
-		"model": "140030",
+		"model": "140018",
 		"model_scale": 1,
-		"model_type": 20030,
-		"name": "Hada De La Luna",
+		"model_type": 20018,
+		"name": "19",
 		"name_display": false,
 		"speed": 280,
 		"team_id": 0,
@@ -74,6 +73,12 @@
 			"dist": 800,
 			"name": "watch_closest",
 			"priority": 7 
+		},
+		{
+			"dist": 2000,
+			"id": 12526,
+			"name": "beg",
+			"priority": 8 
 		} 
 	] 
 } 

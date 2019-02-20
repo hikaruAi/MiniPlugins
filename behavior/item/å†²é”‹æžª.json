@@ -1,0 +1,26 @@
+{
+	"PhysicsActor": [
+	],
+	"foreign_ids": [
+	],
+	"mod_desc": {
+		"author": "1023148540",
+		"filename": "冲锋枪",
+		"uuid": "667f325c-1ff1-11e7-93ae-92361f002671",
+		"version": "1" 
+	},
+	"property": {
+		"bullet_id": 15003,
+		"continuous_fire": 1,
+		"describe": "微型冲锋枪，射速非常快，使用子弹作为弹药。\n仅出现在创造模式，尝试用插件",
+		"fire_interval": 100,
+		"gun_attack": 20,
+		"gun_speed_add": 0.5,
+		"gun_type": 10106,
+		"id": 15000,
+		"magazines": 520,
+		"name": "#B#b冲锋枪",
+		"need_bullet": 0,
+		"weight": 4000 
+	} 
+} 

@@ -1,0 +1,26 @@
+{
+	"PhysicsActor": [
+	],
+	"foreign_ids": [
+	],
+	"mod_desc": {
+		"author": "1023148540",
+		"filename": "左轮牛仔2",
+		"uuid": "667f325c-1ff1-11e7-93ae-92361f002671",
+		"version": "1" 
+	},
+	"property": {
+		"bullet_id": 15003,
+		"continuous_fire": 0,
+		"describe": "神秘的牛仔左轮枪，使用子弹作为弹药。\n仅出现在创造模式，尝试用插件来修改吧！",
+		"fire_interval": 300,
+		"gun_attack": 30,
+		"gun_speed_add": 0.5,
+		"gun_type": 10105,
+		"id": 15001,
+		"magazines": 6,
+		"name": "Arma",
+		"need_bullet": 0,
+		"weight": 500 
+	} 
+} 

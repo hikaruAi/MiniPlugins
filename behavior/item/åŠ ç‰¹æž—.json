@@ -1,0 +1,16 @@
+{
+	"property": {
+		"bullet_id": 15003,
+		"continuous_fire": true,
+		"describe": "威力强大、弹药超多的重机枪，擅长火力压制。",
+		"fire_interval": 50,
+		"gun_attack": 20,
+		"gun_speed_add": 0.5,
+		"gun_type": 10108,
+		"id": 15005,
+		"magazines": 1314,
+		"name": "#B#b冒蓝火加特林",
+		"need_bullet": 0,
+		"weight": 12000 
+	} 
+} 
